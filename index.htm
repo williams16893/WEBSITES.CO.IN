@@ -1,0 +1,2192 @@
+﻿<!DOCTYPE html>
+<html class="google mmfb" dir="ltr" lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"1e7946724e",applicationID:"31671751"};;/*! For license information please see nr-loader-rum-1.237.1.min.js.LICENSE.txt */
+(()=>{"use strict";var e,t,n={5763:(e,t,n)=>{n.d(t,{P_:()=>f,Mt:()=>p,C5:()=>s,DL:()=>m,OP:()=>j,lF:()=>E,Yu:()=>y,Dg:()=>g,CX:()=>c,GE:()=>b,sU:()=>_});var r=n(8632),i=n(9567);const a={beacon:r.ce.beacon,errorBeacon:r.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},o={};function s(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!o[e])throw new Error("Info for ".concat(e," was never set"));return o[e]}function c(e,t){if(!e)throw new Error("All info objects require an agent identifier!");o[e]=(0,i.D)(t,a),(0,r.Qy)(e,o[e],"info")}var d=n(7056);const u=()=>{const e={blockSelector:"[data-nr-block]",maskInputOptions:{password:!0}};return{allow_bfcache:!0,privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,block_internal:!0,enabled:!0,harvestTimeSeconds:10},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},session:{domain:void 0,expiresMs:d.oD,inactiveMs:d.Hb},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0,harvestTimeSeconds:10},metrics:{enabled:!0},page_action:{enabled:!0,harvestTimeSeconds:30},page_view_event:{enabled:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,long_task:!1},session_trace:{enabled:!0,harvestTimeSeconds:10},harvest:{tooManyRequestsDelay:60},session_replay:{enabled:!1,harvestTimeSeconds:60,sampleRate:.1,errorSampleRate:.1,maskTextSelector:"*",maskAllInputs:!0,get blockClass(){return"nr-block"},get ignoreClass(){return"nr-ignore"},get maskTextClass(){return"nr-mask"},get blockSelector(){return e.blockSelector},set blockSelector(t){e.blockSelector+=",".concat(t)},get maskInputOptions(){return e.maskInputOptions},set maskInputOptions(t){e.maskInputOptions={...t,password:!0}}},spa:{enabled:!0,harvestTimeSeconds:10}}},l={};function f(e){if(!e)throw new Error("All configuration objects require an agent identifier!");if(!l[e])throw new Error("Configuration for ".concat(e," was never set"));return l[e]}function g(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");l[e]=(0,i.D)(t,u()),(0,r.Qy)(e,l[e],"config")}function p(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");var n=f(e);if(n){for(var r=t.split("."),i=0;i<r.length-1;i++)if("object"!=typeof(n=n[r[i]]))return;n=n[r[r.length-1]]}return n}const h={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},v={};function m(e){if(!e)throw new Error("All loader-config objects require an agent identifier!");if(!v[e])throw new Error("LoaderConfig for ".concat(e," was never set"));return v[e]}function b(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");v[e]=(0,i.D)(t,h),(0,r.Qy)(e,v[e],"loader_config")}const y=(0,r.mF)().o;var w=n(385),A=n(6818);const x={buildEnv:A.Re,bytesSent:{},queryBytesSent:{},customTransaction:void 0,disabled:!1,distMethod:A.gF,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,offset:Math.floor(w._A?.performance?.timeOrigin||w._A?.performance?.timing?.navigationStart||Date.now()),onerror:void 0,origin:""+w._A.location,ptid:void 0,releaseIds:{},session:void 0,xhrWrappable:"function"==typeof w._A.XMLHttpRequest?.prototype?.addEventListener,version:A.q4,denyList:void 0},D={};function j(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!D[e])throw new Error("Runtime for ".concat(e," was never set"));return D[e]}function _(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");D[e]=(0,i.D)(t,x),(0,r.Qy)(e,D[e],"runtime")}function E(e){return function(e){try{const t=s(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},9567:(e,t,n)=>{n.d(t,{D:()=>i});var r=n(50);function i(e,t){try{if(!e||"object"!=typeof e)return(0,r.Z)("Setting a Configurable requires an object as input");if(!t||"object"!=typeof t)return(0,r.Z)("Setting a Configurable requires a model to set its initial properties");const n=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),a=0===Object.keys(n).length?e:n;for(let o in a)if(void 0!==e[o])try{"object"==typeof e[o]&&"object"==typeof t[o]?n[o]=i(e[o],t[o]):n[o]=e[o]}catch(e){(0,r.Z)("An error occurred while setting a property of a Configurable",e)}return n}catch(e){(0,r.Z)("An error occured while setting a Configurable",e)}}},6818:(e,t,n)=>{n.d(t,{Re:()=>i,gF:()=>a,q4:()=>r});const r="1.237.1",i="PROD",a="CDN"},385:(e,t,n)=>{n.d(t,{FN:()=>o,IF:()=>d,Nk:()=>l,Tt:()=>s,_A:()=>a,il:()=>r,pL:()=>c,v6:()=>i,w1:()=>u});const r="undefined"!=typeof window&&!!window.document,i="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),a=r?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),o=""+a?.location,s=/iPad|iPhone|iPod/.test(navigator.userAgent),c=s&&"undefined"==typeof SharedWorker,d=(()=>{const e=navigator.userAgent.match(/Firefox[/\s](\d+\.\d+)/);return Array.isArray(e)&&e.length>=2?+e[1]:0})(),u=Boolean(r&&window.document.documentMode),l=!!navigator.sendBeacon},1117:(e,t,n)=>{n.d(t,{w:()=>a});var r=n(50);const i={agentIdentifier:"",ee:void 0};class a{constructor(e){try{if("object"!=typeof e)return(0,r.Z)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,n]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=n)}))}catch(e){(0,r.Z)("An error occured while setting SharedContext",e)}}}},8e3:(e,t,n)=>{n.d(t,{L:()=>u,R:()=>c});var r=n(2177),i=n(1284),a=n(4322),o=n(3325);const s={};function c(e,t){const n={staged:!1,priority:o.p[t]||0};d(e),s[e].get(t)||s[e].set(t,n)}function d(e){e&&(s[e]||(s[e]=new Map))}function u(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature";if(d(e),!e||!s[e].get(t))return o(t);s[e].get(t).staged=!0;const n=[...s[e]];function o(t){const n=e?r.ee.get(e):r.ee,o=a.X.handlers;if(n.backlog&&o){var s=n.backlog[t],c=o[t];if(c){for(var d=0;s&&d<s.length;++d)l(s[d],c);(0,i.D)(c,(function(e,t){(0,i.D)(t,(function(t,n){n[0].on(e,n[1])}))}))}delete o[t],n.backlog[t]=null,n.emit("drain-"+t,[])}}n.every((e=>{let[t,n]=e;return n.staged}))&&(n.sort(((e,t)=>e[1].priority-t[1].priority)),n.forEach((e=>{let[t]=e;o(t)})))}function l(e,t){var n=e[1];(0,i.D)(t[n],(function(t,n){var r=e[0];if(n[0]===r){var i=n[1],a=e[3],o=e[2];i.apply(a,o)}}))}},2177:(e,t,n)=>{n.d(t,{ee:()=>d});var r=n(8632),i=n(2210),a=n(1284),o=n(5763),s="nr@context";let c=(0,r.fP)();var d;function u(){}function l(){return new u}function f(){d.aborted=!0,d.backlog={}}c.ee?d=c.ee:(d=function e(t,n){var r={},c={},g={},p=!1;try{p=16===n.length&&(0,o.OP)(n).isolatedBacklog}catch(e){}var h={on:b,addEventListener:b,removeEventListener:y,emit:m,get:A,listeners:w,context:v,buffer:x,abort:f,aborted:!1,isBuffering:D,debugId:n,backlog:p?{}:t&&"object"==typeof t.backlog?t.backlog:{}};return h;function v(e){return e&&e instanceof u?e:e?(0,i.X)(e,s,l):l()}function m(e,n,r,i,a){if(!1!==a&&(a=!0),!d.aborted||i){t&&a&&t.emit(e,n,r);for(var o=v(r),s=w(e),u=s.length,l=0;l<u;l++)s[l].apply(o,n);var f=j()[c[e]];return f&&f.push([h,e,n,o]),o}}function b(e,t){r[e]=w(e).concat(t)}function y(e,t){var n=r[e];if(n)for(var i=0;i<n.length;i++)n[i]===t&&n.splice(i,1)}function w(e){return r[e]||[]}function A(t){return g[t]=g[t]||e(h,t)}function x(e,t){var n=j();h.aborted||(0,a.D)(e,(function(e,r){t=t||"feature",c[r]=t,t in n||(n[t]=[])}))}function D(e){return!!j()[c[e]]}function j(){return h.backlog}}(void 0,"globalEE"),c.ee=d)},5546:(e,t,n)=>{n.d(t,{E:()=>r,p:()=>i});var r=n(2177).ee.get("handle");function i(e,t,n,i,a){a?(a.buffer([e],i),a.emit(e,t,n)):(r.buffer([e],i),r.emit(e,t,n))}},4322:(e,t,n)=>{n.d(t,{X:()=>a});var r=n(5546);a.on=o;var i=a.handlers={};function a(e,t,n,a){o(a||r.E,i,e,t,n)}function o(e,t,n,i,a){a||(a="feature"),e||(e=r.E);var o=t[a]=t[a]||{};(o[n]=o[n]||[]).push([e,i])}},3239:(e,t,n)=>{n.d(t,{bP:()=>s,iz:()=>c,m$:()=>o});var r=n(385);let i=!1,a=!1;try{const e={get passive(){return i=!0,!1},get signal(){return a=!0,!1}};r._A.addEventListener("test",null,e),r._A.removeEventListener("test",null,e)}catch(e){}function o(e,t){return i||a?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2],r=arguments.length>3?arguments[3]:void 0;window.addEventListener(e,t,o(n,r))}function c(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2],r=arguments.length>3?arguments[3]:void 0;document.addEventListener(e,t,o(n,r))}},4402:(e,t,n)=>{n.d(t,{Rl:()=>o,ky:()=>s});var r=n(385);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function a(e,t){return e?15&e[t]:16*Math.random()|0}function o(){const e=r._A?.crypto||r._A?.msCrypto;let t,n=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(31))),i.split("").map((e=>"x"===e?a(t,++n).toString(16):"y"===e?(3&a()|8).toString(16):e)).join("")}function s(e){const t=r._A?.crypto||r._A?.msCrypto;let n,i=0;t&&t.getRandomValues&&(n=t.getRandomValues(new Uint8Array(31)));const o=[];for(var s=0;s<e;s++)o.push(a(n,++i).toString(16));return o.join("")}},7056:(e,t,n)=>{n.d(t,{Bq:()=>r,Hb:()=>a,oD:()=>i});const r="NRBA",i=144e5,a=18e5},7894:(e,t,n)=>{function r(){return Math.round(performance.now())}n.d(t,{z:()=>r})},50:(e,t,n)=>{function r(e,t){"function"==typeof console.warn&&(console.warn("New Relic: ".concat(e)),t&&console.warn(t))}n.d(t,{Z:()=>r})},2587:(e,t,n)=>{n.d(t,{N:()=>c,T:()=>d});var r=n(2177),i=n(5546),a=n(8e3),o=n(3325);const s={stn:[o.D.sessionTrace],err:[o.D.jserrors,o.D.metrics],ins:[o.D.pageAction],spa:[o.D.spa],sr:[o.D.sessionReplay,o.D.sessionTrace]};function c(e,t){const n=r.ee.get(t);e&&"object"==typeof e&&(Object.entries(e).forEach((e=>{let[t,r]=e;void 0===d[t]&&(s[t]?s[t].forEach((e=>{r?(0,i.p)("feat-"+t,[],void 0,e,n):(0,i.p)("block-"+t,[],void 0,e,n),(0,i.p)("rumresp-"+t,[Boolean(r)],void 0,e,n)})):r&&(0,i.p)("feat-"+t,[],void 0,void 0,n),d[t]=Boolean(r))})),Object.keys(s).forEach((e=>{void 0===d[e]&&(s[e]?.forEach((t=>(0,i.p)("rumresp-"+e,[!1],void 0,t,n))),d[e]=!1)})),(0,a.L)(t,o.D.pageViewEvent))}const d={}},2210:(e,t,n)=>{n.d(t,{X:()=>i});var r=Object.prototype.hasOwnProperty;function i(e,t,n){if(r.call(e,t))return e[t];var i=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},1284:(e,t,n)=>{n.d(t,{D:()=>r});const r=(e,t)=>Object.entries(e||{}).map((e=>{let[n,r]=e;return t(n,r)}))},4351:(e,t,n)=>{n.d(t,{P:()=>a});var r=n(2177);const i=()=>{const e=new WeakSet;return(t,n)=>{if("object"==typeof n&&null!==n){if(e.has(n))return;e.add(n)}return n}};function a(e){try{return JSON.stringify(e,i())}catch(e){try{r.ee.emit("internal-error",[e])}catch(e){}}}},3960:(e,t,n)=>{n.d(t,{K:()=>o,b:()=>a});var r=n(3239);function i(){return"undefined"==typeof document||"complete"===document.readyState}function a(e,t){if(i())return e();(0,r.bP)("load",e,t)}function o(e){if(i())return e();(0,r.iz)("DOMContentLoaded",e)}},8632:(e,t,n)=>{n.d(t,{EZ:()=>d,Qy:()=>c,ce:()=>a,fP:()=>o,gG:()=>u,mF:()=>s});var r=n(7894),i=n(385);const a={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function o(){return i._A.NREUM||(i._A.NREUM={}),void 0===i._A.newrelic&&(i._A.newrelic=i._A.NREUM),i._A.NREUM}function s(){let e=o();return e.o||(e.o={ST:i._A.setTimeout,SI:i._A.setImmediate,CT:i._A.clearTimeout,XHR:i._A.XMLHttpRequest,REQ:i._A.Request,EV:i._A.Event,PR:i._A.Promise,MO:i._A.MutationObserver,FETCH:i._A.fetch}),e}function c(e,t,n){let i=o();const a=i.initializedAgents||{},s=a[e]||{};return Object.keys(s).length||(s.initializedAt={ms:(0,r.z)(),date:new Date}),i.initializedAgents={...a,[e]:{...s,[n]:t}},i}function d(e,t){o()[e]=t}function u(){return function(){let e=o();const t=e.info||{};e.info={beacon:a.beacon,errorBeacon:a.errorBeacon,...t}}(),function(){let e=o();const t=e.init||{};e.init={...t}}(),s(),function(){let e=o();const t=e.loader_config||{};e.loader_config={...t}}(),o()}},7956:(e,t,n)=>{n.d(t,{N:()=>i});var r=n(3239);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],n=arguments.length>2?arguments[2]:void 0,i=arguments.length>3?arguments[3]:void 0;return void(0,r.iz)("visibilitychange",(function(){if(t)return void("hidden"==document.visibilityState&&e());e(document.visibilityState)}),n,i)}},3081:(e,t,n)=>{n.d(t,{gF:()=>a,mY:()=>i,t9:()=>r,vz:()=>s,xS:()=>o});const r=n(3325).D.metrics,i="sm",a="cm",o="storeSupportabilityMetrics",s="storeEventMetrics"},7633:(e,t,n)=>{n.d(t,{Dz:()=>i,OJ:()=>o,qw:()=>a,t9:()=>r});const r=n(3325).D.pageViewEvent,i="firstbyte",a="domcontent",o="windowload"},9251:(e,t,n)=>{n.d(t,{t:()=>r});const r=n(3325).D.pageViewTiming},5938:(e,t,n)=>{n.d(t,{W:()=>a});var r=n(5763),i=n(2177);class a{constructor(e,t,n){this.agentIdentifier=e,this.aggregator=t,this.ee=i.ee.get(e,(0,r.OP)(this.agentIdentifier).isolatedBacklog),this.featureName=n,this.blocked=!1}}},9144:(e,t,n)=>{n.d(t,{j:()=>v});var r=n(3325),i=n(5763),a=n(5546),o=n(2177),s=n(7894),c=n(8e3),d=n(3960),u=n(385),l=n(50),f=n(3081),g=n(8632);function p(){const e=(0,g.gG)();["setErrorHandler","finished","addToTrace","inlineHit","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError","setUserId"].forEach((t=>{e[t]=function(){for(var n=arguments.length,r=new Array(n),i=0;i<n;i++)r[i]=arguments[i];return function(t){for(var n=arguments.length,r=new Array(n>1?n-1:0),i=1;i<n;i++)r[i-1]=arguments[i];let a=[];return Object.values(e.initializedAgents).forEach((e=>{e.exposed&&e.api[t]&&a.push(e.api[t](...r))})),a.length>1?a:a[0]}(t,...r)}}))}var h=n(2587);function v(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},v=arguments.length>2?arguments[2]:void 0,m=arguments.length>3?arguments[3]:void 0,{init:b,info:y,loader_config:w,runtime:A={loaderType:v},exposed:x=!0}=t;const D=(0,g.gG)();y||(b=D.init,y=D.info,w=D.loader_config),(0,i.Dg)(e,b||{}),(0,i.GE)(e,w||{}),y.jsAttributes??={},u.v6&&(y.jsAttributes.isWorker=!0),(0,i.CX)(e,y);const j=(0,i.P_)(e);A.denyList=[...j.ajax?.deny_list||[],...j.ajax?.block_internal?[y.beacon,y.errorBeacon]:[]],(0,i.sU)(e,A),p();const _=function(e,t){t||(0,c.R)(e,"api");const g={};var p=o.ee.get(e),h=p.get("tracer"),v="api-",m=v+"ixn-";function b(t,n,r,a){const o=(0,i.C5)(e);return null===n?delete o.jsAttributes[t]:(0,i.CX)(e,{...o,jsAttributes:{...o.jsAttributes,[t]:n}}),A(v,r,!0,a||null===n?"session":void 0)(t,n)}function y(){}["setErrorHandler","finished","addToTrace","inlineHit","addRelease"].forEach((e=>g[e]=A(v,e,!0,"api"))),g.addPageAction=A(v,"addPageAction",!0,r.D.pageAction),g.setCurrentRouteName=A(v,"routeName",!0,r.D.spa),g.setPageViewName=function(t,n){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,i.OP)(e).customTransaction=(n||"http://custom.transaction")+t,A(v,"setPageViewName",!0)()},g.setCustomAttribute=function(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if("string"==typeof e){if(["string","number"].includes(typeof t)||null===t)return b(e,t,"setCustomAttribute",n);(0,l.Z)("Failed to execute setCustomAttribute.\nNon-null value must be a string or number type, but a type of <".concat(typeof t,"> was provided."))}else(0,l.Z)("Failed to execute setCustomAttribute.\nName must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.setUserId=function(e){if("string"==typeof e||null===e)return b("enduser.id",e,"setUserId",!0);(0,l.Z)("Failed to execute setUserId.\nNon-null value must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.interaction=function(){return(new y).get()};var w=y.prototype={createTracer:function(e,t){var n={},i=this,o="function"==typeof t;return(0,a.p)(m+"tracer",[(0,s.z)(),e,n],i,r.D.spa,p),function(){if(h.emit((o?"":"no-")+"fn-start",[(0,s.z)(),i,o],n),o)try{return t.apply(this,arguments)}catch(e){throw h.emit("fn-err",[arguments,this,e],n),e}finally{h.emit("fn-end",[(0,s.z)()],n)}}}};function A(e,t,n,i){return function(){return(0,a.p)(f.xS,["API/"+t+"/called"],void 0,r.D.metrics,p),i&&(0,a.p)(e+t,[(0,s.z)(),...arguments],n?null:this,i,p),n?void 0:this}}function x(){n.e(439).then(n.bind(n,7438)).then((t=>{let{setAPI:n}=t;n(e),(0,c.L)(e,"api")})).catch((()=>(0,l.Z)("Downloading runtime APIs failed...")))}return["actionText","setName","setAttribute","save","ignore","onEnd","getContext","end","get"].forEach((e=>{w[e]=A(m,e,void 0,r.D.spa)})),g.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,a.p)(f.xS,["API/noticeError/called"],void 0,r.D.metrics,p),(0,a.p)("err",[e,(0,s.z)(),!1,t],void 0,r.D.jserrors,p)},u.il?(0,d.b)((()=>x()),!0):x(),g}(e,m);return(0,g.Qy)(e,_,"api"),(0,g.Qy)(e,x,"exposed"),(0,g.EZ)("activatedFeatures",h.T),_}},3325:(e,t,n)=>{n.d(t,{D:()=>r,p:()=>i});const r={ajax:"ajax",jserrors:"jserrors",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",spa:"spa"},i={[r.pageViewEvent]:1,[r.pageViewTiming]:2,[r.metrics]:3,[r.jserrors]:4,[r.ajax]:5,[r.sessionTrace]:6,[r.pageAction]:7,[r.spa]:8,[r.sessionReplay]:9}}},r={};function i(e){var t=r[e];if(void 0!==t)return t.exports;var a=r[e]={exports:{}};return n[e](a,a.exports,i),a.exports}i.m=n,i.d=(e,t)=>{for(var n in t)i.o(t,n)&&!i.o(e,n)&&Object.defineProperty(e,n,{enumerable:!0,get:t[n]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,n)=>(i.f[n](e,t),t)),[])),i.u=e=>(({78:"page_action-aggregate",147:"metrics-aggregate",193:"session_trace-aggregate",242:"session-manager",317:"jserrors-aggregate",348:"page_view_timing-aggregate",412:"lazy-feature-loader",439:"async-api",538:"recorder",590:"session_replay-aggregate",675:"compressor",786:"page_view_event-aggregate",873:"spa-aggregate",898:"ajax-aggregate"}[e]||e)+"."+{78:"467f8594",147:"b86cefcf",193:"ac30a1f3",242:"d080e4cc",317:"319b8300",348:"7b2a53ee",412:"c1052c27",439:"e9f77430",538:"9c5c1546",590:"8b420469",646:"9e7a6b8d",675:"9614fd62",786:"4988d952",860:"95a91211",873:"550eec7b",898:"d95c640e"}[e]+"-1.237.1.min.js"),i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA:",i.l=(n,r,a,o)=>{if(e[n])e[n].push(r);else{var s,c;if(void 0!==a)for(var d=document.getElementsByTagName("script"),u=0;u<d.length;u++){var l=d[u];if(l.getAttribute("src")==n||l.getAttribute("data-webpack")==t+a){s=l;break}}s||(c=!0,(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+a),s.src=n),e[n]=[r];var f=(t,r)=>{s.onerror=s.onload=null,clearTimeout(g);var i=e[n];if(delete e[n],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(r))),t)return t(r)},g=setTimeout(f.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=f.bind(null,s.onerror),s.onload=f.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.j=4,i.p="https://js-agent.newrelic.com/",(()=>{var e={4:0,465:0};i.f.j=(t,n)=>{var r=i.o(e,t)?e[t]:void 0;if(0!==r)if(r)n.push(r[2]);else{var a=new Promise(((n,i)=>r=e[t]=[n,i]));n.push(r[2]=a);var o=i.p+i.u(t),s=new Error;i.l(o,(n=>{if(i.o(e,t)&&(0!==(r=e[t])&&(e[t]=void 0),r)){var a=n&&("load"===n.type?"missing":n.type),o=n&&n.target&&n.target.src;s.message="Loading chunk "+t+" failed.\n("+a+": "+o+")",s.name="ChunkLoadError",s.type=a,s.request=o,r[1](s)}}),"chunk-"+t,t)}};var t=(t,n)=>{var r,a,[o,s,c]=n,d=0;if(o.some((t=>0!==e[t]))){for(r in s)i.o(s,r)&&(i.m[r]=s[r]);if(c)c(i)}for(t&&t(n);d<o.length;d++)a=o[d],i.o(e,a)&&e[a]&&e[a][0](),e[a]=0},n=window.webpackChunkNRBA=window.webpackChunkNRBA||[];n.forEach(t.bind(null,0)),n.push=t.bind(null,n.push.bind(n))})();var a={};(()=>{i.r(a);var e=i(50);class t{addPageAction(t,n){(0,e.Z)("Call to agent api addPageAction failed. The session trace feature is not currently initialized.")}setPageViewName(t,n){(0,e.Z)("Call to agent api setPageViewName failed. The page view feature is not currently initialized.")}setCustomAttribute(t,n,r){(0,e.Z)("Call to agent api setCustomAttribute failed. The js errors feature is not currently initialized.")}noticeError(t,n){(0,e.Z)("Call to agent api noticeError failed. The js errors feature is not currently initialized.")}setUserId(t){(0,e.Z)("Call to agent api setUserId failed. The js errors feature is not currently initialized.")}setErrorHandler(t){(0,e.Z)("Call to agent api setErrorHandler failed. The js errors feature is not currently initialized.")}finished(t){(0,e.Z)("Call to agent api finished failed. The page action feature is not currently initialized.")}addRelease(t,n){(0,e.Z)("Call to agent api addRelease failed. The agent is not currently initialized.")}}var n=i(3325),r=i(5763);const o=Object.values(n.D);function s(e){const t={};return o.forEach((n=>{t[n]=function(e,t){return!1!==(0,r.Mt)(t,"".concat(e,".enabled"))}(n,e)})),t}var c=i(9144);var d=i(5546),u=i(385),l=i(8e3),f=i(5938),g=i(3960);class p extends f.W{constructor(e,t,n){let r=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,n),this.auto=r,this.abortHandler,this.featAggregate,this.onAggregateImported,r&&(0,l.R)(e,n)}importAggregator(){let t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};if(this.featAggregate||!this.auto)return;const n=u.il&&!0===(0,r.Mt)(this.agentIdentifier,"privacy.cookies_enabled");let a;this.onAggregateImported=new Promise((e=>{a=e}));const o=async()=>{let r;try{if(n){const{setupAgentSession:e}=await Promise.all([i.e(860),i.e(242)]).then(i.bind(i,3228));r=e(this.agentIdentifier)}}catch(t){(0,e.Z)("A problem occurred when starting up session manager. This page will not start or extend any session.",t)}try{if(!this.shouldImportAgg(this.featureName,r))return(0,l.L)(this.agentIdentifier,this.featureName),void a(!1);const{lazyFeatureLoader:e}=await i.e(412).then(i.bind(i,8582)),{Aggregate:n}=await e(this.featureName,"aggregate");this.featAggregate=new n(this.agentIdentifier,this.aggregator,t),a(!0)}catch(t){(0,e.Z)("Downloading and initializing ".concat(this.featureName," failed..."),t),this.abortHandler?.(),a(!1)}};u.il?(0,g.b)((()=>o()),!0):o()}shouldImportAgg(e,t){return e!==n.D.sessionReplay||!!r.Yu.MO&&(!1!==(0,r.Mt)(this.agentIdentifier,"session_trace.enabled")&&(!!t?.isNew||!!t?.state.sessionReplay))}}var h=i(7633),v=i(7894);class m extends p{static featureName=h.t9;constructor(e,t){let i=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];if(super(e,t,h.t9,i),("undefined"==typeof PerformanceNavigationTiming||u.Tt)&&"undefined"!=typeof PerformanceTiming){const t=(0,r.OP)(e);t[h.Dz]=Math.max(Date.now()-t.offset,0),(0,g.K)((()=>t[h.qw]=Math.max((0,v.z)()-t[h.Dz],0))),(0,g.b)((()=>{const e=(0,v.z)();t[h.OJ]=Math.max(e-t[h.Dz],0),(0,d.p)("timing",["load",e],void 0,n.D.pageViewTiming,this.ee)}))}this.importAggregator()}}var b=i(1117),y=i(1284);class w extends b.w{constructor(e){super(e),this.aggregatedData={}}store(e,t,n,r,i){var a=this.getBucket(e,t,n,i);return a.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,y.D)(e,(function(e,n){t[e]=A(n,t[e])})),t}(r,a.metrics),a}merge(e,t,n,r,i){var a=this.getBucket(e,t,r,i);if(a.metrics){var o=a.metrics;o.count+=n.count,(0,y.D)(n,(function(e,t){if("count"!==e){var r=o[e],i=n[e];i&&!i.c?o[e]=A(i.t,r):o[e]=function(e,t){if(!t)return e;t.c||(t=x(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,o[e])}}))}else a.metrics=n}storeMetric(e,t,n,r){var i=this.getBucket(e,t,n);return i.stats=A(r,i.stats),i}getBucket(e,t,n,r){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:n||{}},r&&(i.custom=r)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},n="",r=!1,i=0;i<e.length;i++)t[n=e[i]]=D(this.aggregatedData[n]),t[n].length&&(r=!0),delete this.aggregatedData[n];return r?t:null}}function A(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=x(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function x(e){return{t:e,min:e,max:e,sos:e*e,c:1}}function D(e){return"object"!=typeof e?[]:(0,y.D)(e,j)}function j(e,t){return t}var _=i(8632),E=i(4402),T=i(4351);var k=i(7956),N=i(3239),P=i(9251);class C extends p{static featureName=P.t;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,P.t,n),u.il&&((0,r.OP)(e).initHidden=Boolean("hidden"===document.visibilityState),(0,k.N)((()=>(0,d.p)("docHidden",[(0,v.z)()],void 0,P.t,this.ee)),!0),(0,N.bP)("pagehide",(()=>(0,d.p)("winPagehide",[(0,v.z)()],void 0,P.t,this.ee))),this.importAggregator())}}var I=i(3081);class S extends p{static featureName=I.t9;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,I.t9,n),this.importAggregator()}}new class extends t{constructor(t){let n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:(0,E.ky)(16);super(),u._A?(this.agentIdentifier=n,this.sharedAggregator=new w({agentIdentifier:this.agentIdentifier}),this.features={},this.desiredFeatures=new Set(t.features||[]),this.desiredFeatures.add(m),Object.assign(this,(0,c.j)(this.agentIdentifier,t,t.loaderType||"agent")),this.start()):(0,e.Z)("Failed to initial the agent. Could not determine the runtime environment.")}get config(){return{info:(0,r.C5)(this.agentIdentifier),init:(0,r.P_)(this.agentIdentifier),loader_config:(0,r.DL)(this.agentIdentifier),runtime:(0,r.OP)(this.agentIdentifier)}}start(){const t="features";try{const r=s(this.agentIdentifier),i=[...this.desiredFeatures];i.sort(((e,t)=>n.p[e.featureName]-n.p[t.featureName])),i.forEach((t=>{if(r[t.featureName]||t.featureName===n.D.pageViewEvent){const i=function(e){switch(e){case n.D.ajax:return[n.D.jserrors];case n.D.sessionTrace:return[n.D.ajax,n.D.pageViewEvent];case n.D.sessionReplay:return[n.D.sessionTrace];case n.D.pageViewTiming:return[n.D.pageViewEvent];default:return[]}}(t.featureName);i.every((e=>r[e]))||(0,e.Z)("".concat(t.featureName," is enabled but one or more dependent features has been disabled (").concat((0,T.P)(i),"). This may cause unintended consequences or missing data...")),this.features[t.featureName]=new t(this.agentIdentifier,this.sharedAggregator)}})),(0,_.Qy)(this.agentIdentifier,this.features,t)}catch(n){(0,e.Z)("Failed to initialize all enabled instrument classes (agent aborted) -",n);for(const e in this.features)this.features[e].abortHandler?.();const r=(0,_.fP)();return delete r.initializedAgents[this.agentIdentifier]?.api,delete r.initializedAgents[this.agentIdentifier]?.[t],delete this.sharedAggregator,r.ee?.abort(),delete r.ee?.get(this.agentIdentifier),!1}}addToTrace(t){(0,e.Z)("Call to agent api addToTrace failed. The page action feature is not currently initialized.")}setCurrentRouteName(t){(0,e.Z)("Call to agent api setCurrentRouteName failed. The spa feature is not currently initialized.")}interaction(){(0,e.Z)("Call to agent api interaction failed. The spa feature is not currently initialized.")}}({features:[m,C,S],loaderType:"lite"})})(),window.NRBA=a})();</script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        
+        <!-- Favicon -->
+    <link rel="icon" href="img/favicon-1.ico?v=395624431" type="image/x-icon">
+
+        <!-- CSRF Token -->
+        <meta name="csrf-token" content="sDvEGN8D040dsSs7eENBfqeoKC3nSuY4cnqMXT9T">
+        
+        <meta name="title" content="Websites.co.in - Instant Website Builder | Create Your Free Website">
+        <meta name="description" content="Create your website, eCommerce store &amp; blog instantly. Get online visibility for your business, attract more customers, more sales and grow your business online">
+        <meta name="keywords" content="website builder, website app, website maker, website maker app, best website builder, online website builder, Create a website, websites.co.in app, websites app, instant website builder">
+        
+        <meta name="document-type" content="Public">
+        <meta name="document-rating" content="Safe for Kids">
+        <meta name="robots" content="ALL, INDEX, FOLLOW">
+        <meta name="googlebot" content="index, follow">
+        <meta name="Expires" content="never">
+        <meta name="coverage" content="Worldwide">
+        <meta name="distribution" content="Global">
+        <meta name="rating" content="General">
+        <meta name="revisit-after" content="7 days">
+        <meta name="target" content="all">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="msapplication-TileColor" content="#00695C">
+        <meta name="msapplication-TileImage" content="https://websites.co.in/landing/img/icons/ms-icon-144x144.png">
+        <meta name="theme-color" content="#00695C">
+
+        <meta name="twitter:title" content="Websites.co.in - Instant Website Builder | Create Your Free Website">
+        <meta name="twitter:image" content="https://websites.co.in/landing/img/logo_color_116x41dp.png">
+        <meta name="twitter:image:alt" content="Websites.co.in - Instant Website Builder | Create Your Free Website">
+        <meta name="twitter:description" content="Create your website, eCommerce store &amp; blog instantly. Get online visibility for your business, attract more customers, more sales and grow your business online">
+        <meta name="twitter:card" content="summary_large_image">
+
+        <meta property="og:title" content="Websites.co.in - Instant Website Builder | Create Your Free Website">
+        <meta property="og:image" content="https://websites.co.in/landing/img/logo_color_116x41dp.png">
+        <meta property="og:image:alt" content="Websites.co.in - Instant Website Builder | Create Your Free Website">
+        <meta property="og:site_name" content="websites.co.in">
+        <meta property="og:description" content="Create your website, eCommerce store &amp; blog instantly. Get online visibility for your business, attract more customers, more sales and grow your business online">
+        <meta property="og:type" content="website">
+
+        <title>Websites.co.in - Instant Website Builder | Create Your Free Website</title>
+
+        <!-- Icons -->
+        <link rel="apple-touch-icon" sizes="57x57" href="landing/img/icons/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="landing/img/icons/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="landing/img/icons/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="landing/img/icons/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="landing/img/icons/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="landing/img/icons/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="landing/img/icons/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="landing/img/icons/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="landing/img/icons/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="landing/img/icons/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="landing/img/icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="landing/img/icons/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="landing/img/icons/favicon-16x16.png">
+ 
+        
+            <!-- Styles -->
+
+            <link href="npm/bootstrap%405.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+            <link rel="stylesheet" href="landing/new/style.css?v=1.0">
+            <link rel="stylesheet" href="landing/css/custom.min-1.css?v=1411725265">
+            <style>
+                ::selection {
+                    color: #ffff;
+                    background: #8024dc;
+                }
+                .primary-btn{
+                    border: 1px solid #8024DC;
+                    background-color: #8024DC;
+                    color: white;
+                }
+                .primary-btn:hover{
+                    background-color: #5f2c92;
+                    color: #cdc9c9;
+                }
+                /***** links ***/
+                .white-link , .anim-link{
+                    text-decoration: none;
+                    color: unset;
+                }
+                .under-line{
+                    text-decoration: underline;
+                }
+                .white-link:hover{
+                    color: unset;
+                }
+                nav a:hover ,footer a:hover, .anim-link:hover{
+                    color: #8024dc;
+                }
+                .anim-link , footer a,nav a{
+                    position: relative;
+                }
+                nav a:not(.no-anim-link):after,footer a:not(.no-anim-link):after , .anim-link:after {
+                    content: '';
+                    position: absolute;
+                    width: 100%;
+                    transform: scaleX(0);
+                    height: 2px;
+                    bottom: 0;
+                    left: 0;
+                    background-color:#8024dc;
+                    transform-origin: bottom right;
+                    transition: transform 0.25s ease-out;
+                }
+                nav a:hover:after,footer a:hover:after,.anim-link:hover:after {
+                    transform: scaleX(1);
+                    transform-origin: bottom left;
+                }
+
+                /* stick nav  */
+
+                @keyframes  show{
+                    0% {
+                        top: -100;
+                    }
+                    50% {
+                        top: -50;
+                    }
+                    100% {
+                        top: 0;
+                    }
+                }
+                .sticky-nav{
+                    position: sticky;
+                    top: 0;
+                    z-index: 3;
+                    background: white;
+                    box-shadow: 0 0 48px -8px grey;
+                    /* animation: show 1s forwards; */
+                }
+            </style>
+
+                
+       
+        <link rel="stylesheet" href="ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">       
+
+        
+        <link rel="stylesheet" href="landing/slick/slick-1.css?v=702075627">
+        <link rel="stylesheet" href="landing/slick/slick-theme-1.css?v=1047179606">
+
+        <!-- manifest json -->
+        <link rel="manifest" href="landing/pwa/manifest-1.json?v=2083828435">
+        
+
+        
+        
+        
+
+        <link rel="stylesheet" href="leaflet%401.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="">
+        <script src="leaflet%401.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+        <script type="text/javascript" src="js/leaflet-unwired.js"></script>
+
+        <!-- location control: Style -->
+        <link rel="stylesheet" href="font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="npm/leaflet.locatecontrol/dist/L.Control.Locate.min.css">
+        <!-- location control: Script -->
+        <script src="npm/leaflet.locatecontrol/dist/L.Control.Locate.min.js" charset="utf-8"></script>
+
+        <!-- jquery script -->
+        <script src="ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <!-- Google Analytics -->
+        <script> 
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+            ga('create', 'UA-98172888-1', 'auto'); ga('send', 'pageview');
+        </script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="gtag/js?id=G-GH0QDVRYC5"></script>
+<script>
+     window.dataLayer = window.dataLayer || [];
+
+     function gtag() {
+     dataLayer.push(arguments);
+     }
+     gtag('js', new Date());
+
+     gtag('config', 'G-GH0QDVRYC5');
+     // gtag('config', 'UA-98172888-1');
+</script>
+<!-- GA4 end -->        <!-- GA4 end -->
+
+        <!-- Flutterwave -->
+        <!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+<script
+        id="fsc-api"
+        src="https://d1f8f9xcsvx3ha.cloudfront.net/sbl/0.8.1/fastspring-builder.min.js"
+        type="text/javascript"
+        data-storefront="websites.onfastspring.com/popup-websites"
+        data-error-callback="fscErrorCallback"
+        data-popup-closed="fscPopupClosed">
+    </script>
+
+ <script>
+var s = {
+                'products' : [
+                                {
+                                    'path':book,
+                                    'quantity': 1
+                                }
+                ],
+                'checkout': true
+            }
+            fastspring.builder.push(s);
+        });
+</script> -->
+
+<!-- Flutterwave -->
+<script src="v3.js"></script>
+
+        <!-- Global site tag (gtag.js) - AdWords: 837190713 --> 
+        <script async="" src="gtag/js-1?id=AW-837190713"></script> 
+        
+        <script> 
+            window.dataLayer = window.dataLayer || []; 
+            function gtag(){
+                dataLayer.push(arguments);
+            } 
+            gtag('js', new Date()); 
+            gtag('config', 'AW-837190713'); 
+        </script>
+
+        <!-- Facebook Pixel Code -->
+        <script>
+            !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+            n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+            document,'script','//connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '208608892996577');
+            fbq('track', 'PageView');
+        </script>
+        <!-- Facebook Pixel Code End -->
+
+        <script id="fsc-api" src="sbl/0.8.1/fastspring-builder.min.js" type="text/javascript" data-storefront="websites.onfastspring.com/popup-websites" data-error-callback="fscErrorCallback" data-popup-closed="fscPopupClosed" data-debug="false">
+        </script>
+
+        <script id="mcjs">
+            !function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/1a976d524db114e79d5943ea7/aa98384eaf5303ce5e00ca9d4.js");
+        </script>
+
+        
+        <script async="">
+            (function(w, d) {
+            d.addEventListener("DOMContentLoaded", function () {
+                var token = "67154b13-3aaf-4365-ae65-94d698b999c1";
+                var script = d.createElement('script');
+                script.async = true;
+                script.src = "https://track.saleshub.ai/assets/js/for-cache.min.js";
+                script.onload = function () {
+                w.salesToolsObserverCached(token);
+                };
+                d.body.appendChild(script);
+            })
+            })(window, document)
+        </script>
+    </head>
+
+    <body itemscope="" itemtype="http://schema.org/Organization" data-spy="scroll" data-target=".navbar-default" data-offset="64">
+        
+        <noscript>
+            <img height="1" width="1" style="display:none" src="tr?id=208608892996577&ev=PageView&noscript=1">
+        </noscript>
+        
+
+        <div id="ajaxLoader"></div>
+
+        
+        
+        <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid mt-4 ms-4">
+        <a class="no-anim-link" href="index.htm">
+            <img class="navbar-brand" src="landing/new/public/playground_assets/websitescoinlogo35253-i5eq-200h.png" width="150px" alt="websites.co.in logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="d-flex justify-content-start  flex-column align-items-start ms-auto me-5">
+
+                <ul class="navbar-nav w-100">
+                    <li class="nav-item d-flex align-items-center">
+                        <img src="landing/new/public/playground_assets/house.png" alt="house" width="20px" height="20px">
+                        <a class="nav-link ms-2" href="index.htm#">Home</a>
+                    </li>
+                    <li class="nav-item d-flex align-items-center">
+                        <img src="landing/new/public/playground_assets/feature-selection.png" alt="Features" width="20px" height="20px">
+                        <a class="nav-link ms-2" href="index.htm#features">Features</a>
+                    </li>
+                    <li class="nav-item d-flex align-items-center">
+                        <img src="landing/new/public/playground_assets/travel-guide.png" alt="How it works" width="20px" height="20px">
+                        <a class="nav-link ms-2" href="index.htm#howitworks">How it Works</a>
+                    </li>
+                    <li class="nav-item d-flex align-items-center">
+                        <img src="landing/new/public/playground_assets/playstore.png" alt="Mobile app" width="20px" height="20px">
+                        <a class="nav-link ms-2" href="index.htm#mobile-app">Mobile App</a>
+                    </li>
+                    <li class="nav-item d-flex align-items-center">
+                        <img src="landing/new/public/playground_assets/icons8money100232890-uq34-200h.png" alt="Pricing" width="20px" height="20px">
+                        <a class="nav-link ms-2" href="pricing.html">Pricing</a>
+                    </li>
+                    <li class="nav-item d-flex align-items-center">
+                        <img src="landing/new/public/playground_assets/icons8phonemessageunscreen33382-46ec-200h.png" alt="Contact" width="20px" height="20px">
+                        <a class="nav-link ms-2" href="contact.html">Contact</a>
+                    </li>
+                    
+                                            <div class="mt-3 mt-lg-0">
+                            <a class="btn me-2" href="register.html" target="_blank" style="border: 1px solid #8024DC;background-color: #8024DC;color: white;">
+                                Free Signup
+                            </a>
+                            <a class="btn" href="login.html" target="_blank" style="border: 1px solid #8024DC;color: #8024DC;">Login</a>
+                        </div>
+                                    </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+
+        
+    <div class="wave hide-wave"> <img style="transform: rotate(0deg);" src="landing/new/public/wave.svg" alt="wave"></div>
+    <section class="d-flex justify-content-center align-items-center flex-column mb-3">
+        <div class="home" style="width: 100%;">
+            <div class="home-div">
+                <h1 class="my-5 text-web"><strong>Create Your Website, Blog, Or
+                    E-Commerce Site <u>In 5 Minutes</u></strong></h1>
+                <div class="d-flex justify-content-start align-items-center">
+                    <img src="landing/new/public/playground_assets/cake.png" alt="million users" width="35px" height="35px">
+                    <p style="font-size:18px" class="px-2 mt-1">
+                       <u><strong>3 million users</strong></u> in 190+ countries
+                    </p>
+                </div>
+                <div class="d-flex justify-content-start align-items-center">
+                    <img src="landing/new/public/playground_assets/ab.png" alt="98 languages" width="35px" height="35px">
+                    <p style="font-size:18px" class="px-2 mt-2">
+                        Create your website in <u><strong>98 languages</strong></u>
+                    </p>
+                </div>
+                <div class="d-flex justify-content-start align-items-center">
+                    <img src="landing/new/public/playground_assets/star.png" alt="4.4 star ratings" width="35px" height="35px">
+                    <p style="font-size:18px" class="px-2 mt-2">
+                       <u><strong>4.5 star ratings</strong></u> on Google Playstore
+                    </p>
+                </div>
+                <div class="google-web mt-4">
+                    <div>
+                        <a href="register.html" target="_blank">
+                            <button class="btn btn-lg text-light p-3 me-2 px-3" style="background-color: #8024dc;">Get
+                                Started For
+                                Free</button>
+                        </a>
+                        <p class="text-muted text-center mt-2" style="font-size: 12px;">No credit card required.</p>
+                    </div>
+                    <a href="https://play.google.com/store/apps/details?id=in.co.websites.websitesapp&referrer=utm_source%3Dwebsite_landing_page%26utm_medium%3Dweb_dashboard%26utm_term%3Dwebsite_button_click" target="_blank">
+                        <button class="btn btn-lg p-3 px-3" style="color: #8024DC;border: 1px solid #8024DC;">Download
+                            Mobile
+                            App</button>
+                    </a>
+                </div>
+                <div class="mt-3 google-mobile">
+                    <a class="btn" href="https://play.google.com/store/apps/details?id=in.co.websites.websitesapp&referrer=utm_source%3Dwebsite_landing_page%26utm_medium%3Dweb_dashboard%26utm_term%3Dwebsite_button_click" target="_blank">
+                        <img src="landing/new/public/playground_assets/googleplay.webp" alt="google play" width="300px">
+                    </a>
+                    <p class="mt-2" style="font-size: 12px;">Or start using the <u><strong><a href="register.html" style="color:#000;">web
+                                    dashboard</a>.</strong></u>
+                </p></div>
+            </div>
+            
+            <div class="d-flex flex-column position-relative">
+                <img src="landing/new/public/playground_assets/andriod.webp" alt="andriod" class="andriod">
+                <img class="arrow1" src="landing/new/public/playground_assets/up-arrow.png" alt="arrow" width="40px" style="transform: rotate(100deg);">
+                <h5 style="background-color: #ffe48a;width: fit-content;font-family: 'Annie Use Your Telescope', cursive;" class="px-2 text1">Zero technical
+                    knowledge needed</h5>
+                <svg viewbox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="circle1">
+                    <circle cx="65" cy="50" r="35" fill="#F5EDFC"></circle>
+                </svg>
+
+                <svg viewbox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="circle2">
+                    <circle cx="20" cy="25" r="15" fill="#FDEFEF"></circle>
+                </svg>
+                <svg viewbox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="circle3">
+                    <circle cx="30" cy="25" r="8" fill="
+                    #F2FAF2"></circle>
+                </svg>
+            </div>
+            <h1 class="mb-4 px-1 mt-4 text-center text-mobile" style="max-width: 650px;">Create Your Website, Blog, Or
+                E-Commerce Site <u><strong>In 5 Minutes</strong></u></h1>
+        </div>
+        <div class="wave hide-wave"><img style="transform: rotate(180deg);position: relative;top: -1px;" src="landing/new/public/wave.svg" alt="wave">
+        </div>
+        <div style="width: 100%;" class="home-img">
+            <div class="home-img-div my-3">
+                <img src="landing/new/public/playground_assets/toi.png" alt="toi" style="max-height: 40px;">
+                <img src="landing/new/public/playground_assets/yahoo.png" alt="yahoo" style="max-height: 40px;">
+                <img src="landing/new/public/playground_assets/business_world.webp" alt="business world" style="max-height: 40px;">
+            </div>
+            <div class="home-img-div my-3">
+                <img src="landing/new/public/playground_assets/theprint512x51235236-g6fd-200h.png" alt="the print" style="max-height: 40px;">
+                <img src="landing/new/public/playground_assets/iifl.png" alt="iifl" style="max-height: 40px;">
+                <img src="landing/new/public/playground_assets/tracxn-logo.png" alt="tracxn" style="max-height: 40px;">
+            </div>
+        </div>
+
+    </section>
+    
+    <div class="wave"> <img style="transform: rotate(0deg);" src="landing/new/public/wave.svg" alt="wave"></div>
+    <section class="d-flex flex-column justify-content-between align-items-center" style="background-color: rgb(233,232,235);">
+        <div class="position-relative">
+            <img class="arrow2" src="landing/new/public/playground_assets/up-arrow.png" alt="arrow" width="80px" height="80px" style="transform: rotate(230deg) scaleX(-1);">
+            <img src="landing/new/public/playground_assets/dot.png" class="dot1" alt="dot">
+            <h2 class="text-center px-2 mt-4" id="howitworks" style="max-width: 650px;">Build Your Site Anytime, Anywhere On
+                Web Or Mobile App <u>
+                    <strong>And Go Live Instantly</strong></u> </h2>
+        </div>
+        <div class="steps my-4 px-3">
+            <div class="steps-div">
+                <img src="landing/new/public/playground_assets/dot.png" class="dot2" alt="dot">
+                <div>
+                    <img src="landing/new/public/gifs-figma/2-girl-laptop-transparent-unscreen.webp" alt="girl laptop" style="z-index: 1;" width="200px">
+
+                </div>
+                <div class="d-flex justify-content-center align-items-center flex-column ms-2">
+
+                    <h5 class="mb-3 p-1 px-2" style="background-color: #ffe48a;width: fit-content;border-radius: 5px;">
+                        Step 1</h5>
+                    <p style="max-width: 250px;" class="text-center">Get started for free by filling
+                        out the
+                        registration form. It only takes a
+                        minute.</p>
+                </div>
+            </div>
+            <div>
+                <img src="landing/new/public/arrow.svg" alt="arrow" class="steps-arrow extra">
+            </div>
+            <div class="steps-div-reverse">
+                <div>
+                    
+                    <img src="landing/new/public/gifs-figma/1-laptop-white-transparent-unscreen.webp" alt="laptop" width="200px">
+                </div>
+                <div class="d-flex justify-content-center align-items-center flex-column ms-2">
+                    <h5 class="mb-3 p-1 px-2" style="background-color: #ffe48a;width: fit-content;border-radius: 5px;">
+                        Step 2</h5>
+                    <p style="max-width: 250px;" class="text-center">Fill out your basic business
+                        information like name
+                        of business and contact details</p>
+                </div>
+            </div>
+            <div>
+                <img src="landing/new/public/arrow.svg" alt="arrow" class="steps-arrow">
+            </div>
+            <div class="steps-div">
+                <div>
+                    <img src="landing/new/public/gifs-figma/3-rocket-white-transparent-unscreen.webp" alt="rocket" width="150px">
+
+                </div>
+                <div class="d-flex justify-content-center align-items-center flex-column ms-2">
+                    <h5 class="mb-3 mt-5 p-1 px-2" style="background-color: #ffe48a;width: fit-content;border-radius: 5px;">
+                        Step 3</h5>
+                    <p style="max-width: 250px;" class="text-center">Click the "View my Site" button on
+                        the top menu
+                        and view your live website instantly.</p>
+                </div>
+            </div>
+        </div>
+        <div class="google-web flex-column align-items-center mt-3">
+            <img src="landing/new/public/playground_assets/dot.png" class="dot3" alt="dot">
+            <a class="btn btn-lg text-light px-4 py-2" style="background-color: #8024dc;" href="register.html" target="_blank">Get
+                Started For
+                Free</a>
+            <p class="text-muted text-center mt-2" style="font-size: 12px;">No credit card required.</p>
+        </div>
+        <div class="mt-3 google-mobile">
+            <a class="btn" href="https://play.google.com/store/apps/details?id=in.co.websites.websitesapp&referrer=utm_source%3Dwebsite_landing_page%26utm_medium%3Dweb_dashboard%26utm_term%3Dwebsite_button_click" target="_blank">
+                <img src="landing/new/public/playground_assets/googleplay.webp" alt="google play" width="300px">
+            </a>
+            <p class="mt-2" style="font-size: 12px;">Or start using the <u><strong><a href="register.html" style="color:#000;">web
+                            dashboard</a>.</strong></u>
+        </p></div>
+    </section>
+    <div class="wave"><img style="transform: rotate(180deg);position: relative;top: -1px;" src="landing/new/public/wave.svg" alt="wave">
+    </div>
+    <section class="features1 px-5 pt-5 mt-5">
+        <div class="me-4">
+            <img class="arrow3" src="landing/new/public/playground_assets/up-arrow.png" alt="arrow" width="80px" height="80px" style="transform: rotate(120deg);">
+            <h2 style="max-width: 500px;" class="mt-5 h1"><u><strong>Free Domain</strong></u>, Free Hosting, Free SSL
+                Certificate</h2>
+            <div class="my-3">
+                <div class="d-flex justify-content-start align-items-center my-1">
+                    <img src="landing/new/public/tick.svg" alt="tick">
+                    <p class="m-0 ms-1">A domain name of your choice is included for free.</p>
+
+                </div>
+                <div class="d-flex justify-content-start align-items-center my-2">
+                    <img src="landing/new/public/tick.svg" alt="tick">
+                    <p class="m-0 ms-1">Free web hosting is included in all plans.</p>
+                    <img src="landing/new/public/gifs-figma/gif-gift-transparent-via-unscreen.webp" width="30px" alt="gift">
+                </div>
+                <div class="d-flex justify-content-start align-items-center my-1">
+                    <img src="landing/new/public/tick.svg" alt="tick">
+                    <p class="m-0 ms-1">Free SSL certificate or https indicator for your site.</p>
+
+                </div>
+                <div class="d-flex justify-content-start align-items-center my-2">
+                    <img src="landing/new/public/tick.svg" alt="tick">
+                    <p class="m-0 ms-1">Get the maximum value for money you possibly can.</p>
+
+                </div>
+                <div class="d-flex justify-content-start align-items-center my-1">
+                    <img src="landing/new/public/tick.svg" alt="tick">
+                    <p class="m-0 ms-1">No need to spend extra hundreds of dollars.</p>
+
+                </div>
+                <div class="d-flex justify-content-start align-items-center my-2">
+                    <img src="landing/new/public/tick.svg" alt="tick">
+                    <p class="m-0 ms-1"> Save money, time, and energy on development costs.</p>
+                </div>
+            </div>
+            <div class="google-web flex-column">
+                <a href="register.html">
+                    <a class="btn btn-lg text-light px-4 py-2" style="background-color: #8024dc;" href="register.html" target="_blank">Get Started For
+                        Free</a>
+                
+                <p class="text-muted ms-5 mt-2" style="font-size: 12px;">No credit card required.</p>
+            </div>
+            <div class="mt-3 google-mobile">
+                <a class="btn" href="https://play.google.com/store/apps/details?id=in.co.websites.websitesapp&referrer=utm_source%3Dwebsite_landing_page%26utm_medium%3Dweb_dashboard%26utm_term%3Dwebsite_button_click" target="_blank">
+                    <img src="landing/new/public/playground_assets/googleplay.webp" alt="google play" width="300px">
+                </a>
+                <p class="mt-2" style="font-size: 12px;">Or start using the <u><strong><a href="register.html" style="color:#000;">web
+                                dashboard</a>.</strong></u>
+            </p></div>
+        </div>
+        <div style="width:350px;height: 250px;position: relative;border-radius: 15px;background-color:#8024dc ;box-shadow:
+        0px 0px 21px rgba(0, 0, 0, 0.85)
+      ;">
+            <img class="boy" src="landing/new/public/playground_assets/boy.webp" alt="boy" width="330px">
+        </div>
+    </section>
+    <div class="wave"><img style="transform: rotate(0deg);position: relative;" src="landing/new/public/wave.svg" alt="wave">
+    </div>
+    <section class="features2 p-5" style="background-color: rgb(233,232,235);">
+        <div class="ms-3 mt-3">
+            <img class="arrow2" src="landing/new/public/playground_assets/up-arrow.png" alt="arrow" width="80px" height="80px" style="transform: rotate(230deg) scaleX(-1); right: 5vw; top: -9vh;">
+            <h2 style="max-width: 500px;" class="mt-5 h1"><u><strong>Build E-Commerce Websites</strong></u> With
+                Plug-n-Play Features
+            </h2>
+            <div class="my-3">
+                <img src="landing/new/public/playground_assets/dot.png" class="dot4
+                " alt="dot">
+                <div class="d-flex justify-content-start align-items-center my-1">
+                    <img src="landing/new/public/tick.svg" alt="tick">
+                    <p class="m-0 ms-1">E-commerce and m-commerce ready.</p>
+                    <img src="landing/new/public/playground_assets/icons8domainname10032874-46l-200h.png" width="30px" alt="domain name">
+
+                </div>
+                <div class="d-flex justify-content-start align-items-center my-2">
+                    <img src="landing/new/public/tick.svg" alt="tick">
+                    <p class="m-0 ms-1">Setup your own store & sell your products online.</p>
+
+                </div>
+                <div class="d-flex justify-content-start align-items-center my-1">
+                    <img src="landing/new/public/tick.svg" alt="tick">
+                    <p class="m-0 ms-1">Easily add “unlimited” products with web or mobile app.</p>
+
+                </div>
+                <div class="d-flex justify-content-start align-items-center my-2">
+                    <img src="landing/new/public/tick.svg" alt="tick">
+                    <p class="m-0 ms-1">Choose from a variety of free e-commerce templates.</p>
+
+                </div>
+                <div class="d-flex justify-content-start align-items-center my-1">
+                    <img src="landing/new/public/tick.svg" alt="tick">
+                    <p class="m-0 ms-1">Plug-n-play features to get you started instantly.</p>
+
+                </div>
+                <div class="d-flex justify-content-start align-items-center my-2">
+                    <img src="landing/new/public/tick.svg" alt="tick">
+                    <p class="m-0 ms-1">No need to install any extra plugins or tools.</p>
+                </div>
+            </div>
+            <div class="google-web flex-column">
+                <img src="landing/new/public/playground_assets/dot.png" class="dot5
+                " alt="dot">
+                <a class="btn btn-lg text-light px-4 py-2" style="background-color: #8024dc;" href="register.html" target="_blank">Get Started For
+                    Free</a>
+                <p class="text-muted ms-5 mt-2" style="font-size: 12px;">No credit card required.</p>
+            </div>
+            <div class="mt-3 google-mobile">
+                <a class="btn" href="https://play.google.com/store/apps/details?id=in.co.websites.websitesapp&referrer=utm_source%3Dwebsite_landing_page%26utm_medium%3Dweb_dashboard%26utm_term%3Dwebsite_button_click" target="_blank">
+                    <img src="landing/new/public/playground_assets/googleplay.webp" alt="google play" width="300px">
+                </a>
+                <p class="mt-2" style="font-size: 12px;">Or start using the <u><strong><a href="register.html" style="color:#000;">web
+                                dashboard</a>.</strong></u>
+            </p></div>
+        </div>
+        <div class="girl-div mt-5" style="width:360px; height: 250px;position: relative;border-radius: 15px;background-color:#8024dc ;box-shadow:
+        0px 0px 21px rgba(0, 0, 0, 0.85)
+      ;">
+            <img src="landing/new/public/playground_assets/dot.png" class="dot6
+            " alt="dot">
+            <img class="girl" src="landing/new/public/playground_assets/girl.webp" alt="girl" width="300px">
+        </div>
+    </section>
+    <div class="wave"><img style="transform: rotate(180deg);position: relative;top: -1px;" src="landing/new/public/wave.svg" alt="wave">
+    </div>
+    <section class="features1 px-5 mt-5 pt-5">
+        <div class="me-5">
+            <img class="arrow3" src="landing/new/public/playground_assets/up-arrow.png" alt="arrow" width="80px" height="80px" style="transform: rotate(120deg);">
+            <h3 style="max-width: 520px;" class="mt-5 h1"><u><strong>Magic SEO Tool</strong></u> To Rank On Google Search
+                Automagically
+            </h3>
+            <div class="my-3">
+                <div class="d-flex justify-content-start align-items-center my-1">
+                    <img src="landing/new/public/tick.svg" alt="tick">
+                    <p class="m-0 ms-1">Your site will rank on Google automagically.</p>
+                    <img src="landing/new/public/playground_assets/starstick.png" alt="star stick">
+                </div>
+                <div class="d-flex justify-content-start align-items-center my-2">
+                    <img src="landing/new/public/tick.svg" alt="tick">
+                    <p class="m-0 ms-1">No need to do SEO keyword research or coding.</p>
+                </div>
+                <div class="d-flex justify-content-start align-items-center my-1">
+                    <img src="landing/new/public/tick.svg" alt="tick">
+                    <p class="m-0 ms-1">Magic SEO keyword tool inbuilt within Website Builder.</p>
+
+                </div>
+                <div class="d-flex justify-content-start align-items-center my-2">
+                    <img src="landing/new/public/tick.svg" alt="tick">
+                    <p class="m-0 ms-1">SEO keywords are identified and ranked automagically</p>
+
+                </div>
+                <div class="d-flex justify-content-start align-items-center my-1">
+                    <img src="landing/new/public/tick.svg" alt="tick">
+                    <p class="m-0 ms-1">Save thousands of dollars on SEO optimization.</p>
+
+                </div>
+                <div class="d-flex justify-content-start align-items-center my-2">
+                    <img src="landing/new/public/tick.svg" alt="tick">
+                    <p class="m-0 ms-1">No need to hire a SEO freelancer or agency.</p>
+                </div>
+            </div>
+            <div class="google-web flex-column">
+                <a class="btn btn-lg text-light px-4 py-2" style="background-color: #8024dc;" href="register.html" target="_blank">Get Started For
+                    Free</a>
+                <p class="text-muted ms-5 mt-2" style="font-size: 12px;">No credit card required.</p>
+            </div>
+            <div class="mt-3 google-mobile">
+                <a class="btn" href="https://play.google.com/store/apps/details?id=in.co.websites.websitesapp&referrer=utm_source%3Dwebsite_landing_page%26utm_medium%3Dweb_dashboard%26utm_term%3Dwebsite_button_click" target="_blank">
+                    <img src="landing/new/public/playground_assets/googleplay.webp" alt="google play" width="300px">
+                </a>
+                <p class="mt-2" style="font-size: 12px;">Or start using the <u><strong><a href="register.html" style="color:#000;">web
+                                dashboard</a>.</strong></u>
+            </p></div>
+        </div>
+        <div style="width:370px;height: 250px;position: relative;border-radius: 15px;background-color:#8024dc ;box-shadow:
+        0px 0px 21px rgba(0, 0, 0, 0.85)
+      ;">
+            <img class="boy" src="landing/new/public/playground_assets/boy.webp" alt="boy" width="330px">
+        </div>
+    </section>
+    <div class="wave"><img style="transform: rotate(0deg);position: relative;" src="landing/new/public/wave.svg" alt="wave">
+    </div>
+    <section class="features2 p-5" style="background-color: rgb(233,232,235);">
+        <div class="ms-3">
+            <img class="arrow2" src="landing/new/public/playground_assets/up-arrow.png" alt="arrow" width="80px" height="80px" style="transform: rotate(230deg) scaleX(-1); right: 5vw; top: -9vh;">
+            <h3 style="max-width: 500px;" class="mt-5 h1"><u><strong>1-Click</strong></u> Facebook Page To Website Tool
+            </h3>
+            <div class="my-3">
+                <div class="d-flex justify-content-start align-items-center my-1">
+                    <img src="landing/new/public/tick.svg" alt="tick">
+                    <p class="m-0 ms-1">Convert your Facebook page into a website.</p>
+
+                </div>
+                <div class="d-flex justify-content-start align-items-center my-2">
+                    <img src="landing/new/public/tick.svg" alt="tick">
+                    <p class="m-0 ms-1">Transform your Facebook covers into a carousel. <img src="landing/new/public/playground_assets/rabbitcap.png" width="30px" alt="rabbit cap"></p>
+
+                </div>
+                <div class="d-flex justify-content-start align-items-center my-1">
+                    <img src="landing/new/public/tick.svg" alt="tick">
+                    <p class="m-0 ms-1">Automatically send Facebook statuses as updates.</p>
+
+                </div>
+                <div class="d-flex justify-content-start align-items-center my-2">
+                    <img src="landing/new/public/tick.svg" alt="tick">
+                    <p class="m-0 ms-1">Your photos get magically populated into a gallery.</p>
+
+                </div>
+                <div class="d-flex justify-content-start align-items-center my-1">
+                    <img src="landing/new/public/tick.svg" alt="tick">
+                    <p class="m-0 ms-1">Save money, time, and energy on building a site.</p>
+
+                </div>
+                <div class="d-flex justify-content-start align-items-center my-2">
+                    <img src="landing/new/public/tick.svg" alt="tick">
+                    <p class="m-0 ms-1">Developed by our inhouse developers at Websites.co.in.</p>
+                </div>
+            </div>
+            <div class="flex-column">
+                <a href="register.html" target="_blank" class="btn">
+                    <button class="btn btn-lg text-light px-4 py-1 d-flex align-items-center justify-content-center" style="background-color: #234da2;">
+                        <div style="font-size: 30px;" class="fw-bolder pe-3">f</div>
+                        <h6>
+                            <strong>Create A Website</strong> With Your Facebook Page
+                        </h6>
+                    </button>
+                </a>
+                <p class="text-muted mt-2 text-center" style="font-size: 12px;">Get started for free. No credit card required.
+                </p>
+            </div>
+        </div>
+        <img src="landing/new/public/playground_assets/dot.png" class="dot7
+        
+        " alt="dot">
+        <img src="landing/new/public/playground_assets/dot.png" class="dot8
+
+        " alt="dot">
+        <img src="landing/new/public/playground_assets/dot.png" class="dot9
+        
+        " alt="dot">
+        <div style="width:350px;height: 250px;position: relative;border-radius: 15px;background-color:#8024dc ;box-shadow:
+        0px 0px 21px rgba(0, 0, 0, 0.85)
+      ;">
+
+            <img class="men" src="landing/new/public/playground_assets/men.webp" alt="men" width="300px">
+        </div>
+    </section>
+    <div class="wave"><img style="transform: rotate(180deg);position: relative;top: -1px;" src="landing/new/public/wave.svg" alt="wave">
+    </div>
+    <section class="d-flex justify-content-center align-items-center flex-column mt-3 icons">
+        <h3 style="max-width: 600px;" class="text-center" id="features">
+            <u><strong>30+ Amazing Features</strong></u> That Will Help You Create Any Kind Of Website Easily...
+        </h3>
+        <img class="arrow3" src="landing/new/public/playground_assets/up-arrow.png" alt="arrow" width="80px" height="80px" style="transform: rotate(120deg);">
+        <div class="d-flex justify-content-around align-items-start my-4 px-4">
+            <div class="d-flex flex-column align-items-start me-2">
+                <div class="d-flex align-items-center justify-content-center my-2">
+                    <img src="landing/new/public/gifs-figma/gif-free-web-hosting.webp" alt="free web hosting" width="40px">
+                    <p class="m-0 ps-2">Free Web Hosting</p>
+                </div>
+                <div class="d-flex align-items-center justify-content-center my-2">
+                    <img src="landing/new/public/gifs-figma/gif-free-domain-name.webp" alt="free domain name" width="40px">
+                    <p class="m-0 ps-2">Free Domain Name</p>
+                </div>
+                <div class="d-flex align-items-center justify-content-center my-2">
+                    <img src="landing/new/public/gifs-figma/gif-free-ssl.gif" alt="free ssl" width="40px">
+                    <p class="m-0 ps-2">Free SSL Certificate</p>
+                </div>
+                <div class="d-flex align-items-center justify-content-center my-2">
+                    <img src="landing/new/public/gifs-figma/gif-get-business-enquiries.webp" alt="get business enquiries" width="40px">
+                    <p class="m-0 ps-2">Get Business Enquiries</p>
+                </div>
+                <div class="d-flex align-items-center justify-content-center my-2">
+                    <img src="landing/new/public/gifs-figma/gif-one-biz-email.gif" alt="one biz email" width="40px">
+                    <p class="m-0 ps-2">One Business Email ID</p>
+                </div>
+                <div class="d-flex align-items-center justify-content-center my-2">
+                    <img src="landing/new/public/gifs-figma/gif-business-alerts.webp" alt="business alerts" width="40px">
+                    <p class="m-0 ps-2">Get Business Alerts</p>
+                </div>
+                <div class="d-flex align-items-center justify-content-center my-2">
+                    <img src="landing/new/public/gifs-figma/gif-extra-sections.webp" alt="extra sections" width="40px">
+                    <p class="m-0 ps-2">Extra Sections</p>
+                </div>
+                <div class="d-flex align-items-center justify-content-center my-2">
+                    <img src="landing/new/public/gifs-figma/gif-live-chat.webp" alt="live chat" width="40px">
+                    <p class="m-0 ps-2">Live Chat</p>
+                </div>
+                <div class="d-flex align-items-center justify-content-center my-2">
+                    <img src="landing/new/public/gifs-figma/gif-tawk.webp" alt="tawk chat" width="40px">
+                    <p class="m-0 ps-2">Tawk Chat</p>
+                </div>
+                <div class="d-flex align-items-center justify-content-center my-2">
+                    <img src="landing/new/public/gifs-figma/gif-whatsapp.gif" alt="whatsapp chat" width="40px">
+                    <p class="m-0 ps-2">WhatApp Chat</p>
+                </div>
+            </div>
+            <div class="d-flex flex-column align-items-start">
+                <div class="d-flex align-items-center justify-content-center my-2">
+                    <img src="landing/new/public/gifs-figma/gif-powerful-auto-seo.webp" width="40px" alt="powerful auto seo">
+                    <p class="m-0 ps-2">Powerful Auto-SEO</p>
+                </div>
+                <div class="d-flex align-items-center justify-content-center my-2">
+                    <img src="landing/new/public/gifs-figma/gif-geo-tagging.webp" width="40px" alt="geo tagging">
+                    <p class="m-0 ps-2">Geo Tagging</p>
+                </div>
+                <div class="d-flex align-items-center justify-content-center my-2">
+                    <img src="landing/new/public/gifs-figma/gif-easy-auto-social.gif" width="40px" alt="easy auto social">
+                    <p class="m-0 ps-2">Easy Auto Social Media</p>
+                </div>
+                <div class="d-flex align-items-center justify-content-center my-2">
+                    <img src="landing/new/public/gifs-figma/gif-smart-lead-mgmnt%20%281%29.webp" width="40px" alt="smart leading">
+                    <p class="m-0 ps-2">Smart Lead Engagement</p>
+                </div>
+                <div class="d-flex align-items-center justify-content-center my-2">
+                    <img src="landing/new/public/gifs-figma/gif-smart-lead-mgmnt%20%282%29.gif" width="40px" alt="e-commerce ready">
+                    <p class="m-0 ps-2">E-commerce ready</p>
+                </div>
+                <div class="d-flex align-items-center justify-content-center my-2">
+                    <img src="landing/new/public/gifs-figma/gif-m-commerce.webp" width="40px" alt="m-commerce ready">
+                    <p class="m-0 ps-2">M-commerce ready</p>
+                </div>
+                <div class="d-flex align-items-center justify-content-center my-2">
+                    <img src="landing/new/public/gifs-figma/gif-auto-multilingual.webp" width="40px" alt="Auto Multilingual Website">
+                    <p class="m-0 ps-2">Auto Multilingual Website</p>
+                </div>
+                <div class="d-flex align-items-center justify-content-center my-2">
+                    <img src="landing/new/public/gifs-figma/gif-fb-pixel.gif" width="40px" alt="Facebook Pixel">
+                    <p class="m-0 ps-2">Facebook Pixel</p>
+                </div>
+                <div class="d-flex align-items-center justify-content-center my-2">
+                    <img src="landing/new/public/gifs-figma/gif-fb-msgnr.webp" width="40px" alt="Facebook Messenger Chat">
+                    <p class="m-0 ps-2">Facebook Messenger Chat</p>
+                </div>
+                <div class="d-flex align-items-center justify-content-center my-2">
+                    <img src="landing/new/public/gifs-figma/gif-fb-1-click.webp" width="40px" alt="1-click facebook Page To Website">
+                    <p class="m-0 ps-2">1-click facebook Page To Website</p>
+                </div>
+            </div>
+            <div class="d-flex flex-column align-items-start ms-2">
+                <div class=" d-flex align-items-center justify-content-center my-2">
+                    <img src="landing/new/public/gifs-figma/gif-unlimited-seo-keywords.webp" width="40px" alt="Unlimited Keywords SEO">
+                    <p class="m-0 ps-2">Unlimited Keywords SEO</p>
+                </div>
+                <div class="d-flex align-items-center justify-content-center my-2">
+                    <img src="landing/new/public/gifs-figma/gif-unlimited-product-listing.webp" width="40px" alt="Unlimited Product Listing">
+                    <p class="m-0 ps-2">Unlimited Product Listing</p>
+                </div>
+                <div class="d-flex align-items-center justify-content-center my-2">
+                    <img src="landing/new/public/gifs-figma/gif-unlimited-photos.webp" width="40px" alt="Unlimited Photos">
+                    <p class="m-0 ps-2">Unlimited Photos</p>
+                </div>
+                <div class="d-flex align-items-center justify-content-center my-2">
+                    <img src="landing/new/public/gifs-figma/gif-unlimited-updates.webp" width="40px" alt="Unlimited Updates">
+                    <p class="m-0 ps-2">Unlimited Updates</p>
+                </div>
+                <div class="d-flex align-items-center justify-content-center my-2">
+                    <img src="landing/new/public/gifs-figma/gif-hotjar.gif" width="40px" alt="Hotjar">
+                    <p class="m-0 ps-2">Hotjar</p>
+                </div>
+                <div class="d-flex align-items-center justify-content-center my-2">
+                    <img src="landing/new/public/gifs-figma/gif-google-maps.webp" width="40px" alt="Google Maps">
+                    <p class="m-0 ps-2">Google Maps</p>
+                </div>
+                <div class="d-flex align-items-center justify-content-center my-2">
+                    <img src="landing/new/public/gifs-figma/gif-google-adsense.webp" width="40px" alt="Google Adsense">
+                    <p class="m-0 ps-2">Google AdSense</p>
+                </div>
+                <div class="d-flex align-items-center justify-content-center my-2">
+                    <img src="landing/new/public/gifs-figma/gif-google-analytics.gif" width="40px" alt="Google Analytics">
+                    <p class="m-0 ps-2">Google Analytics</p>
+                </div>
+                <div class="d-flex align-items-center justify-content-center my-2">
+                    <img src="landing/new/public/gifs-figma/gif-business-alerts.webp" width="40px" alt="Google tag Manager">
+                    <p class="m-0 ps-2">Google Tag Manager</p>
+                </div>
+                <div class="d-flex align-items-center justify-content-center my-2">
+                    <img src="landing/new/public/gifs-figma/gif-get-business-analytics.webp" width="40px" alt="Get Business Analytics">
+                    <p class="m-0 ps-2">Get Business Analytics</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="google-web flex-column">
+            <a class="btn btn-lg text-light px-4 py-2" style="background-color: #8024dc;" href="register.html" target="_blank">Get Started For
+                Free</a>
+            <p class="text-muted ms-5 mt-2" style="font-size: 12px;">No credit card required.</p>
+        </div>
+        <div class="mt-3 google-mobile">
+            <a class="btn" href="https://play.google.com/store/apps/details?id=in.co.websites.websitesapp&referrer=utm_source%3Dwebsite_landing_page%26utm_medium%3Dweb_dashboard%26utm_term%3Dwebsite_button_click" target="_blank">
+                <img src="landing/new/public/playground_assets/googleplay.webp" alt="google play" width="300px">
+            </a>
+            <p class="mt-2" style="font-size: 12px;">Or start using the <u><strong><a href="register.html" style="color:#000;">web
+                            dashboard</a>.</strong></u>
+        </p></div>
+    </section>
+    <div class="wave"><img style="transform: rotate(0deg);position: relative;" src="landing/new/public/wave.svg" alt="wave">
+    </div>
+    <section class="d-flex justify-content-center align-items-center flex-column" style="background-color:rgb(233,232,235);">
+        <img class="arrow2" src="landing/new/public/playground_assets/up-arrow.png" alt="arrow" width="80px" height="80px" style="transform: rotate(230deg) scaleX(-1); right: 5vw; top: -9vh;">
+        <div class="position-relative">
+            <img src="landing/new/public/playground_assets/dot.png" class="dot10" alt="dot">
+            <h2 style="max-width: 500px;" class="text-center mt-4 h3"><u><strong>Choose From A Variety Of
+                        Templates</strong></u> Based On Your Industry</h2>
+        </div>
+        <div class="d-flex justify-content-center align-items-center flex-column mt-4">
+            <div class="template">
+                <div class="template-div">
+                    <a href="https://digiblog.websites.co.in/" target="_blank" class="d-flex justify-content-center align-items-center flex-column mx-1 btn">
+                        <img src="landing/new/public/THEMES/BETTERBLOG.webp" alt="Better Blog theme" class="shadow">
+                        <p>Better Blog</p>
+                    </a>
+                    <a href="https://democlinica.websites.co.in/" target="_blank" class="d-flex justify-content-center align-items-center flex-column mx-1 btn">
+                        <img src="landing/new/public/THEMES/CLINCA.webp" alt="Clinca theme" class="shadow">
+                        <p>Clinca</p>
+                    </a>
+                </div>
+                <div class="template-div">
+                    <a href="https://demoestore.websites.co.in/" target="_blank" class="d-flex justify-content-center align-items-center flex-column mx-1 btn">
+                        <img src="landing/new/public/THEMES/ESTORE.webp" alt="Estore theme" class="shadow">
+                        <p>Estore</p>
+                    </a>
+                    <a href="https://globalindustry.websites.co.in/" target="_blank" class="d-flex justify-content-center align-items-center flex-column mx-1 btn">
+                        <img src="landing/new/public/THEMES/UDYOG.webp" alt="Udyog theme" class="shadow">
+                        <p>Udyog</p>
+                    </a>
+
+                </div>
+            </div>
+            <div class="collapse multi-collapse template" id="multiCollapseExample1">
+                <div class="template-div">
+                    <a href="https://naturally.websites.co.in/	" target="_blank" class="d-flex justify-content-center align-items-center flex-column mx-1 btn">
+                        <img src="landing/new/public/THEMES/GROWBIZ.webp" alt="Growbiz theme" class="shadow">
+                        <p>Growbiz</p>
+                    </a>
+                    <a href="https://demorestaurant.websites.co.in/" target="_blank" class="d-flex justify-content-center align-items-center flex-column mx-1 btn">
+                        <img src="landing/new/public/THEMES/RESTAURANT.webp" alt="Retaurant theme" class="shadow">
+                        <p>Retaurant</p>
+                    </a>
+                </div>
+                <div class="template-div">
+                    <a href="https://demoservicepro.websites.co.in/" target="_blank" class="d-flex justify-content-center align-items-center flex-column mx-1 btn">
+                        <img src="landing/new/public/THEMES/SERVICEPRO.webp" alt="Service pro theme" class="shadow">
+                        <p>Service pro</p>
+                    </a>
+                    <a href="https://traveltemplate.websites.co.in/" target="_blank" class="d-flex justify-content-center align-items-center flex-column mx-1 btn">
+                        <img src="landing/new/public/THEMES/TOURISM.webp" alt="Tourism theme" class="shadow">
+                        <p>Tourism</p>
+                    </a>
+                </div>
+            </div>
+            <buuton class="btn my-3" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">See more...</buuton>
+
+        </div>
+        <div class="position-relative google-web flex-column">
+            <img src="landing/new/public/playground_assets/dot.png" class="dot11" alt="dot">
+            <a href="register.html" target="_blank">
+                <button class="btn btn-lg text-light px-4 py-2" style="background-color: #8024dc;">Choose A Template of
+                    Your
+                    Choice For Free</button>
+            </a>
+            <p class="text-muted ms-5" style="font-size: 12px;">No need to pay for installing themes of your choice.
+            </p>
+        </div>
+        <div class="mt-3 google-mobile">
+            <!--<button class="btn">-->
+            <a class="btn" href="https://play.google.com/store/apps/details?id=in.co.websites.websitesapp&referrer=utm_source%3Dwebsite_landing_page%26utm_medium%3Dweb_dashboard%26utm_term%3Dwebsite_button_click" target="_blank">
+                <img src="landing/new/public/playground_assets/googleplay.webp" alt="google play" width="300px">
+            </a>
+            <!--</button>-->
+            <p class="mt-2" style="font-size: 12px;">Or start using the <u><strong><a href="register.html" style="color:#000;">web
+                            dashboard</a>.</strong></u>
+        </p></div>
+    </section>
+    <div class="wave"><img style="transform: rotate(180deg);position: relative;top: -1px;" src="landing/new/public/wave.svg" alt="wave">
+    </div>
+    <section class="d-flex justify-content-center align-items-center flex-column mt-4">
+        <img class="arrow3" src="landing/new/public/playground_assets/up-arrow.png" alt="arrow" width="80px" height="80px" style="transform: rotate(120deg);top: -10vh; ">
+        <h3 style="max-width: 600px;" class="text-center">
+            <u><strong>7 Premium Features</strong></u> For Power Users Who Upgrade To Our Premium Plan
+        </h3>
+        <div class="d-flex justify-content-around align-items-start my-4 icons px-4">
+            <div class="d-flex flex-column align-items-start me-2">
+                <div class="d-flex align-items-center justify-content-center my-2">
+                    <img src="landing/new/public/gifs-figma/gif-telephone.gif" alt="Telephonic Support" width="35px">
+                    <p class="m-0 ps-2">Telephonic Support</p>
+                </div>
+                <div class="d-flex align-items-center justify-content-center my-2">
+                    <img src="landing/new/public/gifs-figma/gif-dedicated-support.webp" alt="Dedicated Support" width="35px">
+                    <p class="m-0 ps-2">Dedicated Support</p>
+                </div>
+                <div class="d-flex align-items-center justify-content-center my-2">
+                    <img src="landing/new/public/gifs-figma/gif-one-time-website-setup-service.webp" alt="One Time Website Setup Service" width="35px">
+                    <p class="m-0 ps-2">One Time Website Setup Service</p>
+                </div>
+
+
+            </div>
+            <div class="d-flex flex-column align-items-start">
+                <div class="d-flex align-items-start justify-content-center my-2">
+                    <img src="landing/new/public/gifs-figma/gif-free-domain-name.webp" alt="Custom Domain Name" width="35px">
+                    <p class="m-0 ps-2">Custom Domain Name</p>
+                </div>
+                <div class="d-flex align-items-center justify-content-center my-2">
+                    <img src="landing/new/public/gifs-figma/gif-1-1-biz-consulting.webp" alt="1-on-1 Business Counselling" width="35px">
+                    <p class="m-0 ps-2">1-on-1 Business Counselling</p>
+                </div>
+            </div>
+            <div class="d-flex flex-column align-items-start ms-2">
+                <div class=" d-flex align-items-start justify-content-cente my-2r">
+                    <img src="landing/new/public/gifs-figma/gif-premium-support-transparent-via-unscreen.webp" alt="Premium Support" width="35px">
+                    <p class="m-0 ps-2">Premium Support</p>
+                </div>
+                <div class="d-flex align-items-center justify-content-center my-2">
+                    <img src="landing/new/public/gifs-figma/gif-live-chat.webp" alt="Email Based Support" width="35px">
+                    <p class="m-0 ps-2">Email Based Support</p>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <a href="pricing.html" target="_blank">
+                <button class="btn text-light px-4 py-2" style="background-color: #8024dc;">Get Instant Access To The
+                    Premium Plan</button>
+            </a>
+            <p class="text-muted ms-5 mt-2" style="font-size: 12px;">Get 78% discount by upgrading to the Premium Plan
+            </p>
+        </div>
+    </section>
+    <div class="wave"><img style="transform: rotate(00deg);position: relative" src="landing/new/public/wave.svg" alt="wave">
+    </div>
+    <section class="d-flex justify-content-center align-items-center flex-column" style="background-color: rgb(233,232,235);">
+
+        <img class="arrow2" src="landing/new/public/playground_assets/up-arrow.png" alt="arrow" width="80px" height="80px" style="transform: rotate(230deg) scaleX(-1); right: 5vw; top: -9vh;">
+        <div>
+            <img src="landing/new/public/playground_assets/dot.png" class="dot12" alt="dot">
+            <img src="landing/new/public/playground_assets/dot.png" class="dot13" alt="dot">
+            <h4 style="max-width: 750px;" class="text-center px-3"><u><strong>3 Million Happy Customers</strong></u>
+                Throughout The World Use Websites.co.in <img src="landing/new/public/playground_assets/loveface.png" alt="love face" style="z-index: 1;" width="50px"></h4>
+        </div>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="text-center px-5">
+
+                        <p style="max-width: 600px;" class="text-center m-0">Excellent App. I never knew it was this
+                            easy to get a website. Thanks to Instant Website Builder for making it possible. Recomended
+                            all all.</p>
+                        <div class="my-2">
+                            <img src="landing/new/public/playground_assets/star.png" alt="star">
+                            <img src="landing/new/public/playground_assets/star.png" alt="star">
+                            <img src="landing/new/public/playground_assets/star.png" alt="star">
+                            <img src="landing/new/public/playground_assets/star.png" alt="star">
+                            <img src="landing/new/public/playground_assets/star.png" alt="star">
+                        </div>
+                        <div class="my-1">Samuel Katta</div>
+                        <!--
+                        <div class="my-4">
+                            <img src="landing/new/public/playground_assets/a8133327-wg9-200h.png" alt="" class="mx-2">
+                            <img src="landing/new/public/playground_assets/a3133314-1oc-200h.png" alt="" class="mx-2">
+                            <img src="landing/new/public/playground_assets/a2133320-1k3j-200h.png" alt="" class="mx-2">
+                            <img src="landing/new/public/playground_assets/portraithappywomantakingnotes1713374052133324-2fq8-200h.png"
+                                alt="">
+                            <img src="landing/new/public/playground_assets/a8133327-wg9-200h.png" alt="" class="mx-2">
+                            <img src="/landing/new/public/playground_assets/a7133330-4m9b-200h.png" alt="" class="mx-2">
+                            <img src="landing/new/public/playground_assets/97776186imageofbeautifulcuteyoungwomanstandingisolatedoveryellowbackgroundpointinglookingaside133333-9psf-200h.png"
+                                alt="" class="mx-2">
+                            <img src="landing/new/public/playground_assets/a12133339-rprtr-200h.png" alt="" class="mx-2">
+                            <img src="landing/new/public/playground_assets/a2133320-1k3j-200h.png" alt="" class="mx-2">
+                        </div>
+                        -->
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="text-center">
+
+
+                        <p style="max-width: 600px;" class="text-center m-0">Instant & Easy to build up my own business,
+                            It's a great way to start making the opportunity to us. Thanks and Pray for the opportunity
+                            🙏</p>
+                        <div class="my-2">
+                            <img src="landing/new/public/playground_assets/star.png" alt="star">
+                            <img src="landing/new/public/playground_assets/star.png" alt="star">
+                            <img src="landing/new/public/playground_assets/star.png" alt="star">
+                            <img src="landing/new/public/playground_assets/star.png" alt="star">
+                            <img src="landing/new/public/playground_assets/star.png" alt="star">
+                        </div>
+                        <div class="my-1">Azizur Rahman</div>
+                        <!--
+                        <div class="my-4">
+                            <img src="landing/new/public/playground_assets/a8133327-wg9-200h.png" alt="" class="mx-2">
+                            <img src="landing/new/public/playground_assets/a3133314-1oc-200h.png" alt="" class="mx-2">
+                            <img src="/landing/new/public/playground_assets/a2133320-1k3j-200h.png" alt="" class="mx-2">
+                            <img src="landing/new/public/playground_assets/portraithappywomantakingnotes1713374052133324-2fq8-200h.png"
+                                alt="">
+                            <img src="landing/new/public/playground_assets/a8133327-wg9-200h.png" alt="" class="mx-2">
+                            <img src="landing/new/public/playground_assets/a7133330-4m9b-200h.png" alt="" class="mx-2">
+                            <img src="landing/new/public/playground_assets/97776186imageofbeautifulcuteyoungwomanstandingisolatedoveryellowbackgroundpointinglookingaside133333-9psf-200h.png"
+                                alt="" class="mx-2">
+                            <img src="landing/new/public/playground_assets/a12133339-rprtr-200h.png" alt="" class="mx-2">
+                            <img src="landing/new/public/playground_assets/a2133320-1k3j-200h.png" alt="" class="mx-2">
+                        </div>
+                        -->
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev" style="z-index: 2;transform: scaleX(-1);">
+                <span aria-hidden="true"><img src="landing/new/public/playground_assets/Group%20182.png" alt="Previous"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next" style="z-index: 2;">
+                <span aria-hidden="true"><img src="landing/new/public/playground_assets/Group%20182.png" alt="Next"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </section>
+    <div class="wave"><img style="transform: rotate(180deg);position: relative;top: -1px;" src="landing/new/public/wave.svg" alt="wave">
+    </div>
+    <section class="d-flex justify-content-center align-items-center flex-column my-5">
+        <img class="arrow3" src="landing/new/public/playground_assets/up-arrow.png" alt="arrow" width="80px" height="80px" style="transform: rotate(120deg);top: -10vh; ">
+        <h4 style="max-width: 680px;" class="text-center mb-5 px-4" id="compare"><u><strong>Compare</strong></u> The Services
+            & Cost Of A
+            Freelancer v/s Agency v/s
+            Websites.co.in</h4>
+        <div class="hidden-web">
+            <div style="background-color: 
+            #FDFCFE; border-radius: 10px; border: 1px solid #dddddd3a;" class="p-3  ms-2">
+                <h2 style="margin-bottom: 20px;" class="text-center">Factors</h2>
+                <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);" class="position-relative ps-5">
+                    <img src="landing/new/public/playground_assets/clock.png" alt="Time" width="35px" style="position: absolute;top: -10px; left: 10px;">
+                    Time
+                </p>
+                <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);" class="position-relative ps-5">
+                    <img src="landing/new/public/playground_assets/icons8domainname10032874-46l-200h.png" alt="Domain Name Cost" width="35px" style="position: absolute;top: -10px; left: 10px;">
+                    Domain Name Cost
+                </p>
+                <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);" class="position-relative ps-5">
+                    <img src="landing/new/public/playground_assets/icons8server100432878-6oaq-200h.png" alt="Web Hosting Costs" width="35px" style="position: absolute;top: -10px; left: 10px;">
+                    Web Hosting Costs
+                </p>
+                <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);" class="position-relative ps-5">
+                    <img src="landing/new/public/playground_assets/icons8securityssl10032882-1qx-200h.png" alt="SSL Certificate Cost" width="35px" style="position: absolute;top: -10px; left: 10px;">
+                    SSL Certificate Cost
+                </p>
+                <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);" class="position-relative ps-5">
+                    <img src="landing/new/public/playground_assets/icons8money100132886-e82o-200h.png" alt="Annual Maintenance Cost" width="35px" style="position: absolute;top: -10px; left: 10px;">
+                    Annual Maintenance Cost
+                </p>
+                <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);" class="position-relative ps-5">
+                    <img src="landing/new/public/playground_assets/icons8money100232890-uq34-200h.png" alt="Website Making Cost" width="35px" style="position: absolute;top: -10px; left: 10px;">
+                    Website Making Cost
+                </p>
+                <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);" class="position-relative ps-5">
+                    <img src="landing/new/public/playground_assets/icons8headache100132894-nt3-200h.png" alt="Free Headaches" width="35px" style="position: absolute;top: -10px; left: 10px;">
+                    Free Headaches
+                </p>
+                <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);" class="position-relative ps-5">
+                    <img src="landing/new/public/playground_assets/icons8ache100132898-xes-200h.png" alt="Free Worries" width="35px" style="position: absolute;top: -10px; left: 10px;">
+                    Free Worries
+                </p>
+                <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);" class="position-relative ps-5">
+                    <img src="landing/new/public/playground_assets/icons8calendar100132902-q6c-200h.png" alt="Delays In Projects" width="35px" style="position: absolute;top: -10px; left: 10px;">
+                    Delays In Projects
+                </p>
+                <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);" class="position-relative ps-5">
+                    <img src="landing/new/public/playground_assets/icons8calendar100132906-21p-200h.png" alt="Changes In Website" width="35px" style="position: absolute;top: -10px; left: 10px;">
+                    Changes In Website
+                </p>
+                <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);" class="position-relative ps-5">
+                    <img src="landing/new/public/playground_assets/icons8work100132910-tvkq-200h.png" alt="Business understanding" width="35px" style="position: absolute;top: -10px; left: 10px;">
+                    Business understanding
+                </p>
+                <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);" class="position-relative ps-5">
+                    <img src="landing/new/public/playground_assets/icons8rejected100332914-20ck-200h.png" alt="Professionalism" width="35px" style="position: absolute;top: -10px; left: 10px;">
+                    Professionalism
+                </p>
+                <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);" class="position-relative ps-5">
+                    <img src="landing/new/public/playground_assets/icons8tax10032918-adej-200h.png" alt="Runs Away With Your Money" width="35px" style="position: absolute;top: -10px; left: 10px;">
+                    Runs Away With Your Money
+                </p>
+                <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);" class="position-relative ps-5">
+                    <img src="landing/new/public/playground_assets/icons8rejected100232922-0x6f-200h.png" alt="Unavailabilty" width="35px" style="position: absolute;top: -10px; left: 10px;">
+                    Unavailabilty
+                </p>
+                <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);" class="position-relative ps-5">
+                    <img src="landing/new/public/playground_assets/icons8support100132926-97v3-200h.png" alt="Dedicated Support" width="35px" style="position: absolute;top: -10px; left: 10px;">
+                    Dedicated Support
+                </p>
+            </div>
+            <div style="border-radius: 10px;border: 1px solid #f13842  ;background-color: #f138410c;" class=" text-center ms-2 pb-2">
+                <h5 class="text-light p-1" style="background-color:#f13842 ;border-radius: 10px 10px 0px 0px;">
+                    FREELANCER</h5>
+                <p class="fw-lighter lh-sm" style="font-size: 11px;">Slow & unprofessional approach.</p>
+                <div class="px-3 text-center m-0">
+                    <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                        15 to 30 Days
+                    </p>
+                    <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                        ₦5030 per year
+                    </p>
+                    <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);color: #f13842;">
+                        ₦25150 per year
+                    </p>
+                    <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                        ₦10060 per year
+                    </p>
+                    <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                        ₦50300 per year
+                    </p>
+                    <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);color: #f13842;">
+                                                    ₦125750 to ₦1006000
+                                            </p>
+                    <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;" class="position-relative pe-4">
+                        Lot of Headaches
+                        <img src="landing/new/public/playground_assets/worriesface.png" alt="worries face" width="35px" style="position: absolute;top: -13px;">
+                    </p>
+                    <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;" class="position-relative pe-4">
+                        Lot of Worries
+                        <img src="landing/new/public/playground_assets/worriesface.png" alt="worries face" width="35px" style="position: absolute;top: -13px;">
+                    </p>
+                    <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                        3 to 4 days
+                    </p>
+                    <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                        Couple of weeks
+                    </p>
+                    <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                        Narrow 
+                    </p>
+                    <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                        Limited
+                    </p>
+                    <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                        Chances are high
+                    </p>
+                    <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                        High
+                    </p>
+                    <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                        Not available
+                    </p>
+                    <div>
+                        <button class="btn btn-light mb-1 text-light px-3" style="background-color: #f13841a8; font-size: 13px;">
+                            Spend
+                                                            ₦125750 to ₦1006000
+                                                    </button>
+                        <p class="fw-lighter lh-sm m-0" style="font-size: 11px;width: 180px; color: #f13841a8;">Worry &
+                            follow-ups come free.</p>
+                    </div>
+                </div>
+            </div>
+            <div style="border-radius: 10px;border: 1px solid #f13842  ;background-color: #f138410c;" class=" text-center ms-2 pb-2">
+                <h5 class="text-light p-1" style="background-color:#f13842 ;border-radius: 10px 10px 0px 0px;">
+                    AGENCY</h5>
+                <p class="fw-lighter lh-sm" style="font-size: 11px;">Slow & costly approach.</p>
+                <div class="px-3 text-center m-0">
+                    <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                        3 to 3 Months
+                    </p>
+                    <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                        ₦5030 per year
+                    </p>
+                    <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);color: #f13842;">
+                        ₦50300 per year
+                    </p>
+                    <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                        ₦12575 per year
+                    </p>
+                    <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                        ₦75450 per year
+                    </p>
+                    <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);color: #f13842;">
+                                                    ₦1006000 to ₦2515000
+                                            </p>
+                    <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;" class="position-relative pe-4">
+                        Maybe a little
+                        <img src="landing/new/public/playground_assets/face.png" alt="face" width="35px" style="position: absolute;top: -13px;">
+                    </p>
+                    <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;" class="position-relative pe-4">
+                        Lot of Worries
+                        <img src="landing/new/public/playground_assets/face.png" alt="face" width="35px" style="position: absolute;top: -13px;">
+                    </p>
+                    <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                        5 to 7 days
+                    </p>
+                    <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                        Couple of months
+                    </p>
+                    <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                        Restricted
+                    </p>
+                    <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                        Limited
+                    </p>
+                    <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                        Chances are Low
+                    </p>
+                    <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                        Low
+                    </p>
+                    <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                        Not available
+                    </p>
+                    <div>
+                        <button class="btn btn-light mb-1 text-light px-3" style="background-color: #f13841a8; font-size: 13px;">
+                            Spend
+                                                            ₦1006000 to ₦2515000
+                                                    </button>
+                        <p class="fw-lighter lh-sm m-0" style="font-size: 11px;width: 180px; color: #f13841a8;">Costly &
+                            time-consuming game.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div style="background-color: #8024DC; border-radius: 10px;" class="p-3 pb-2 text-light text-center ms-2 position-relative">
+                <img src="landing/new/public/playground_assets/loveface.png" alt="love face" style="position: absolute;right: -20px;top: -20px;" width="50px">
+                <img class="arrow4" src="landing/new/public/playground_assets/up-arrow.png" alt="arrow" width="30px" height="30px" style="transform: rotate(180deg); ">
+                <h6 style="width: fit-content;font-family: 'Annie Use Your Telescope', cursive;" class="text2 text-dark">Your best choice!</h6>
+                <div>
+                    <h4 class="m-0" style="font-size: 20px;">WEBSITES.CO.IN</h4>
+                    <p class="fw-lighter" style="font-size: 10px;">Fast, easy and cost-effective.</p>
+                </div>
+                <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);">
+                    5 Minutes
+                </p>
+                <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                    FREE
+                </p>
+                <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                    FREE
+                </p>
+                <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                    FREE
+                </p>
+                <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                    FREE
+                </p>
+                <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                    Only ₦1775.59 per month
+                </p>
+                <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);">
+                    None
+                </p>
+                <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                    None
+                </p>
+                <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                    None
+                </p>
+                <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                    Instantaneous
+                </p>
+                <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                    Your Own Business
+                </p>
+                <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                    24*7 Portal
+                </p>
+                <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                    Never
+                </p>
+                <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                    24*7*365
+                </p>
+                <p style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                    Available
+                </p>
+                <div>
+                    <button class="btn btn-light mb-1 px-3" style="color: #8024DC;font-size: 14px;">
+                        Only ₦1775.59 per month
+                    </button>
+                    <p class="fw-lighter lh-sm m-0" style="font-size: 10px;width: 180px;">Get started instantly and try
+                        our platform completely free for 30 days.</p>
+                </div>
+            </div>
+        </div>
+        <div class="hidden-mobile">
+            <div style="width: 300px;" class="mb-4">
+                <div class="position-relative ps-3">
+                    <img src="landing/new/public/playground_assets/clock.png" alt="clock" width="35px">
+                    Time
+                </div>
+                <div style="border: 1px solid rgba(128, 128, 128, 0.541); border-radius: 15px;" class="p-2">
+
+                    <div class="d-flex justify-content-between align-items-center my-1 mx-1" style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                        <div>
+
+                            Freelancer: 15 to 30 Days
+                        </div>
+                        <img src="landing/new/public/playground_assets/Group%20322.png" alt="dot" width="20px">
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center my-1 mx-1" style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                        <div>
+                            Agency: 3 to 3 Months
+
+                        </div>
+                        <img src="landing/new/public/playground_assets/Group%20322.png" alt="dot" width="20px">
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center my-1 mx-1">
+                        <div>
+
+                            <strong>
+                                Websites.co.in: 5 Minutes
+                            </strong>
+                        </div>
+                        <img src="landing/new/public/playground_assets/Group%20322%20%281%29.png" alt="dot" width="20px">
+
+                    </div>
+                </div>
+            </div>
+
+            <div style="width: 300px;" class="mb-4">
+                <div class="position-relative ps-3">
+                    <img src="landing/new/public/playground_assets/icons8domainname10032874-46l-200h.png" alt="Domain Name" width="35px">
+                    Domain Name Cost
+                </div>
+                <div style="border: 1px solid rgba(128, 128, 128, 0.541); border-radius: 15px;" class="p-2">
+
+                    <div class="d-flex justify-content-between align-items-center my-1 mx-1" style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                        <div>
+
+                            Freelancer: ₦5030 per year
+                        </div>
+                        <img src="landing/new/public/playground_assets/Group%20322.png" alt="dot" width="20px">
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center my-1 mx-1" style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                        <div>
+                            Agency: ₦5030 per year
+
+                        </div>
+                        <img src="landing/new/public/playground_assets/Group%20322.png" alt="dot" width="20px">
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center my-1 mx-1">
+                        <div>
+
+                            <strong>
+                                Websites.co.in: Free in yearly & higher plans
+                            </strong>
+                        </div>
+                        <img src="landing/new/public/playground_assets/Group%20322%20%281%29.png" alt="dot" width="20px">
+
+                    </div>
+                </div>
+            </div>
+
+            <div style="width: 300px;" class="mb-4">
+                <div class="position-relative ps-3">
+                    <img src="landing/new/public/playground_assets/icons8server100432878-6oaq-200h.png" alt="Web Hosting" width="35px">
+                    Web Hosting Costs
+                </div>
+                <div style="border: 1px solid rgba(128, 128, 128, 0.541); border-radius: 15px;" class="p-2">
+
+                    <div class="d-flex justify-content-between align-items-center my-1 mx-1" style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                        <div>
+
+                            Freelancer: ₦25150 per year
+                        </div>
+                        <img src="landing/new/public/playground_assets/Group%20322.png" alt="dot" width="20px">
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center my-1 mx-1" style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                        <div>
+                            Agency: ₦50300 per year
+
+                        </div>
+                        <img src="landing/new/public/playground_assets/Group%20322.png" alt="dot" width="20px">
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center my-1 mx-1">
+                        <div>
+
+                            <strong>
+                                Websites.co.in: FREE
+                            </strong>
+                        </div>
+                        <img src="landing/new/public/playground_assets/Group%20322%20%281%29.png" alt="dot" width="20px">
+
+                    </div>
+                </div>
+            </div>
+
+            <div style="width: 300px;" class="mb-4">
+                <div class="position-relative ps-3">
+                    <img src="landing/new/public/playground_assets/icons8securityssl10032882-1qx-200h.png" alt="SSL Certificate" width="35px">
+                    SSL Certificate Cost
+                </div>
+                <div style="border: 1px solid rgba(128, 128, 128, 0.541); border-radius: 15px;" class="p-2">
+
+                    <div class="d-flex justify-content-between align-items-center my-1 mx-1" style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                        <div>
+
+                            Freelancer: ₦10060 per year
+                        </div>
+                        <img src="landing/new/public/playground_assets/Group%20322.png" alt="dot" width="20px">
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center my-1 mx-1" style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                        <div>
+                            Agency: ₦12575 per year
+
+                        </div>
+                        <img src="landing/new/public/playground_assets/Group%20322.png" alt="dot" width="20px">
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center my-1 mx-1">
+                        <div>
+
+                            <strong>
+                                Websites.co.in: FREE
+                            </strong>
+                        </div>
+                        <img src="landing/new/public/playground_assets/Group%20322%20%281%29.png" alt="dot" width="20px">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="collapse" id="collapseExample">
+                <div style="width: 300px;" class="mb-4 ">
+                    <div class="position-relative ps-3">
+                        <img src="landing/new/public/playground_assets/icons8money100132886-e82o-200h.png" alt="Annual Maintenance" width="35px">
+                        Annual Maintenance Cost
+                    </div>
+                    <div style="border: 1px solid rgba(128, 128, 128, 0.541); border-radius: 15px;" class="p-2">
+
+                        <div class="d-flex justify-content-between align-items-center my-1 mx-1" style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                            <div>
+
+                                Freelancer: ₦50300 per year
+                            </div>
+                            <img src="landing/new/public/playground_assets/Group%20322.png" alt="dot" width="20px">
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center my-1 mx-1" style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                            <div>
+                                Agency: ₦75450 per year
+
+                            </div>
+                            <img src="landing/new/public/playground_assets/Group%20322.png" alt="dot" width="20px">
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center my-1 mx-1">
+                            <div>
+
+                                <strong>
+                                    Websites.co.in: FREE
+                                </strong>
+                            </div>
+                            <img src="landing/new/public/playground_assets/Group%20322%20%281%29.png" alt="dot" width="20px">
+
+                        </div>
+                    </div>
+                </div>
+                <div style="width: 300px;" class="mb-4">
+                    <div class="position-relative ps-3">
+                        <img src="landing/new/public/playground_assets/icons8money100232890-uq34-200h.png" alt="Website Making" width="35px">
+                        Website Making Cost
+                    </div>
+                    <div style="border: 1px solid rgba(128, 128, 128, 0.541); border-radius: 15px;" class="p-2">
+
+                        <div class="d-flex justify-content-between align-items-center my-1 mx-1" style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                            <div>
+
+                                Freelancer: 
+                                                                    ₦125750 to ₦1006000
+                                                            </div>
+                            <img src="landing/new/public/playground_assets/Group%20322.png" alt="dot" width="20px">
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center my-1 mx-1" style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                            <div>
+                                Agency: 
+                                                                    ₦1006000 to ₦2515000
+                                
+                            </div>
+                            <img src="landing/new/public/playground_assets/Group%20322.png" alt="dot" width="20px">
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center my-1 mx-1">
+                            <div>
+
+                                <strong>
+                                    Websites.co.in: Only ₦1775.59 per month
+                                </strong>
+                            </div>
+                            <img src="landing/new/public/playground_assets/Group%20322%20%281%29.png" alt="dot" width="20px">
+
+                        </div>
+                    </div>
+                </div>
+                <div style="width: 300px;" class="mb-4">
+                    <div class="position-relative ps-3">
+                        <img src="landing/new/public/playground_assets/icons8headache100132894-nt3-200h.png" alt="Free Headaches" width="35px">
+                        Free Headaches
+                    </div>
+                    <div style="border: 1px solid rgba(128, 128, 128, 0.541); border-radius: 15px;" class="p-2">
+
+                        <div class="d-flex justify-content-between align-items-center my-1 mx-1" style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                            <div>
+
+                                Freelancer: Lot of Headaches
+                            </div>
+                            <img src="landing/new/public/playground_assets/Group%20322.png" alt="dot" width="20px">
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center my-1 mx-1" style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                            <div>
+                                Agency: Maybe a little
+
+                            </div>
+                            <img src="landing/new/public/playground_assets/Group%20322.png" alt="dot" width="20px">
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center my-1 mx-1">
+                            <div>
+
+                                <strong>
+                                    Websites.co.in: None
+                                </strong>
+                            </div>
+                            <img src="landing/new/public/playground_assets/Group%20322%20%281%29.png" alt="dot" width="20px">
+
+                        </div>
+                    </div>
+                </div>
+                <div style="width: 300px;" class="mb-4">
+                    <div class="position-relative ps-3">
+                        <img src="landing/new/public/playground_assets/icons8ache100132898-xes-200h.png" alt="Free Worries" width="35px">
+                        Free Worries
+                    </div>
+                    <div style="border: 1px solid rgba(128, 128, 128, 0.541); border-radius: 15px;" class="p-2">
+
+                        <div class="d-flex justify-content-between align-items-center my-1 mx-1" style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                            <div>
+
+                                Freelancer: Lot of Worries
+                            </div>
+                            <img src="landing/new/public/playground_assets/Group%20322.png" alt="dot" width="20px">
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center my-1 mx-1" style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                            <div>
+                                Agency: Lot of Worries
+
+                            </div>
+                            <img src="landing/new/public/playground_assets/Group%20322.png" alt="dot" width="20px">
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center my-1 mx-1">
+                            <div>
+
+                                <strong>
+                                    Websites.co.in: None
+                                </strong>
+                            </div>
+                            <img src="landing/new/public/playground_assets/Group%20322%20%281%29.png" alt="dot" width="20px">
+
+                        </div>
+                    </div>
+                </div>
+                <div style="width: 300px;" class="mb-4">
+                    <div class="position-relative ps-3">
+                        <img src="landing/new/public/playground_assets/icons8calendar100132902-q6c-200h.png" alt="Delays In Projects" width="35px">
+                        Delays In Projects
+                    </div>
+                    <div style="border: 1px solid rgba(128, 128, 128, 0.541); border-radius: 15px;" class="p-2">
+
+                        <div class="d-flex justify-content-between align-items-center my-1 mx-1" style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                            <div>
+
+                                Freelancer: 3 to 4 days
+                            </div>
+                            <img src="landing/new/public/playground_assets/Group%20322.png" alt="dot" width="20px">
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center my-1 mx-1" style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                            <div>
+                                Agency: 5 to 7 days
+
+                            </div>
+                            <img src="landing/new/public/playground_assets/Group%20322.png" alt="dot" width="20px">
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center my-1 mx-1">
+                            <div>
+
+                                <strong>
+                                    Websites.co.in: None
+                                </strong>
+                            </div>
+                            <img src="landing/new/public/playground_assets/Group%20322%20%281%29.png" alt="dot" width="20px">
+
+                        </div>
+                    </div>
+                </div>
+                <div style="width: 300px;" class="mb-4">
+                    <div class="position-relative ps-3">
+                        <img src="landing/new/public/playground_assets/icons8calendar100132906-21p-200h.png" alt="Changes In Website" width="35px">
+                        Changes In Website
+                    </div>
+                    <div style="border: 1px solid rgba(128, 128, 128, 0.541); border-radius: 15px;" class="p-2">
+
+                        <div class="d-flex justify-content-between align-items-center my-1 mx-1" style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                            <div>
+
+                                Freelancer: Couple of weeks
+                            </div>
+                            <img src="landing/new/public/playground_assets/Group%20322.png" alt="dot" width="20px">
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center my-1 mx-1" style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                            <div>
+                                Agency: Couple of months
+
+                            </div>
+                            <img src="landing/new/public/playground_assets/Group%20322.png" alt="dot" width="20px">
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center my-1 mx-1">
+                            <div>
+
+                                <strong>
+                                    Websites.co.in: Instantaneous
+                                </strong>
+                            </div>
+                            <img src="landing/new/public/playground_assets/Group%20322%20%281%29.png" alt="dot" width="20px">
+
+                        </div>
+                    </div>
+                </div>
+                <div style="width: 300px;" class="mb-4">
+                    <div class="position-relative ps-3">
+                        <img src="landing/new/public/playground_assets/icons8work100132910-tvkq-200h.png" alt="Business understanding" width="35px">
+                        Business understanding
+                    </div>
+                    <div style="border: 1px solid rgba(128, 128, 128, 0.541); border-radius: 15px;" class="p-2">
+
+                        <div class="d-flex justify-content-between align-items-center my-1 mx-1" style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                            <div>
+
+                                Freelancer: Narrow
+                            </div>
+                            <img src="landing/new/public/playground_assets/Group%20322.png" alt="dot" width="20px">
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center my-1 mx-1" style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                            <div>
+                                Agency: Restricted
+
+                            </div>
+                            <img src="landing/new/public/playground_assets/Group%20322.png" alt="dot" width="20px">
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center my-1 mx-1">
+                            <div>
+
+                                <strong>
+                                    Websites.co.in: Your Own Business
+                                </strong>
+                            </div>
+                            <img src="landing/new/public/playground_assets/Group%20322%20%281%29.png" alt="dot" width="20px">
+
+                        </div>
+                    </div>
+                </div>
+                <div style="width: 300px;" class="mb-4">
+                    <div class="position-relative ps-3">
+                        <img src="landing/new/public/playground_assets/icons8rejected100332914-20ck-200h.png" alt="Professionalism" width="35px">
+                        Professionalism
+                    </div>
+                    <div style="border: 1px solid rgba(128, 128, 128, 0.541); border-radius: 15px;" class="p-2">
+
+                        <div class="d-flex justify-content-between align-items-center my-1 mx-1" style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                            <div>
+
+                                Freelancer: Limited
+                            </div>
+                            <img src="landing/new/public/playground_assets/Group%20322.png" alt="dot" width="20px">
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center my-1 mx-1" style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                            <div>
+                                Agency: Limited
+
+                            </div>
+                            <img src="landing/new/public/playground_assets/Group%20322.png" alt="dot" width="20px">
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center my-1 mx-1">
+                            <div>
+
+                                <strong>
+                                    Websites.co.in: 24*7 Portal
+                                </strong>
+                            </div>
+                            <img src="landing/new/public/playground_assets/Group%20322%20%281%29.png" alt="dot" width="20px">
+
+                        </div>
+                    </div>
+                </div>
+                <div style="width: 300px;" class="mb-4">
+                    <div class="position-relative ps-3">
+                        <img src="landing/new/public/playground_assets/icons8tax10032918-adej-200h.png" alt="Runs Away With Your Money" width="35px">
+                        Runs Away With Your Money
+                    </div>
+                    <div style="border: 1px solid rgba(128, 128, 128, 0.541); border-radius: 15px;" class="p-2">
+
+                        <div class="d-flex justify-content-between align-items-center my-1 mx-1" style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                            <div>
+
+                                Freelancer: Chances are high
+                            </div>
+                            <img src="landing/new/public/playground_assets/Group%20322.png" alt="dot" width="20px">
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center my-1 mx-1" style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                            <div>
+                                Agency: Chances are Low
+
+                            </div>
+                            <img src="landing/new/public/playground_assets/Group%20322.png" alt="dot" width="20px">
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center my-1 mx-1">
+                            <div>
+
+                                <strong>
+                                    Websites.co.in: Never
+                                </strong>
+                            </div>
+                            <img src="landing/new/public/playground_assets/Group%20322%20%281%29.png" alt="dot" width="20px">
+
+                        </div>
+                    </div>
+                </div>
+                <div style="width: 300px;" class="mb-4">
+                    <div class="position-relative ps-3">
+                        <img src="landing/new/public/playground_assets/icons8rejected100232922-0x6f-200h.png" alt="Unavailabilty" width="35px">
+                        Unavailabilty
+                    </div>
+                    <div style="border: 1px solid rgba(128, 128, 128, 0.541); border-radius: 15px;" class="p-2">
+
+                        <div class="d-flex justify-content-between align-items-center my-1 mx-1" style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                            <div>
+
+                                Freelancer: High
+                            </div>
+                            <img src="landing/new/public/playground_assets/Group%20322.png" alt="dot" width="20px">
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center my-1 mx-1" style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                            <div>
+                                Agency: Low
+
+                            </div>
+                            <img src="landing/new/public/playground_assets/Group%20322.png" alt="dot" width="20px">
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center my-1 mx-1">
+                            <div>
+
+                                <strong>
+                                    Websites.co.in: 24*7*365
+                                </strong>
+                            </div>
+                            <img src="landing/new/public/playground_assets/Group%20322%20%281%29.png" alt="dot" width="20px">
+
+                        </div>
+                    </div>
+                </div>
+                <div style="width: 300px;" class="mb-4">
+                    <div class="position-relative ps-3">
+                        <img src="landing/new/public/playground_assets/icons8support100132926-97v3-200h.png" alt="Dedicated Support" width="35px">
+                        Dedicated Support
+                    </div>
+                    <div style="border: 1px solid rgba(128, 128, 128, 0.541); border-radius: 15px;" class="p-2">
+
+                        <div class="d-flex justify-content-between align-items-center my-1 mx-1" style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                            <div>
+
+                                Freelancer: Not available
+                            </div>
+                            <img src="landing/new/public/playground_assets/Group%20322.png" alt="dot" width="20px">
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center my-1 mx-1" style="border-bottom: 2px dashed rgba(128, 128, 128, 0.541);;">
+                            <div>
+                                Agency: Not available
+
+                            </div>
+                            <img src="landing/new/public/playground_assets/Group%20322.png" alt="dot" width="20px">
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center my-1 mx-1">
+                            <div>
+
+                                <strong>
+                                    Websites.co.in: Available
+                                </strong>
+                            </div>
+                            <img src="landing/new/public/playground_assets/Group%20322%20%281%29.png" alt="dot" width="20px">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="btn d-flex align-items-center btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" style="border:1px solid #8024DC;color: #8024DC;">
+                <div class="me-2">
+                    See more
+                </div>
+                <div style="background-color: #8024DC;border-radius: 60%;color: #FDFCFE;font-size: 15px;padding: 0px 6px 0px 6px;" class="me-1">
+                    &#709;
+                </div>
+
+            </button>
+    </div></section>
+    <section class="my-5 d-flex align-items-center justify-content-center flex-column text-light" id="mobile-app">
+        <img class="arrow3 footer-wave" src="landing/new/public/playground_assets/up-arrow.png" alt="arrow" width="70px" height="70px" style="transform: rotate(120deg);top: -10vh; ">
+        <div style="width:760px;height: 226px;position: relative;border-radius: 15px;background-color:#8024dc ;" class=" mt-5 download-web">
+            <img class="phone" src="landing/new/public/playground_assets/phone.webp" alt="phone whebsites.co.in" height="370px">
+
+
+            <div class="my-2 phone-content" style="max-width: 530px;" id="mobileapp">
+                <h5 class="mb-1">Download the <strong>Instant Website builder: websites.co.in App</strong> & get online instantly</h5>
+                <p style="font-size: 13px;">Or Request A Free Demo Now</p>
+                <p class="fw-lighter lh-sm" style="font-size: 11px;max-width: 500px; ">Call <a href="tel:+9102248934309" target="_blank" rel="nofollow" class="white-link">(+91) 02248934309</a> to connect
+                    to our representative who will walk
+                    you
+                    through building your website in minutes. You can also send us an email with details of your
+                    requirements on <a class="white-link" rel="nofollow" href="mailto:support@websites.co.in" target="_blank" title="send email to support team">support@websites.co.in</a> and we will get back to you shortly.</p>
+                <a class="btn bg-light px-3" style="font-size: 13px;" href="https://play.google.com/store/apps/details?id=in.co.websites.websitesapp&referrer=utm_source%3Dwebsite_landing_page%26utm_medium%3Dweb_dashboard%26utm_term%3Dwebsite_button_click" target="_blank"><img src="landing/new/public/playground_assets/playstore.png" alt="play store" width="15px">
+                    Click here to
+                    download our Mobile App for Free</a>
+                <div class="lh-sm fw-lighter ps-5 d-flex justify-content-start align-items-center"><img src="landing/new/public/playground_assets/down-right-arrow.png" class="mb-2" style="filter: invert(1);" width="13px" alt="">
+                    <p class="my-2" style="font-size: 11px;"> Or start using the <u><strong><a href="register.html" target="_blank" class="m-0 p-0 text-light">Web Dashboard for
+                                    Free...</a></strong></u></p>
+                </div>
+            </div>
+            <div class="dot"><img src="landing/new/public/playground_assets/dot.png" alt="dot" width="60px" style="opacity: 0.5;">
+            </div>
+        </div>
+
+    </section>
+    <div class="wave hide-wave"><img style="transform: rotate(00deg);position: relative" src="landing/new/public/wavevoilet.svg" alt="wave voilet"></div>
+    <section class="download-mobile text-light" style="background-color: #8024DC;">
+        <h5 class="mb-1 text-center my-3" style="max-width: 400px;">Download the <strong>Instant Website builder: websites.co.in App</strong> & get online instantly
+        </h5>
+        <p class="mt-3 text-center" style="font-size: 13px;max-width: 300px; ">Call (+91)
+            02248934309 to connect
+            to our representative who will walk
+            you
+            through building your website in minutes. You can also send us an email with details of your
+            requirements on <a class="anim-link" rel="nofollow" href="mailto:support@websites.co.in" target="_blank" title="send email to support team">support@websites.co.in</a> and we will get back to you shortly.</p>
+
+        <div class="text-center">
+            <img src="landing/new/public/playground_assets/Group%20283.webp" alt="dot" width="200px">
+            <p class="mt-2"><u><strong>4.5 star ratings</strong></u> on Google Playstore</p>
+        </div>
+        <div class="position-relative mt-3 text-center">
+            <a class="btn" href="https://play.google.com/store/apps/details?id=in.co.websites.websitesapp&referrer=utm_source%3Dwebsite_landing_page%26utm_medium%3Dweb_dashboard%26utm_term%3Dwebsite_button_click" target="_blank">
+                <img src="landing/new/public/playground_assets/googleplay.webp" alt="google play" width="300px">
+            </a>
+            <p class="text-center mt-2" style="font-size: 12px;">Or start using the <u><strong><a href="register.html" target="_blank" class="m-0 p-0 text-light">web
+                            dashboard.</a></strong></u>
+        </p></div>
+
+        <img class="" src="landing/new/public/playground_assets/Group%20282.webp" alt="dot" height="375px">
+    </section>
+    
+
+        <div class="wave footer-wave"><img style="transform: rotate(0deg);position: relative;" src="landing/new/public/wave.svg" alt="">
+    </div>
+    <footer>
+        <div class="footer container" id="contact">
+            <div class="footer1">
+                <img src="landing/new/public/playground_assets/websitescoinlogo35253-i5eq-200h.png" alt="websites.co.in" width="180px">
+                <p class="mt-3">
+                    
+                    Websites.co.in is a no code, mobile-first, SaaS platform that empowers you to create your website,
+                    eCommerce store and blog anytime, anywhere - instantly.
+                    Post unlimited updates, offers, blogs & eCommerce catalogues to your website through our platform and grow online.
+                </p>
+            </div>
+            <div class="footer3">
+                <h4 class="m-0 mb-2">Office Address</h4>
+                <div>
+                    <p class="m-0 mb-2">S-59, 2nd Floor, Zoom Plaza Mall, Below Maxus Cinema, Gorai-2, Borivali
+                        (West), Mumbai,
+                        Maharashtra, India. Pin: 400092.</p>
+                    <div class="d-flex justify-content-start align-items-start my-1">
+                        <img class="me-2" src="landing/new/public/playground_assets/indiaflag.png" alt="India flag" width="25px">
+                        <p class="m-0"><a href="tel:+9102248934309" target="_blank" rel="nofollow" class="anim-link">(+91) 02248934309 (IN)</a></p>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-start my-2">
+                        <img class="me-2" src="landing/new/public/playground_assets/us_flag.png" alt="US flag" width="25px">
+                        <p class="m-0"><a href="tel:+16174449693‬" target="_blank" rel="nofollow" class="anim-link">(+1) 617-444-9693‬ (US)</a></p>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-start my-1">
+                        <img class="me-2" src="landing/new/public/playground_assets/email.png" alt="email" width="25px">
+                            
+                        <p class="m-0"><a class="anim-link" href="mailto:support@websites.co.in" rel="nofollow" target="_blank" title="send email to support team">support@websites.co.in</a></p>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-center mt-3">
+                        <a class="no-anim-link" href="https://www.facebook.com/websitesindia/">
+                            <img class="me-2" src="landing/new/public/playground_assets/facebook.png" alt="facebook" width="25px">
+                        </a>
+                        <a class="no-anim-link" href="https://instagram.com/websites.co.in">
+                            <img class="me-2" src="landing/new/public/playground_assets/instagram.jpeg" alt="twitter" width="25px">
+                        </a>
+                        <a class="no-anim-link" href="https://mobile.twitter.com/Websites_India">
+                            <img class="me-2" src="landing/new/public/playground_assets/twitter.png" alt="twitter" width="25px">
+                        </a>
+                        <a class="no-anim-link" href="https://www.linkedin.com/company/websites-co-in/">
+                            <img class="me-2" src="landing/new/public/playground_assets/linkedin.png" alt="twitter" width="25px">
+                        </a>
+                        <!-- <img class="me-2" href="" src="landing/new/public/playground_assets/pinterest.png" alt="" width="25px"> -->
+                    </div>
+                </div>
+            </div>
+            <div class="footer2 w-100">
+                <div class="me-5">
+                    <h4 class="mb-2">Website Builder</h4>
+                    <div class="my-1"><a href="index.htm#" style="color:#000; text-decoration: none;">
+                            Home </a></div>
+                    <div class="my-1"><a href="index.htm#features" style="color:#000; text-decoration: none;">Features</a>
+                    </div>
+                    <div class="my-1"><a href="pricing.html" style="color:#000; text-decoration: none;">Pricing</a></div>
+                    <div class="my-1"><a href="refunds.html" style="color:#000; text-decoration: none;">Refund</a></div>
+                    <div class="my-1"><a href="faq.html" style="color:#000; text-decoration: none;">FAQ</a>
+                    </div>
+                    <div class="my-1">
+                        <a href="javascript:void(0);" style="color:#000;" title="report this website" id="report-btn" rel="noopener">Report Abuse</a></div>
+                    <!--<div class="my-1"><a href = "" style="color:#000; text-decoration: none;">Conatct Us</a></div>-->
+                </div>
+                <div>
+                    <h4 class="mb-2">Company</h4>
+                    <!-- <div class="my-1"><a href="sitemap" style="color:#000; text-decoration: none;">Customers</a>
+                </div> -->
+                    <div class="my-1"><a href="privacy.html" style="color:#000; text-decoration: none;">Privacy
+                            policy</a></div>
+                    <div class="my-1"><a href="terms.html" style="color:#000; text-decoration: none;">Terms
+                            of Usage</a>
+                    </div>
+                    <h4 class="mb-2 mt-4">Sitemap</h4>
+                    <p><a href="sitemap.html" style="color:#000; text-decoration: none;">View Sitemap</a></p>
+                </div>
+
+            </div>
+
+        </div>
+    
+        <div style="background-color:#8024DC ;" class="text-center py-2 text-light mt-3 py-2">© 2017 - 2023 
+        <a href="index.htm" style="color: white" target="_blank" rel="noopener" itemprop="url">Websites.co.in</a>. All
+        rights reserved.
+    </div>
+</footer>
+
+        
+        <div id="report-box" class="report-box" style="z-index: 9999999;">
+
+    <div class="report-box-header">
+        <h4>Safety and Abuse Reporting</h4>
+        <div id="report-close-btn" class="report-close-btn">
+            <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+    </div>
+
+    <div class="report-box-body">
+        <form class="report-form" role="form" id="report-form">
+            <input type="hidden" name="_token" value="sDvEGN8D040dsSs7eENBfqeoKC3nSuY4cnqMXT9T">
+
+            <div class="options-wrap">
+                <div class="option-wrap">
+                    <input type="radio" name="report-reason" value="Harassment and Cyberbullying" class="option" id="reason1" required="">
+                    <label for="reason1">Harassment and Cyberbullying</label>
+                </div>
+                <div class="option-wrap">
+                    <input type="radio" name="report-reason" value="Impersonation" class="option" id="reason2" required="">
+                    <label for="reason2">Impersonation</label>
+                </div>
+                <div class="option-wrap">
+                    <input type="radio" name="report-reason" value="Violent Threats" class="option" id="reason3" required="">
+                    <label for="reason3">Violent Threats</label>
+                </div>
+                <div class="option-wrap">
+                    <input type="radio" name="report-reason" value="Hate Speech Against a Protected Group" class="option" id="reason4" required="">
+                    <label for="reason4">Hate Speech Against a Protected Group</label>
+                </div>
+                <div class="option-wrap">
+                    <input type="radio" name="report-reason" value="Spam and Scams" class="option" id="reason5" required="">
+                    <label for="reason5">Spam and Scams</label>
+                </div>
+                <div class="option-wrap">
+                    <input type="radio" name="report-reason" value="none" class="option" id="reason6" required="">
+                    <label for="reason6">None of these are my issue</label>
+                </div>
+                <div class="option-wrap extra-field" id="extra-field">
+                    <label for="report-reason" class="sr-only">reason to report</label>
+                    <input type="text" class="report-reason" name="report-custom-reason" placeholder="reason to report">
+                </div>
+            </div>
+
+            <label for="report-email" class="sr-only">Your email</label>
+            <input style="width: 100% !important;" type="email" class="report-email" name="report-email" id="report-email" placeholder="Your email*" required="">
+
+            <label for="report-website_url" class="sr-only">website url</label>
+            <input style="width: 100% !important;" type="text" class="report-website_url" name="report-website_url" id="report-website_url" placeholder="Site link to be reported" required="">
+            
+            <label for="report-msg" class="sr-only">message</label>
+            <textarea style="width: 100% !important;" class="report-msg" name="report-msg" id="report-msg" rows="3" placeholder="Reason for reporting abuse" required=""></textarea>
+        
+            <input style="width: 100% !important;" type="hidden" id="report-msg_title" name="msg_title" value="[Websites.co.in] Website Abuse Reported">
+        
+            <button type="submit" class="report-send-btn">
+                Report website
+            </button>
+        </form>
+        
+        <div id="report-success-box" class="report-success-box">
+            <p style="font-size: 2rem"><b>Your abuse report has been submitted!</b> <span style="color: green;"><i class="fa fa-check"></i></span></p>
+            <p>Our support will get back in touch with you soon!</p>
+        </div>
+
+        <div class="confirmation-box" id="confirmation-box">
+            <h3 class="c-title">Are you sure you want to report abuse against this website?</h3>
+            <div class="c-body">
+                <p>Please note that your query will be processed only if we find it relevant. Rest all requests will be ignored. If you need help with the website, please login to your dashboard and connect to support</p>
+            </div>
+            <div class="c-footer">
+                <a href="javascript:void(0);" id="cancel-report-abuse" class="c-btn btn-cancel">Cancel</a>
+                <a href="javascript:void(0);" id="confirm-report-abuse" class="c-btn btn-confirm">Confirm</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+        <!-- Javascripts -->
+        
+
+        
+            <script src="npm/bootstrap%405.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+        
+        
+
+        <!-- Google Recaptcha -->
+        <script src="recaptcha/api.js" async="" defer=""></script>
+
+        
+        <script src="landing/slick/slick.min.js"></script>
+
+        <!-- Google Maps -->
+        
+
+        <!-- Agile Tracking -->
+
+        <script id="_agile_min_js" async="" type="text/javascript" src="stats/min/agile-min.js"> </script>
+        
+        <script type="text/javascript">
+            var Agile_API = Agile_API || {}; Agile_API.on_after_load = function(){
+                _agile.set_account('aoj443tneie1df8c1miook1j44', 'websites');
+                _agile.track_page_view();
+                _agile_execute_web_rules();};
+        </script>
+
+        <!-- Custom Functions -->
+        <!-- Bootstrap CUSTOM Scripts -->
+        <script src="landing/js/main-1.js?v=953763287"></script>
+        
+        
+
+        <!-- Service Worker -->
+
+        <script type="text/javascript">
+            if('serviceWorker' in navigator){
+                try{
+                    navigator.serviceWorker.register("https://websites.co.in/service.worker.js?v=441698195").then(function (registration) {
+                        // Registration was successful
+                        console.log('Laravel PWA: ServiceWorker registration successful with scope: ', registration.scope);
+                    }, function (err) {
+                        // registration failed :(
+                        console.log('Laravel PWA: ServiceWorker registration failed: ', err);
+                    });
+                }
+                catch(error){
+                    console.log('service worker failed');
+                }
+            }
+        </script>
+        
+        <!-- Crisp Chat -->
+
+        <script type="text/javascript">
+            window.$crisp=[];
+            window.CRISP_WEBSITE_ID="0474a9c0-1d54-4407-af52-0a7de84d3618";
+            (function(){
+                d=document;
+                s=d.createElement("script");
+                s.src="https://client.crisp.chat/l.js";
+                s.async=1;
+                d.getElementsByTagName("head")[0].appendChild(s);
+            })();
+        </script>
+
+            <script>
+        const navbar = document.querySelector('nav.navbar')
+        const navDiv = navbar.querySelector('div');
+        window.onscroll = ()=>{
+            if(window.scrollY >= 220){
+                navbar.classList.add('sticky-nav');
+                navDiv.classList.remove('mt-4');
+                console.log('scrollY is now on top 220');
+            }
+            if(window.scrollY == 0){
+                navbar.classList.remove('sticky-nav');
+                navDiv.classList.add('mt-4');
+            }
+        }
+    </script>
+
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"1e7946724e","applicationID":"31671751","transactionName":"YVNTMEdUW0FYBk1QXFgZcAdBXFpcFglYV1dfWFY=","queueTime":0,"applicationTime":518,"atts":"TRRQRg9OSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

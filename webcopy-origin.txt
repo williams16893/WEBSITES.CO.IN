@@ -1,0 +1,1328 @@
+Uri: https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+File Name: C:\Downloaded Web Sites\websites.co.in\ajax\libs\jquery\3.2.1\jquery.min.js
+Content Type: text/javascript
+
+Uri: https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css
+File Name: C:\Downloaded Web Sites\websites.co.in\npm\bootstrap@5.0.2\dist\css\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js
+File Name: C:\Downloaded Web Sites\websites.co.in\npm\bootstrap@5.0.2\dist\js\bootstrap.bundle.min.js
+Content Type: application/javascript
+
+Uri: https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.css
+File Name: C:\Downloaded Web Sites\websites.co.in\npm\leaflet.locatecontrol\dist\L.Control.Locate.min.css
+Content Type: text/css
+
+Uri: https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.js
+File Name: C:\Downloaded Web Sites\websites.co.in\npm\leaflet.locatecontrol\dist\L.Control.Locate.min.js
+Content Type: application/javascript
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css
+File Name: C:\Downloaded Web Sites\websites.co.in\ajax\libs\bootstrap-social\5.1.1\bootstrap-social.min.css
+Content Type: text/css
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
+File Name: C:\Downloaded Web Sites\websites.co.in\ajax\libs\font-awesome\4.7.0\css\font-awesome.min.css
+Content Type: text/css
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?
+File Name: C:\Downloaded Web Sites\websites.co.in\ajax\libs\font-awesome\4.7.0\fonts\fontawesome-webfont-1.eot
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?v=4.7.0
+File Name: C:\Downloaded Web Sites\websites.co.in\ajax\libs\font-awesome\4.7.0\fonts\fontawesome-webfont.eot
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.svg?v=4.7.0
+File Name: C:\Downloaded Web Sites\websites.co.in\ajax\libs\font-awesome\4.7.0\fonts\fontawesome-webfont.svg
+Content Type: image/svg+xml
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf?v=4.7.0
+File Name: C:\Downloaded Web Sites\websites.co.in\ajax\libs\font-awesome\4.7.0\fonts\fontawesome-webfont.ttf
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0
+File Name: C:\Downloaded Web Sites\websites.co.in\ajax\libs\font-awesome\4.7.0\fonts\fontawesome-webfont.woff2
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff?v=4.7.0
+File Name: C:\Downloaded Web Sites\websites.co.in\ajax\libs\font-awesome\4.7.0\fonts\fontawesome-webfont.woff
+Content Type: application/octet-stream
+
+Uri: https://checkout.flutterwave.com/v3.js
+File Name: C:\Downloaded Web Sites\websites.co.in\v3.js
+Content Type: application/javascript
+
+Uri: https://d1f8f9xcsvx3ha.cloudfront.net/sbl/0.8.1/fastspring-builder.min.js
+File Name: C:\Downloaded Web Sites\websites.co.in\sbl\0.8.1\fastspring-builder.min.js
+Content Type: application/javascript
+
+Uri: https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap
+File Name: C:\Downloaded Web Sites\websites.co.in\css2-1
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap
+File Name: C:\Downloaded Web Sites\websites.co.in\css2
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css?family=Roboto+Slab:400,700
+File Name: C:\Downloaded Web Sites\websites.co.in\css-1
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i
+File Name: C:\Downloaded Web Sites\websites.co.in\css
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/annieuseyourtelescope/v18/daaLSS4tI2qYYl3Jq9s_Hu74xwktnlKxH6osGVGjlA.ttf
+File Name: C:\Downloaded Web Sites\websites.co.in\s\annieuseyourtelescope\v18\daaLSS4tI2qYYl3Jq9s_Hu74xwktnlKxH6osGVGjlA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOjCnqEu92Fr1Mu51S7ACc6CsE.ttf
+File Name: C:\Downloaded Web Sites\websites.co.in\s\roboto\v30\KFOjCnqEu92Fr1Mu51S7ACc6CsE.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOjCnqEu92Fr1Mu51TLBCc6CsE.ttf
+File Name: C:\Downloaded Web Sites\websites.co.in\s\roboto\v30\KFOjCnqEu92Fr1Mu51TLBCc6CsE.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOjCnqEu92Fr1Mu51TzBic6CsE.ttf
+File Name: C:\Downloaded Web Sites\websites.co.in\s\roboto\v30\KFOjCnqEu92Fr1Mu51TzBic6CsE.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOkCnqEu92Fr1Mu51xIIzc.ttf
+File Name: C:\Downloaded Web Sites\websites.co.in\s\roboto\v30\KFOkCnqEu92Fr1Mu51xIIzc.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fBBc9.ttf
+File Name: C:\Downloaded Web Sites\websites.co.in\s\roboto\v30\KFOlCnqEu92Fr1MmEU9fBBc9.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9vAw.ttf
+File Name: C:\Downloaded Web Sites\websites.co.in\s\roboto\v30\KFOlCnqEu92Fr1MmEU9vAw.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfBBc9.ttf
+File Name: C:\Downloaded Web Sites\websites.co.in\s\roboto\v30\KFOlCnqEu92Fr1MmWUlfBBc9.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmYUtfBBc9.ttf
+File Name: C:\Downloaded Web Sites\websites.co.in\s\roboto\v30\KFOlCnqEu92Fr1MmYUtfBBc9.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Me5Q.ttf
+File Name: C:\Downloaded Web Sites\websites.co.in\s\roboto\v30\KFOmCnqEu92Fr1Me5Q.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxP.ttf
+File Name: C:\Downloaded Web Sites\websites.co.in\s\roboto\v30\KFOmCnqEu92Fr1Mu4mxP.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/robotoslab/v25/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoa4Omb2Rm.ttf
+File Name: C:\Downloaded Web Sites\websites.co.in\s\robotoslab\v25\BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoa4Omb2Rm.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/robotoslab/v25/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmb2Rm.ttf
+File Name: C:\Downloaded Web Sites\websites.co.in\s\robotoslab\v25\BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmb2Rm.ttf
+Content Type: font/ttf
+
+Uri: https://maps.locationiq.com/v2/libs/leaflet-geocoder/1.9.5/images/loading.gif
+File Name: C:\Downloaded Web Sites\websites.co.in\v2\libs\leaflet-geocoder\1.9.5\images\loading.gif
+Content Type: image/gif
+
+Uri: https://maps.locationiq.com/v2/libs/leaflet-geocoder/1.9.5/images/loading@2x.gif
+File Name: C:\Downloaded Web Sites\websites.co.in\v2\libs\leaflet-geocoder\1.9.5\images\loading@2x.gif
+Content Type: image/gif
+
+Uri: https://maps.locationiq.com/v2/libs/leaflet-geocoder/1.9.5/images/point_icon.png
+File Name: C:\Downloaded Web Sites\websites.co.in\v2\libs\leaflet-geocoder\1.9.5\images\point_icon.png
+Content Type: image/png
+
+Uri: https://maps.locationiq.com/v2/libs/leaflet-geocoder/1.9.5/images/point_icon@2x.png
+File Name: C:\Downloaded Web Sites\websites.co.in\v2\libs\leaflet-geocoder\1.9.5\images\point_icon@2x.png
+Content Type: image/png
+
+Uri: https://maps.locationiq.com/v2/libs/leaflet-geocoder/1.9.5/images/polygon_icon.png
+File Name: C:\Downloaded Web Sites\websites.co.in\v2\libs\leaflet-geocoder\1.9.5\images\polygon_icon.png
+Content Type: image/png
+
+Uri: https://maps.locationiq.com/v2/libs/leaflet-geocoder/1.9.5/images/polygon_icon@2x.png
+File Name: C:\Downloaded Web Sites\websites.co.in\v2\libs\leaflet-geocoder\1.9.5\images\polygon_icon@2x.png
+Content Type: image/png
+
+Uri: https://maps.locationiq.com/v2/libs/leaflet-geocoder/1.9.5/images/search.png
+File Name: C:\Downloaded Web Sites\websites.co.in\v2\libs\leaflet-geocoder\1.9.5\images\search.png
+Content Type: image/png
+
+Uri: https://maps.locationiq.com/v2/libs/leaflet-geocoder/1.9.5/images/search@2x.png
+File Name: C:\Downloaded Web Sites\websites.co.in\v2\libs\leaflet-geocoder\1.9.5\images\search@2x.png
+Content Type: image/png
+
+Uri: https://maps.locationiq.com/v2/libs/leaflet-geocoder/1.9.5/leaflet-geocoder-locationiq.min.css
+File Name: C:\Downloaded Web Sites\websites.co.in\v2\libs\leaflet-geocoder\1.9.5\leaflet-geocoder-locationiq.min.css
+Content Type: text/css
+
+Uri: https://maps.locationiq.com/v2/libs/leaflet-geocoder/1.9.5/leaflet-geocoder-locationiq.min.js
+File Name: C:\Downloaded Web Sites\websites.co.in\v2\libs\leaflet-geocoder\1.9.5\leaflet-geocoder-locationiq.min.js
+Content Type: application/javascript
+
+Uri: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css
+File Name: C:\Downloaded Web Sites\websites.co.in\bootstrap\3.3.7\css\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/fonts/glyphicons-halflings-regular.eot
+File Name: C:\Downloaded Web Sites\websites.co.in\bootstrap\3.3.7\fonts\glyphicons-halflings-regular.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/fonts/glyphicons-halflings-regular.eot?
+File Name: C:\Downloaded Web Sites\websites.co.in\bootstrap\3.3.7\fonts\glyphicons-halflings-regular-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/fonts/glyphicons-halflings-regular.svg
+File Name: C:\Downloaded Web Sites\websites.co.in\bootstrap\3.3.7\fonts\glyphicons-halflings-regular.svg
+Content Type: image/svg+xml
+
+Uri: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/fonts/glyphicons-halflings-regular.ttf
+File Name: C:\Downloaded Web Sites\websites.co.in\bootstrap\3.3.7\fonts\glyphicons-halflings-regular.ttf
+Content Type: font/ttf
+
+Uri: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/fonts/glyphicons-halflings-regular.woff
+File Name: C:\Downloaded Web Sites\websites.co.in\bootstrap\3.3.7\fonts\glyphicons-halflings-regular.woff
+Content Type: font/woff
+
+Uri: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/fonts/glyphicons-halflings-regular.woff2
+File Name: C:\Downloaded Web Sites\websites.co.in\bootstrap\3.3.7\fonts\glyphicons-halflings-regular.woff2
+Content Type: font/woff2
+
+Uri: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js
+File Name: C:\Downloaded Web Sites\websites.co.in\bootstrap\3.3.7\js\bootstrap.min.js
+Content Type: application/javascript
+
+Uri: https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+File Name: C:\Downloaded Web Sites\websites.co.in\font-awesome\4.7.0\css\font-awesome.min.css
+Content Type: text/css
+
+Uri: https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?
+File Name: C:\Downloaded Web Sites\websites.co.in\font-awesome\4.7.0\fonts\fontawesome-webfont-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?v=4.7.0
+File Name: C:\Downloaded Web Sites\websites.co.in\font-awesome\4.7.0\fonts\fontawesome-webfont.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.svg?v=4.7.0
+File Name: C:\Downloaded Web Sites\websites.co.in\font-awesome\4.7.0\fonts\fontawesome-webfont.svg
+Content Type: image/svg+xml
+
+Uri: https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf?v=4.7.0
+File Name: C:\Downloaded Web Sites\websites.co.in\font-awesome\4.7.0\fonts\fontawesome-webfont.ttf
+Content Type: font/ttf
+
+Uri: https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0
+File Name: C:\Downloaded Web Sites\websites.co.in\font-awesome\4.7.0\fonts\fontawesome-webfont.woff2
+Content Type: font/woff2
+
+Uri: https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff?v=4.7.0
+File Name: C:\Downloaded Web Sites\websites.co.in\font-awesome\4.7.0\fonts\fontawesome-webfont.woff
+Content Type: font/woff
+
+Uri: https://tiles.unwiredmaps.com/js/leaflet-unwired.js
+File Name: C:\Downloaded Web Sites\websites.co.in\js\leaflet-unwired.js
+Content Type: application/javascript
+
+Uri: https://unpkg.com/leaflet@1.7.1/dist/images/layers-2x.png
+File Name: C:\Downloaded Web Sites\websites.co.in\leaflet@1.7.1\dist\images\layers-2x.png
+Content Type: image/png
+
+Uri: https://unpkg.com/leaflet@1.7.1/dist/images/layers.png
+File Name: C:\Downloaded Web Sites\websites.co.in\leaflet@1.7.1\dist\images\layers.png
+Content Type: image/png
+
+Uri: https://unpkg.com/leaflet@1.7.1/dist/images/marker-icon.png
+File Name: C:\Downloaded Web Sites\websites.co.in\leaflet@1.7.1\dist\images\marker-icon.png
+Content Type: image/png
+
+Uri: https://unpkg.com/leaflet@1.7.1/dist/leaflet.css
+File Name: C:\Downloaded Web Sites\websites.co.in\leaflet@1.7.1\dist\leaflet.css
+Content Type: text/css
+
+Uri: https://unpkg.com/leaflet@1.7.1/dist/leaflet.js
+File Name: C:\Downloaded Web Sites\websites.co.in\leaflet@1.7.1\dist\leaflet.js
+Content Type: application/javascript
+
+Uri: https://websites.agilecrm.com/stats/min/agile-min.js
+File Name: C:\Downloaded Web Sites\websites.co.in\stats\min\agile-min.js
+Content Type: application/javascript
+
+Uri: https://websites.co.in/
+File Name: C:\Downloaded Web Sites\websites.co.in\index.htm
+Content Type: text/html
+
+Uri: https://websites.co.in/common/img/green_tick.png
+File Name: C:\Downloaded Web Sites\websites.co.in\common\img\green_tick.png
+Content Type: image/png
+
+Uri: https://websites.co.in/common/img/testimonials/t1.png?v=1054883945
+File Name: C:\Downloaded Web Sites\websites.co.in\common\img\testimonials\t1.png
+Content Type: image/png
+
+Uri: https://websites.co.in/common/img/testimonials/t1.png?v=1425482288
+File Name: C:\Downloaded Web Sites\websites.co.in\common\img\testimonials\t1-1.png
+Content Type: image/png
+
+Uri: https://websites.co.in/common/img/testimonials/t2.png?v=1146244293
+File Name: C:\Downloaded Web Sites\websites.co.in\common\img\testimonials\t2.png
+Content Type: image/png
+
+Uri: https://websites.co.in/common/img/testimonials/t2.png?v=1839975102
+File Name: C:\Downloaded Web Sites\websites.co.in\common\img\testimonials\t2-1.png
+Content Type: image/png
+
+Uri: https://websites.co.in/common/img/testimonials/t3.png?v=268879523
+File Name: C:\Downloaded Web Sites\websites.co.in\common\img\testimonials\t3.png
+Content Type: image/png
+
+Uri: https://websites.co.in/common/img/testimonials/t3.png?v=61165856
+File Name: C:\Downloaded Web Sites\websites.co.in\common\img\testimonials\t3-1.png
+Content Type: image/png
+
+Uri: https://websites.co.in/common/img/testimonials/t4.png?v=1555140691
+File Name: C:\Downloaded Web Sites\websites.co.in\common\img\testimonials\t4.png
+Content Type: image/png
+
+Uri: https://websites.co.in/common/img/testimonials/t4.png?v=2008757249
+File Name: C:\Downloaded Web Sites\websites.co.in\common\img\testimonials\t4-1.png
+Content Type: image/png
+
+Uri: https://websites.co.in/common/img/testimonials/t5.png?v=1022819349
+File Name: C:\Downloaded Web Sites\websites.co.in\common\img\testimonials\t5-1.png
+Content Type: image/png
+
+Uri: https://websites.co.in/common/img/testimonials/t5.png?v=1643493328
+File Name: C:\Downloaded Web Sites\websites.co.in\common\img\testimonials\t5.png
+Content Type: image/png
+
+Uri: https://websites.co.in/common/img/testimonials/t6.png?v=1551824821
+File Name: C:\Downloaded Web Sites\websites.co.in\common\img\testimonials\t6.png
+Content Type: image/png
+
+Uri: https://websites.co.in/common/img/testimonials/t6.png?v=2147305427
+File Name: C:\Downloaded Web Sites\websites.co.in\common\img\testimonials\t6-1.png
+Content Type: image/png
+
+Uri: https://websites.co.in/contact
+File Name: C:\Downloaded Web Sites\websites.co.in\contact.html
+Content Type: text/html
+
+Uri: https://websites.co.in/dashboard/bootstrap/css/bootstrap.min.css
+File Name: C:\Downloaded Web Sites\websites.co.in\dashboard\bootstrap\css\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://websites.co.in/dashboard/bootstrap/fonts/glyphicons-halflings-regular.eot
+File Name: C:\Downloaded Web Sites\websites.co.in\dashboard\bootstrap\fonts\glyphicons-halflings-regular.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://websites.co.in/dashboard/bootstrap/fonts/glyphicons-halflings-regular.eot?
+File Name: C:\Downloaded Web Sites\websites.co.in\dashboard\bootstrap\fonts\glyphicons-halflings-regular-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://websites.co.in/dashboard/bootstrap/fonts/glyphicons-halflings-regular.svg
+File Name: C:\Downloaded Web Sites\websites.co.in\dashboard\bootstrap\fonts\glyphicons-halflings-regular.svg
+Content Type: image/svg+xml
+
+Uri: https://websites.co.in/dashboard/bootstrap/fonts/glyphicons-halflings-regular.ttf
+File Name: C:\Downloaded Web Sites\websites.co.in\dashboard\bootstrap\fonts\glyphicons-halflings-regular.ttf
+Content Type: application/octet-stream
+
+Uri: https://websites.co.in/dashboard/bootstrap/fonts/glyphicons-halflings-regular.woff
+File Name: C:\Downloaded Web Sites\websites.co.in\dashboard\bootstrap\fonts\glyphicons-halflings-regular.woff
+Content Type: application/font-woff
+
+Uri: https://websites.co.in/dashboard/bootstrap/fonts/glyphicons-halflings-regular.woff2
+File Name: C:\Downloaded Web Sites\websites.co.in\dashboard\bootstrap\fonts\glyphicons-halflings-regular.woff2
+Content Type: application/octet-stream
+
+Uri: https://websites.co.in/dashboard/bootstrap/js/bootstrap.min.js
+File Name: C:\Downloaded Web Sites\websites.co.in\dashboard\bootstrap\js\bootstrap.min.js
+Content Type: application/javascript
+
+Uri: https://websites.co.in/dashboard/dist/css/AdminLTE.min.css
+File Name: C:\Downloaded Web Sites\websites.co.in\dashboard\dist\css\AdminLTE.min.css
+Content Type: text/css
+
+Uri: https://websites.co.in/dashboard/dist/css/skins/_all-skins.min.css
+File Name: C:\Downloaded Web Sites\websites.co.in\dashboard\dist\css\skins\_all-skins.min.css
+Content Type: text/css
+
+Uri: https://websites.co.in/dashboard/dist/img/boxed-bg.jpg
+File Name: C:\Downloaded Web Sites\websites.co.in\dashboard\dist\img\boxed-bg.jpg
+Content Type: image/jpeg
+
+Uri: https://websites.co.in/dashboard/dist/js/adminlte.min.js
+File Name: C:\Downloaded Web Sites\websites.co.in\dashboard\dist\js\adminlte.min.js
+Content Type: application/javascript
+
+Uri: https://websites.co.in/dashboard/img/ajax-loader-2.svg
+File Name: C:\Downloaded Web Sites\websites.co.in\dashboard\img\ajax-loader-2.svg
+Content Type: image/svg+xml
+
+Uri: https://websites.co.in/dashboard/plugins/font-awesome/css/font-awesome.min.css
+File Name: C:\Downloaded Web Sites\websites.co.in\dashboard\plugins\font-awesome\css\font-awesome.min.css
+Content Type: text/css
+
+Uri: https://websites.co.in/dashboard/plugins/font-awesome/fonts/fontawesome-webfont.eot?
+File Name: C:\Downloaded Web Sites\websites.co.in\dashboard\plugins\font-awesome\fonts\fontawesome-webfont-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://websites.co.in/dashboard/plugins/font-awesome/fonts/fontawesome-webfont.eot?v=4.7.0
+File Name: C:\Downloaded Web Sites\websites.co.in\dashboard\plugins\font-awesome\fonts\fontawesome-webfont.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://websites.co.in/dashboard/plugins/font-awesome/fonts/fontawesome-webfont.svg?v=4.7.0
+File Name: C:\Downloaded Web Sites\websites.co.in\dashboard\plugins\font-awesome\fonts\fontawesome-webfont.svg
+Content Type: image/svg+xml
+
+Uri: https://websites.co.in/dashboard/plugins/font-awesome/fonts/fontawesome-webfont.ttf?v=4.7.0
+File Name: C:\Downloaded Web Sites\websites.co.in\dashboard\plugins\font-awesome\fonts\fontawesome-webfont.ttf
+Content Type: application/octet-stream
+
+Uri: https://websites.co.in/dashboard/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0
+File Name: C:\Downloaded Web Sites\websites.co.in\dashboard\plugins\font-awesome\fonts\fontawesome-webfont.woff2
+Content Type: application/octet-stream
+
+Uri: https://websites.co.in/dashboard/plugins/font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0
+File Name: C:\Downloaded Web Sites\websites.co.in\dashboard\plugins\font-awesome\fonts\fontawesome-webfont.woff
+Content Type: application/font-woff
+
+Uri: https://websites.co.in/dashboard/plugins/jQuery/jquery.min.js
+File Name: C:\Downloaded Web Sites\websites.co.in\dashboard\plugins\jQuery\jquery.min.js
+Content Type: application/javascript
+
+Uri: https://websites.co.in/dashboard/plugins/jQueryUI/jquery-ui.min.js
+File Name: C:\Downloaded Web Sites\websites.co.in\dashboard\plugins\jQueryUI\jquery-ui.min.js
+Content Type: application/javascript
+
+Uri: https://websites.co.in/dashboard/plugins/mailchek/mailcheck.min.js
+File Name: C:\Downloaded Web Sites\websites.co.in\dashboard\plugins\mailchek\mailcheck.min.js
+Content Type: application/javascript
+
+Uri: https://websites.co.in/dashboard/plugins/select2/select2.full.min.js
+File Name: C:\Downloaded Web Sites\websites.co.in\dashboard\plugins\select2\select2.full.min.js
+Content Type: application/javascript
+
+Uri: https://websites.co.in/dashboard/plugins/select2/select2.min.css
+File Name: C:\Downloaded Web Sites\websites.co.in\dashboard\plugins\select2\select2.min.css
+Content Type: text/css
+
+Uri: https://websites.co.in/faq
+File Name: C:\Downloaded Web Sites\websites.co.in\faq.html
+Content Type: text/html
+
+Uri: https://websites.co.in/img/favicon.ico?v=112571428
+File Name: C:\Downloaded Web Sites\websites.co.in\img\favicon-9.ico
+Content Type: image/x-icon
+
+Uri: https://websites.co.in/img/favicon.ico?v=1301938342
+File Name: C:\Downloaded Web Sites\websites.co.in\img\favicon-11.ico
+Content Type: image/x-icon
+
+Uri: https://websites.co.in/img/favicon.ico?v=1570606472
+File Name: C:\Downloaded Web Sites\websites.co.in\img\favicon.ico
+Content Type: image/x-icon
+
+Uri: https://websites.co.in/img/favicon.ico?v=1595442468
+File Name: C:\Downloaded Web Sites\websites.co.in\img\favicon-8.ico
+Content Type: image/x-icon
+
+Uri: https://websites.co.in/img/favicon.ico?v=1944987939
+File Name: C:\Downloaded Web Sites\websites.co.in\img\favicon-2.ico
+Content Type: image/x-icon
+
+Uri: https://websites.co.in/img/favicon.ico?v=2004874205
+File Name: C:\Downloaded Web Sites\websites.co.in\img\favicon-10.ico
+Content Type: image/x-icon
+
+Uri: https://websites.co.in/img/favicon.ico?v=2100847342
+File Name: C:\Downloaded Web Sites\websites.co.in\img\favicon-7.ico
+Content Type: image/x-icon
+
+Uri: https://websites.co.in/img/favicon.ico?v=266053933
+File Name: C:\Downloaded Web Sites\websites.co.in\img\favicon-5.ico
+Content Type: image/x-icon
+
+Uri: https://websites.co.in/img/favicon.ico?v=395624431
+File Name: C:\Downloaded Web Sites\websites.co.in\img\favicon-1.ico
+Content Type: image/x-icon
+
+Uri: https://websites.co.in/img/favicon.ico?v=621489430
+File Name: C:\Downloaded Web Sites\websites.co.in\img\favicon-4.ico
+Content Type: image/x-icon
+
+Uri: https://websites.co.in/img/favicon.ico?v=660982935
+File Name: C:\Downloaded Web Sites\websites.co.in\img\favicon-3.ico
+Content Type: image/x-icon
+
+Uri: https://websites.co.in/img/favicon.ico?v=673346115
+File Name: C:\Downloaded Web Sites\websites.co.in\img\favicon-6.ico
+Content Type: image/x-icon
+
+Uri: https://websites.co.in/landing/css/abuse_old.css?v=2121215181
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\css\abuse_old.css
+Content Type: text/css
+
+Uri: https://websites.co.in/landing/css/balloon.min.css
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\css\balloon.min.css
+Content Type: text/css
+
+Uri: https://websites.co.in/landing/css/custom.css?v=1458916827
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\css\custom.css
+Content Type: text/css
+
+Uri: https://websites.co.in/landing/css/custom.min.css?v=1183691811
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\css\custom.min-9.css
+Content Type: text/css
+
+Uri: https://websites.co.in/landing/css/custom.min.css?v=1295465937
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\css\custom.min-7.css
+Content Type: text/css
+
+Uri: https://websites.co.in/landing/css/custom.min.css?v=1411725265
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\css\custom.min-1.css
+Content Type: text/css
+
+Uri: https://websites.co.in/landing/css/custom.min.css?v=1426593755
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\css\custom.min.css
+Content Type: text/css
+
+Uri: https://websites.co.in/landing/css/custom.min.css?v=1633937870
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\css\custom.min-3.css
+Content Type: text/css
+
+Uri: https://websites.co.in/landing/css/custom.min.css?v=164530222
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\css\custom.min-2.css
+Content Type: text/css
+
+Uri: https://websites.co.in/landing/css/custom.min.css?v=1709378082
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\css\custom.min-5.css
+Content Type: text/css
+
+Uri: https://websites.co.in/landing/css/custom.min.css?v=1797034982
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\css\custom.min-4.css
+Content Type: text/css
+
+Uri: https://websites.co.in/landing/css/custom.min.css?v=263431564
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\css\custom.min-6.css
+Content Type: text/css
+
+Uri: https://websites.co.in/landing/css/custom.min.css?v=278848839
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\css\custom.min-8.css
+Content Type: text/css
+
+Uri: https://websites.co.in/landing/css/custom.min.css?v=60689784
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\css\custom.min-10.css
+Content Type: text/css
+
+Uri: https://websites.co.in/landing/css/responsive.css?v=1.0
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\css\responsive.css
+Content Type: text/css
+
+Uri: https://websites.co.in/landing/css/style.css?v=1.0
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\css\style.css
+Content Type: text/css
+
+Uri: https://websites.co.in/landing/img/bg-main.jpeg
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\img\bg-main.jpeg
+Content Type: image/jpeg
+
+Uri: https://websites.co.in/landing/img/icons/android-icon-192x192.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\img\icons\android-icon-192x192.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/img/icons/apple-icon-114x114.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\img\icons\apple-icon-114x114.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/img/icons/apple-icon-120x120.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\img\icons\apple-icon-120x120.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/img/icons/apple-icon-144x144.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\img\icons\apple-icon-144x144.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/img/icons/apple-icon-152x152.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\img\icons\apple-icon-152x152.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/img/icons/apple-icon-180x180.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\img\icons\apple-icon-180x180.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/img/icons/apple-icon-57x57.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\img\icons\apple-icon-57x57.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/img/icons/apple-icon-60x60.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\img\icons\apple-icon-60x60.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/img/icons/apple-icon-72x72.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\img\icons\apple-icon-72x72.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/img/icons/apple-icon-76x76.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\img\icons\apple-icon-76x76.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/img/icons/favicon-16x16.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\img\icons\favicon-16x16.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/img/icons/favicon-32x32.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\img\icons\favicon-32x32.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/img/icons/favicon-96x96.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\img\icons\favicon-96x96.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/img/india_flag.svg
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\img\india_flag.svg
+Content Type: image/svg+xml
+
+Uri: https://websites.co.in/landing/img/logo.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\img\logo.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/img/pixelphone.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\img\pixelphone.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/img/pricing/1yearpackage.svg
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\img\pricing\1yearpackage.svg
+Content Type: image/svg+xml
+
+Uri: https://websites.co.in/landing/img/pricing/3yearpackage.svg
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\img\pricing\3yearpackage.svg
+Content Type: image/svg+xml
+
+Uri: https://websites.co.in/landing/img/pricing/5yearpackage.svg
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\img\pricing\5yearpackage.svg
+Content Type: image/svg+xml
+
+Uri: https://websites.co.in/landing/img/pricing/monthlypackage.svg
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\img\pricing\monthlypackage.svg
+Content Type: image/svg+xml
+
+Uri: https://websites.co.in/landing/img/us_flag.svg
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\img\us_flag.svg
+Content Type: image/svg+xml
+
+Uri: https://websites.co.in/landing/js/main.js?v=1464350749
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\js\main-5.js
+Content Type: application/javascript
+
+Uri: https://websites.co.in/landing/js/main.js?v=1906527350
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\js\main-7.js
+Content Type: application/javascript
+
+Uri: https://websites.co.in/landing/js/main.js?v=1909396996
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\js\main-11.js
+Content Type: application/javascript
+
+Uri: https://websites.co.in/landing/js/main.js?v=1999626650
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\js\main-2.js
+Content Type: application/javascript
+
+Uri: https://websites.co.in/landing/js/main.js?v=2075280682
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\js\main-9.js
+Content Type: application/javascript
+
+Uri: https://websites.co.in/landing/js/main.js?v=24675796
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\js\main.js
+Content Type: application/javascript
+
+Uri: https://websites.co.in/landing/js/main.js?v=498848728
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\js\main-6.js
+Content Type: application/javascript
+
+Uri: https://websites.co.in/landing/js/main.js?v=531182713
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\js\main-3.js
+Content Type: application/javascript
+
+Uri: https://websites.co.in/landing/js/main.js?v=614167534
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\js\main-4.js
+Content Type: application/javascript
+
+Uri: https://websites.co.in/landing/js/main.js?v=757246938
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\js\main-10.js
+Content Type: application/javascript
+
+Uri: https://websites.co.in/landing/js/main.js?v=776792265
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\js\main-8.js
+Content Type: application/javascript
+
+Uri: https://websites.co.in/landing/js/main.js?v=953763287
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\js\main-1.js
+Content Type: application/javascript
+
+Uri: https://websites.co.in/landing/new/public/arrow.svg
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\arrow.svg
+Content Type: image/svg+xml
+
+Uri: https://websites.co.in/landing/new/public/gifs-figma/1-laptop-white-transparent-unscreen.webp
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\gifs-figma\1-laptop-white-transparent-unscreen.webp
+Content Type: image/webp
+
+Uri: https://websites.co.in/landing/new/public/gifs-figma/2-girl-laptop-transparent-unscreen.webp
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\gifs-figma\2-girl-laptop-transparent-unscreen.webp
+Content Type: image/webp
+
+Uri: https://websites.co.in/landing/new/public/gifs-figma/3-rocket-white-transparent-unscreen.webp
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\gifs-figma\3-rocket-white-transparent-unscreen.webp
+Content Type: image/webp
+
+Uri: https://websites.co.in/landing/new/public/gifs-figma/gif-1-1-biz-consulting.webp
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\gifs-figma\gif-1-1-biz-consulting.webp
+Content Type: image/webp
+
+Uri: https://websites.co.in/landing/new/public/gifs-figma/gif-auto-multilingual.webp
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\gifs-figma\gif-auto-multilingual.webp
+Content Type: image/webp
+
+Uri: https://websites.co.in/landing/new/public/gifs-figma/gif-business-alerts.webp
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\gifs-figma\gif-business-alerts.webp
+Content Type: image/webp
+
+Uri: https://websites.co.in/landing/new/public/gifs-figma/gif-dedicated-support.webp
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\gifs-figma\gif-dedicated-support.webp
+Content Type: image/webp
+
+Uri: https://websites.co.in/landing/new/public/gifs-figma/gif-easy-auto-social.gif
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\gifs-figma\gif-easy-auto-social.gif
+Content Type: image/gif
+
+Uri: https://websites.co.in/landing/new/public/gifs-figma/gif-extra-sections.webp
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\gifs-figma\gif-extra-sections.webp
+Content Type: image/webp
+
+Uri: https://websites.co.in/landing/new/public/gifs-figma/gif-fb-1-click.webp
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\gifs-figma\gif-fb-1-click.webp
+Content Type: image/webp
+
+Uri: https://websites.co.in/landing/new/public/gifs-figma/gif-fb-msgnr.webp
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\gifs-figma\gif-fb-msgnr.webp
+Content Type: image/webp
+
+Uri: https://websites.co.in/landing/new/public/gifs-figma/gif-fb-pixel.gif
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\gifs-figma\gif-fb-pixel.gif
+Content Type: image/gif
+
+Uri: https://websites.co.in/landing/new/public/gifs-figma/gif-free-domain-name.webp
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\gifs-figma\gif-free-domain-name.webp
+Content Type: image/webp
+
+Uri: https://websites.co.in/landing/new/public/gifs-figma/gif-free-ssl.gif
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\gifs-figma\gif-free-ssl.gif
+Content Type: image/gif
+
+Uri: https://websites.co.in/landing/new/public/gifs-figma/gif-free-web-hosting.webp
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\gifs-figma\gif-free-web-hosting.webp
+Content Type: image/webp
+
+Uri: https://websites.co.in/landing/new/public/gifs-figma/gif-geo-tagging.webp
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\gifs-figma\gif-geo-tagging.webp
+Content Type: image/webp
+
+Uri: https://websites.co.in/landing/new/public/gifs-figma/gif-get-business-analytics.webp
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\gifs-figma\gif-get-business-analytics.webp
+Content Type: image/webp
+
+Uri: https://websites.co.in/landing/new/public/gifs-figma/gif-get-business-enquiries.webp
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\gifs-figma\gif-get-business-enquiries.webp
+Content Type: image/webp
+
+Uri: https://websites.co.in/landing/new/public/gifs-figma/gif-gift-transparent-via-unscreen.webp
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\gifs-figma\gif-gift-transparent-via-unscreen.webp
+Content Type: image/webp
+
+Uri: https://websites.co.in/landing/new/public/gifs-figma/gif-google-adsense.webp
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\gifs-figma\gif-google-adsense.webp
+Content Type: image/webp
+
+Uri: https://websites.co.in/landing/new/public/gifs-figma/gif-google-analytics.gif
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\gifs-figma\gif-google-analytics.gif
+Content Type: image/gif
+
+Uri: https://websites.co.in/landing/new/public/gifs-figma/gif-google-maps.webp
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\gifs-figma\gif-google-maps.webp
+Content Type: image/webp
+
+Uri: https://websites.co.in/landing/new/public/gifs-figma/gif-hotjar.gif
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\gifs-figma\gif-hotjar.gif
+Content Type: image/gif
+
+Uri: https://websites.co.in/landing/new/public/gifs-figma/gif-live-chat.webp
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\gifs-figma\gif-live-chat.webp
+Content Type: image/webp
+
+Uri: https://websites.co.in/landing/new/public/gifs-figma/gif-m-commerce.webp
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\gifs-figma\gif-m-commerce.webp
+Content Type: image/webp
+
+Uri: https://websites.co.in/landing/new/public/gifs-figma/gif-one-biz-email.gif
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\gifs-figma\gif-one-biz-email.gif
+Content Type: image/gif
+
+Uri: https://websites.co.in/landing/new/public/gifs-figma/gif-one-time-website-setup-service.webp
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\gifs-figma\gif-one-time-website-setup-service.webp
+Content Type: image/webp
+
+Uri: https://websites.co.in/landing/new/public/gifs-figma/gif-powerful-auto-seo.webp
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\gifs-figma\gif-powerful-auto-seo.webp
+Content Type: image/webp
+
+Uri: https://websites.co.in/landing/new/public/gifs-figma/gif-premium-support-transparent-via-unscreen.webp
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\gifs-figma\gif-premium-support-transparent-via-unscreen.webp
+Content Type: image/webp
+
+Uri: https://websites.co.in/landing/new/public/gifs-figma/gif-smart-lead-mgmnt (1).webp
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\gifs-figma\gif-smart-lead-mgmnt (1).webp
+Content Type: image/webp
+
+Uri: https://websites.co.in/landing/new/public/gifs-figma/gif-smart-lead-mgmnt (2).gif
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\gifs-figma\gif-smart-lead-mgmnt (2).gif
+Content Type: image/gif
+
+Uri: https://websites.co.in/landing/new/public/gifs-figma/gif-tawk.webp
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\gifs-figma\gif-tawk.webp
+Content Type: image/webp
+
+Uri: https://websites.co.in/landing/new/public/gifs-figma/gif-telephone.gif
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\gifs-figma\gif-telephone.gif
+Content Type: image/gif
+
+Uri: https://websites.co.in/landing/new/public/gifs-figma/gif-unlimited-photos.webp
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\gifs-figma\gif-unlimited-photos.webp
+Content Type: image/webp
+
+Uri: https://websites.co.in/landing/new/public/gifs-figma/gif-unlimited-product-listing.webp
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\gifs-figma\gif-unlimited-product-listing.webp
+Content Type: image/webp
+
+Uri: https://websites.co.in/landing/new/public/gifs-figma/gif-unlimited-seo-keywords.webp
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\gifs-figma\gif-unlimited-seo-keywords.webp
+Content Type: image/webp
+
+Uri: https://websites.co.in/landing/new/public/gifs-figma/gif-unlimited-updates.webp
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\gifs-figma\gif-unlimited-updates.webp
+Content Type: image/webp
+
+Uri: https://websites.co.in/landing/new/public/gifs-figma/gif-whatsapp.gif
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\gifs-figma\gif-whatsapp.gif
+Content Type: image/gif
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/ab.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\ab.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/andriod.webp
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\andriod.webp
+Content Type: image/webp
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/boy.webp
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\boy.webp
+Content Type: image/webp
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/business_world.webp
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\business_world.webp
+Content Type: image/webp
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/cake.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\cake.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/clock.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\clock.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/dot.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\dot.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/email.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\email.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/face.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\face.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/facebook.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\facebook.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/feature-selection.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\feature-selection.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/girl.webp
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\girl.webp
+Content Type: image/webp
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/googleplay.webp
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\googleplay.webp
+Content Type: image/webp
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/Group 182.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\Group 182.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/Group 282.webp
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\Group 282.webp
+Content Type: image/webp
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/Group 283.webp
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\Group 283.webp
+Content Type: image/webp
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/Group 322 (1).png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\Group 322 (1).png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/Group 322.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\Group 322.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/house.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\house.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/icons8ache100132898-xes-200h.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\icons8ache100132898-xes-200h.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/icons8calendar100132902-q6c-200h.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\icons8calendar100132902-q6c-200h.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/icons8calendar100132906-21p-200h.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\icons8calendar100132906-21p-200h.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/icons8domainname10032874-46l-200h.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\icons8domainname10032874-46l-200h.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/icons8headache100132894-nt3-200h.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\icons8headache100132894-nt3-200h.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/icons8money100132886-e82o-200h.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\icons8money100132886-e82o-200h.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/icons8money100232890-uq34-200h.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\icons8money100232890-uq34-200h.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/icons8phonemessageunscreen33382-46ec-200h.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\icons8phonemessageunscreen33382-46ec-200h.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/icons8rejected100232922-0x6f-200h.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\icons8rejected100232922-0x6f-200h.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/icons8rejected100332914-20ck-200h.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\icons8rejected100332914-20ck-200h.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/icons8securityssl10032882-1qx-200h.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\icons8securityssl10032882-1qx-200h.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/icons8server100432878-6oaq-200h.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\icons8server100432878-6oaq-200h.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/icons8support100132926-97v3-200h.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\icons8support100132926-97v3-200h.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/icons8tax10032918-adej-200h.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\icons8tax10032918-adej-200h.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/icons8work100132910-tvkq-200h.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\icons8work100132910-tvkq-200h.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/iifl.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\iifl.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/indiaflag.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\indiaflag.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/instagram.jpeg
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\instagram.jpeg
+Content Type: image/jpeg
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/linkedin.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\linkedin.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/loveface.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\loveface.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/men.webp
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\men.webp
+Content Type: image/webp
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/phone.webp
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\phone.webp
+Content Type: image/webp
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/playstore.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\playstore.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/rabbitcap.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\rabbitcap.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/star.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\star.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/starstick.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\starstick.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/theprint512x51235236-g6fd-200h.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\theprint512x51235236-g6fd-200h.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/toi.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\toi.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/tracxn-logo.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\tracxn-logo.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/travel-guide.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\travel-guide.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/twitter.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\twitter.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/up-arrow.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\up-arrow.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/us_flag.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\us_flag.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/websitescoinlogo35253-i5eq-200h.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\websitescoinlogo35253-i5eq-200h.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/worriesface.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\worriesface.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/new/public/playground_assets/yahoo.png
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\playground_assets\yahoo.png
+Content Type: image/png
+
+Uri: https://websites.co.in/landing/new/public/THEMES/BETTERBLOG.webp
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\THEMES\BETTERBLOG.webp
+Content Type: image/webp
+
+Uri: https://websites.co.in/landing/new/public/THEMES/CLINCA.webp
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\THEMES\CLINCA.webp
+Content Type: image/webp
+
+Uri: https://websites.co.in/landing/new/public/THEMES/ESTORE.webp
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\THEMES\ESTORE.webp
+Content Type: image/webp
+
+Uri: https://websites.co.in/landing/new/public/THEMES/GROWBIZ.webp
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\THEMES\GROWBIZ.webp
+Content Type: image/webp
+
+Uri: https://websites.co.in/landing/new/public/THEMES/RESTAURANT.webp
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\THEMES\RESTAURANT.webp
+Content Type: image/webp
+
+Uri: https://websites.co.in/landing/new/public/THEMES/SERVICEPRO.webp
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\THEMES\SERVICEPRO.webp
+Content Type: image/webp
+
+Uri: https://websites.co.in/landing/new/public/THEMES/TOURISM.webp
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\THEMES\TOURISM.webp
+Content Type: image/webp
+
+Uri: https://websites.co.in/landing/new/public/THEMES/UDYOG.webp
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\THEMES\UDYOG.webp
+Content Type: image/webp
+
+Uri: https://websites.co.in/landing/new/public/tick.svg
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\tick.svg
+Content Type: image/svg+xml
+
+Uri: https://websites.co.in/landing/new/public/wave.svg
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\wave.svg
+Content Type: image/svg+xml
+
+Uri: https://websites.co.in/landing/new/public/wavevoilet.svg
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\public\wavevoilet.svg
+Content Type: image/svg+xml
+
+Uri: https://websites.co.in/landing/new/style.css?v=1.0
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\new\style.css
+Content Type: text/css
+
+Uri: https://websites.co.in/landing/pwa/manifest.json?v=1018960838
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\pwa\manifest-3.json
+Content Type: application/json
+
+Uri: https://websites.co.in/landing/pwa/manifest.json?v=1356584011
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\pwa\manifest-11.json
+Content Type: application/json
+
+Uri: https://websites.co.in/landing/pwa/manifest.json?v=1550551687
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\pwa\manifest-4.json
+Content Type: application/json
+
+Uri: https://websites.co.in/landing/pwa/manifest.json?v=1660552054
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\pwa\manifest-6.json
+Content Type: application/json
+
+Uri: https://websites.co.in/landing/pwa/manifest.json?v=1840226610
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\pwa\manifest-7.json
+Content Type: application/json
+
+Uri: https://websites.co.in/landing/pwa/manifest.json?v=1873798415
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\pwa\manifest-9.json
+Content Type: application/json
+
+Uri: https://websites.co.in/landing/pwa/manifest.json?v=2083828435
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\pwa\manifest-1.json
+Content Type: application/json
+
+Uri: https://websites.co.in/landing/pwa/manifest.json?v=223748564
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\pwa\manifest-10.json
+Content Type: application/json
+
+Uri: https://websites.co.in/landing/pwa/manifest.json?v=270261319
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\pwa\manifest-2.json
+Content Type: application/json
+
+Uri: https://websites.co.in/landing/pwa/manifest.json?v=389640698
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\pwa\manifest-5.json
+Content Type: application/json
+
+Uri: https://websites.co.in/landing/pwa/manifest.json?v=691426456
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\pwa\manifest-8.json
+Content Type: application/json
+
+Uri: https://websites.co.in/landing/pwa/manifest.json?v=934028896
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\pwa\manifest.json
+Content Type: application/json
+
+Uri: https://websites.co.in/landing/slick/ajax-loader.gif
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\slick\ajax-loader.gif
+Content Type: image/gif
+
+Uri: https://websites.co.in/landing/slick/fonts/slick.eot
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\slick\fonts\slick.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://websites.co.in/landing/slick/fonts/slick.eot?
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\slick\fonts\slick-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://websites.co.in/landing/slick/fonts/slick.svg
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\slick\fonts\slick.svg
+Content Type: image/svg+xml
+
+Uri: https://websites.co.in/landing/slick/fonts/slick.ttf
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\slick\fonts\slick.ttf
+Content Type: application/octet-stream
+
+Uri: https://websites.co.in/landing/slick/fonts/slick.woff
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\slick\fonts\slick.woff
+Content Type: application/font-woff
+
+Uri: https://websites.co.in/landing/slick/slick-theme.css?v=1047179606
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\slick\slick-theme-1.css
+Content Type: text/css
+
+Uri: https://websites.co.in/landing/slick/slick-theme.css?v=1091492529
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\slick\slick-theme-4.css
+Content Type: text/css
+
+Uri: https://websites.co.in/landing/slick/slick-theme.css?v=1194093371
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\slick\slick-theme-9.css
+Content Type: text/css
+
+Uri: https://websites.co.in/landing/slick/slick-theme.css?v=1369096753
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\slick\slick-theme-11.css
+Content Type: text/css
+
+Uri: https://websites.co.in/landing/slick/slick-theme.css?v=13863778
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\slick\slick-theme-2.css
+Content Type: text/css
+
+Uri: https://websites.co.in/landing/slick/slick-theme.css?v=1877820352
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\slick\slick-theme-10.css
+Content Type: text/css
+
+Uri: https://websites.co.in/landing/slick/slick-theme.css?v=1976592910
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\slick\slick-theme-3.css
+Content Type: text/css
+
+Uri: https://websites.co.in/landing/slick/slick-theme.css?v=2009031769
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\slick\slick-theme.css
+Content Type: text/css
+
+Uri: https://websites.co.in/landing/slick/slick-theme.css?v=2035232807
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\slick\slick-theme-8.css
+Content Type: text/css
+
+Uri: https://websites.co.in/landing/slick/slick-theme.css?v=2144268278
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\slick\slick-theme-7.css
+Content Type: text/css
+
+Uri: https://websites.co.in/landing/slick/slick-theme.css?v=568616636
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\slick\slick-theme-6.css
+Content Type: text/css
+
+Uri: https://websites.co.in/landing/slick/slick-theme.css?v=963931026
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\slick\slick-theme-5.css
+Content Type: text/css
+
+Uri: https://websites.co.in/landing/slick/slick.css?v=1453959107
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\slick\slick-10.css
+Content Type: text/css
+
+Uri: https://websites.co.in/landing/slick/slick.css?v=1560871360
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\slick\slick-7.css
+Content Type: text/css
+
+Uri: https://websites.co.in/landing/slick/slick.css?v=1600538983
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\slick\slick.css
+Content Type: text/css
+
+Uri: https://websites.co.in/landing/slick/slick.css?v=1620321866
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\slick\slick-3.css
+Content Type: text/css
+
+Uri: https://websites.co.in/landing/slick/slick.css?v=1804939401
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\slick\slick-8.css
+Content Type: text/css
+
+Uri: https://websites.co.in/landing/slick/slick.css?v=2120399849
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\slick\slick-4.css
+Content Type: text/css
+
+Uri: https://websites.co.in/landing/slick/slick.css?v=214190439
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\slick\slick-2.css
+Content Type: text/css
+
+Uri: https://websites.co.in/landing/slick/slick.css?v=307398721
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\slick\slick-5.css
+Content Type: text/css
+
+Uri: https://websites.co.in/landing/slick/slick.css?v=343944272
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\slick\slick-6.css
+Content Type: text/css
+
+Uri: https://websites.co.in/landing/slick/slick.css?v=505944332
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\slick\slick-9.css
+Content Type: text/css
+
+Uri: https://websites.co.in/landing/slick/slick.css?v=702075627
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\slick\slick-1.css
+Content Type: text/css
+
+Uri: https://websites.co.in/landing/slick/slick.css?v=808918236
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\slick\slick-11.css
+Content Type: text/css
+
+Uri: https://websites.co.in/landing/slick/slick.min.js
+File Name: C:\Downloaded Web Sites\websites.co.in\landing\slick\slick.min.js
+Content Type: application/javascript
+
+Uri: https://websites.co.in/login
+File Name: C:\Downloaded Web Sites\websites.co.in\login.html
+Content Type: text/html
+
+Uri: https://websites.co.in/password/reset
+File Name: C:\Downloaded Web Sites\websites.co.in\password\reset.html
+Content Type: text/html
+
+Uri: https://websites.co.in/pricing
+File Name: C:\Downloaded Web Sites\websites.co.in\pricing.html
+Content Type: text/html
+
+Uri: https://websites.co.in/privacy
+File Name: C:\Downloaded Web Sites\websites.co.in\privacy.html
+Content Type: text/html
+
+Uri: https://websites.co.in/refunds
+File Name: C:\Downloaded Web Sites\websites.co.in\refunds.html
+Content Type: text/html
+
+Uri: https://websites.co.in/register
+File Name: C:\Downloaded Web Sites\websites.co.in\register.html
+Content Type: text/html
+
+Uri: https://websites.co.in/sitemap
+File Name: C:\Downloaded Web Sites\websites.co.in\sitemap.html
+Content Type: text/html
+
+Uri: https://websites.co.in/sitemap?page=1
+File Name: C:\Downloaded Web Sites\websites.co.in\sitemap-2.html
+Content Type: text/html
+
+Uri: https://websites.co.in/sitemap?page=2
+File Name: C:\Downloaded Web Sites\websites.co.in\sitemap-1.html
+Content Type: text/html
+
+Uri: https://websites.co.in/sitemap?page=3
+File Name: C:\Downloaded Web Sites\websites.co.in\sitemap-3.html
+Content Type: text/html
+
+Uri: https://websites.co.in/terms
+File Name: C:\Downloaded Web Sites\websites.co.in\terms.html
+Content Type: text/html
+
+Uri: https://www.facebook.com/tr?id=208608892996577&ev=PageView&noscript=1
+File Name: C:\Downloaded Web Sites\websites.co.in\tr
+Content Type: text/plain
+
+Uri: https://www.google.com/recaptcha/api.js
+File Name: C:\Downloaded Web Sites\websites.co.in\recaptcha\api.js
+Content Type: text/javascript
+
+Uri: https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit
+File Name: C:\Downloaded Web Sites\websites.co.in\recaptcha\api-1.js
+Content Type: text/javascript
+
+Uri: https://www.googletagmanager.com/gtag/js?id=AW-837190713
+File Name: C:\Downloaded Web Sites\websites.co.in\gtag\js-1
+Content Type: application/javascript
+
+Uri: https://www.googletagmanager.com/gtag/js?id=G-GH0QDVRYC5
+File Name: C:\Downloaded Web Sites\websites.co.in\gtag\js
+Content Type: application/javascript
+

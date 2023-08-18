@@ -1,0 +1,815 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"1e7946724e",applicationID:"31671751"};;/*! For license information please see nr-loader-rum-1.237.1.min.js.LICENSE.txt */
+(()=>{"use strict";var e,t,n={5763:(e,t,n)=>{n.d(t,{P_:()=>f,Mt:()=>p,C5:()=>s,DL:()=>m,OP:()=>j,lF:()=>E,Yu:()=>y,Dg:()=>g,CX:()=>c,GE:()=>b,sU:()=>_});var r=n(8632),i=n(9567);const a={beacon:r.ce.beacon,errorBeacon:r.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},o={};function s(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!o[e])throw new Error("Info for ".concat(e," was never set"));return o[e]}function c(e,t){if(!e)throw new Error("All info objects require an agent identifier!");o[e]=(0,i.D)(t,a),(0,r.Qy)(e,o[e],"info")}var d=n(7056);const u=()=>{const e={blockSelector:"[data-nr-block]",maskInputOptions:{password:!0}};return{allow_bfcache:!0,privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,block_internal:!0,enabled:!0,harvestTimeSeconds:10},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},session:{domain:void 0,expiresMs:d.oD,inactiveMs:d.Hb},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0,harvestTimeSeconds:10},metrics:{enabled:!0},page_action:{enabled:!0,harvestTimeSeconds:30},page_view_event:{enabled:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,long_task:!1},session_trace:{enabled:!0,harvestTimeSeconds:10},harvest:{tooManyRequestsDelay:60},session_replay:{enabled:!1,harvestTimeSeconds:60,sampleRate:.1,errorSampleRate:.1,maskTextSelector:"*",maskAllInputs:!0,get blockClass(){return"nr-block"},get ignoreClass(){return"nr-ignore"},get maskTextClass(){return"nr-mask"},get blockSelector(){return e.blockSelector},set blockSelector(t){e.blockSelector+=",".concat(t)},get maskInputOptions(){return e.maskInputOptions},set maskInputOptions(t){e.maskInputOptions={...t,password:!0}}},spa:{enabled:!0,harvestTimeSeconds:10}}},l={};function f(e){if(!e)throw new Error("All configuration objects require an agent identifier!");if(!l[e])throw new Error("Configuration for ".concat(e," was never set"));return l[e]}function g(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");l[e]=(0,i.D)(t,u()),(0,r.Qy)(e,l[e],"config")}function p(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");var n=f(e);if(n){for(var r=t.split("."),i=0;i<r.length-1;i++)if("object"!=typeof(n=n[r[i]]))return;n=n[r[r.length-1]]}return n}const h={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},v={};function m(e){if(!e)throw new Error("All loader-config objects require an agent identifier!");if(!v[e])throw new Error("LoaderConfig for ".concat(e," was never set"));return v[e]}function b(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");v[e]=(0,i.D)(t,h),(0,r.Qy)(e,v[e],"loader_config")}const y=(0,r.mF)().o;var w=n(385),A=n(6818);const x={buildEnv:A.Re,bytesSent:{},queryBytesSent:{},customTransaction:void 0,disabled:!1,distMethod:A.gF,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,offset:Math.floor(w._A?.performance?.timeOrigin||w._A?.performance?.timing?.navigationStart||Date.now()),onerror:void 0,origin:""+w._A.location,ptid:void 0,releaseIds:{},session:void 0,xhrWrappable:"function"==typeof w._A.XMLHttpRequest?.prototype?.addEventListener,version:A.q4,denyList:void 0},D={};function j(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!D[e])throw new Error("Runtime for ".concat(e," was never set"));return D[e]}function _(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");D[e]=(0,i.D)(t,x),(0,r.Qy)(e,D[e],"runtime")}function E(e){return function(e){try{const t=s(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},9567:(e,t,n)=>{n.d(t,{D:()=>i});var r=n(50);function i(e,t){try{if(!e||"object"!=typeof e)return(0,r.Z)("Setting a Configurable requires an object as input");if(!t||"object"!=typeof t)return(0,r.Z)("Setting a Configurable requires a model to set its initial properties");const n=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),a=0===Object.keys(n).length?e:n;for(let o in a)if(void 0!==e[o])try{"object"==typeof e[o]&&"object"==typeof t[o]?n[o]=i(e[o],t[o]):n[o]=e[o]}catch(e){(0,r.Z)("An error occurred while setting a property of a Configurable",e)}return n}catch(e){(0,r.Z)("An error occured while setting a Configurable",e)}}},6818:(e,t,n)=>{n.d(t,{Re:()=>i,gF:()=>a,q4:()=>r});const r="1.237.1",i="PROD",a="CDN"},385:(e,t,n)=>{n.d(t,{FN:()=>o,IF:()=>d,Nk:()=>l,Tt:()=>s,_A:()=>a,il:()=>r,pL:()=>c,v6:()=>i,w1:()=>u});const r="undefined"!=typeof window&&!!window.document,i="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),a=r?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),o=""+a?.location,s=/iPad|iPhone|iPod/.test(navigator.userAgent),c=s&&"undefined"==typeof SharedWorker,d=(()=>{const e=navigator.userAgent.match(/Firefox[/\s](\d+\.\d+)/);return Array.isArray(e)&&e.length>=2?+e[1]:0})(),u=Boolean(r&&window.document.documentMode),l=!!navigator.sendBeacon},1117:(e,t,n)=>{n.d(t,{w:()=>a});var r=n(50);const i={agentIdentifier:"",ee:void 0};class a{constructor(e){try{if("object"!=typeof e)return(0,r.Z)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,n]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=n)}))}catch(e){(0,r.Z)("An error occured while setting SharedContext",e)}}}},8e3:(e,t,n)=>{n.d(t,{L:()=>u,R:()=>c});var r=n(2177),i=n(1284),a=n(4322),o=n(3325);const s={};function c(e,t){const n={staged:!1,priority:o.p[t]||0};d(e),s[e].get(t)||s[e].set(t,n)}function d(e){e&&(s[e]||(s[e]=new Map))}function u(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature";if(d(e),!e||!s[e].get(t))return o(t);s[e].get(t).staged=!0;const n=[...s[e]];function o(t){const n=e?r.ee.get(e):r.ee,o=a.X.handlers;if(n.backlog&&o){var s=n.backlog[t],c=o[t];if(c){for(var d=0;s&&d<s.length;++d)l(s[d],c);(0,i.D)(c,(function(e,t){(0,i.D)(t,(function(t,n){n[0].on(e,n[1])}))}))}delete o[t],n.backlog[t]=null,n.emit("drain-"+t,[])}}n.every((e=>{let[t,n]=e;return n.staged}))&&(n.sort(((e,t)=>e[1].priority-t[1].priority)),n.forEach((e=>{let[t]=e;o(t)})))}function l(e,t){var n=e[1];(0,i.D)(t[n],(function(t,n){var r=e[0];if(n[0]===r){var i=n[1],a=e[3],o=e[2];i.apply(a,o)}}))}},2177:(e,t,n)=>{n.d(t,{ee:()=>d});var r=n(8632),i=n(2210),a=n(1284),o=n(5763),s="nr@context";let c=(0,r.fP)();var d;function u(){}function l(){return new u}function f(){d.aborted=!0,d.backlog={}}c.ee?d=c.ee:(d=function e(t,n){var r={},c={},g={},p=!1;try{p=16===n.length&&(0,o.OP)(n).isolatedBacklog}catch(e){}var h={on:b,addEventListener:b,removeEventListener:y,emit:m,get:A,listeners:w,context:v,buffer:x,abort:f,aborted:!1,isBuffering:D,debugId:n,backlog:p?{}:t&&"object"==typeof t.backlog?t.backlog:{}};return h;function v(e){return e&&e instanceof u?e:e?(0,i.X)(e,s,l):l()}function m(e,n,r,i,a){if(!1!==a&&(a=!0),!d.aborted||i){t&&a&&t.emit(e,n,r);for(var o=v(r),s=w(e),u=s.length,l=0;l<u;l++)s[l].apply(o,n);var f=j()[c[e]];return f&&f.push([h,e,n,o]),o}}function b(e,t){r[e]=w(e).concat(t)}function y(e,t){var n=r[e];if(n)for(var i=0;i<n.length;i++)n[i]===t&&n.splice(i,1)}function w(e){return r[e]||[]}function A(t){return g[t]=g[t]||e(h,t)}function x(e,t){var n=j();h.aborted||(0,a.D)(e,(function(e,r){t=t||"feature",c[r]=t,t in n||(n[t]=[])}))}function D(e){return!!j()[c[e]]}function j(){return h.backlog}}(void 0,"globalEE"),c.ee=d)},5546:(e,t,n)=>{n.d(t,{E:()=>r,p:()=>i});var r=n(2177).ee.get("handle");function i(e,t,n,i,a){a?(a.buffer([e],i),a.emit(e,t,n)):(r.buffer([e],i),r.emit(e,t,n))}},4322:(e,t,n)=>{n.d(t,{X:()=>a});var r=n(5546);a.on=o;var i=a.handlers={};function a(e,t,n,a){o(a||r.E,i,e,t,n)}function o(e,t,n,i,a){a||(a="feature"),e||(e=r.E);var o=t[a]=t[a]||{};(o[n]=o[n]||[]).push([e,i])}},3239:(e,t,n)=>{n.d(t,{bP:()=>s,iz:()=>c,m$:()=>o});var r=n(385);let i=!1,a=!1;try{const e={get passive(){return i=!0,!1},get signal(){return a=!0,!1}};r._A.addEventListener("test",null,e),r._A.removeEventListener("test",null,e)}catch(e){}function o(e,t){return i||a?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2],r=arguments.length>3?arguments[3]:void 0;window.addEventListener(e,t,o(n,r))}function c(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2],r=arguments.length>3?arguments[3]:void 0;document.addEventListener(e,t,o(n,r))}},4402:(e,t,n)=>{n.d(t,{Rl:()=>o,ky:()=>s});var r=n(385);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function a(e,t){return e?15&e[t]:16*Math.random()|0}function o(){const e=r._A?.crypto||r._A?.msCrypto;let t,n=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(31))),i.split("").map((e=>"x"===e?a(t,++n).toString(16):"y"===e?(3&a()|8).toString(16):e)).join("")}function s(e){const t=r._A?.crypto||r._A?.msCrypto;let n,i=0;t&&t.getRandomValues&&(n=t.getRandomValues(new Uint8Array(31)));const o=[];for(var s=0;s<e;s++)o.push(a(n,++i).toString(16));return o.join("")}},7056:(e,t,n)=>{n.d(t,{Bq:()=>r,Hb:()=>a,oD:()=>i});const r="NRBA",i=144e5,a=18e5},7894:(e,t,n)=>{function r(){return Math.round(performance.now())}n.d(t,{z:()=>r})},50:(e,t,n)=>{function r(e,t){"function"==typeof console.warn&&(console.warn("New Relic: ".concat(e)),t&&console.warn(t))}n.d(t,{Z:()=>r})},2587:(e,t,n)=>{n.d(t,{N:()=>c,T:()=>d});var r=n(2177),i=n(5546),a=n(8e3),o=n(3325);const s={stn:[o.D.sessionTrace],err:[o.D.jserrors,o.D.metrics],ins:[o.D.pageAction],spa:[o.D.spa],sr:[o.D.sessionReplay,o.D.sessionTrace]};function c(e,t){const n=r.ee.get(t);e&&"object"==typeof e&&(Object.entries(e).forEach((e=>{let[t,r]=e;void 0===d[t]&&(s[t]?s[t].forEach((e=>{r?(0,i.p)("feat-"+t,[],void 0,e,n):(0,i.p)("block-"+t,[],void 0,e,n),(0,i.p)("rumresp-"+t,[Boolean(r)],void 0,e,n)})):r&&(0,i.p)("feat-"+t,[],void 0,void 0,n),d[t]=Boolean(r))})),Object.keys(s).forEach((e=>{void 0===d[e]&&(s[e]?.forEach((t=>(0,i.p)("rumresp-"+e,[!1],void 0,t,n))),d[e]=!1)})),(0,a.L)(t,o.D.pageViewEvent))}const d={}},2210:(e,t,n)=>{n.d(t,{X:()=>i});var r=Object.prototype.hasOwnProperty;function i(e,t,n){if(r.call(e,t))return e[t];var i=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},1284:(e,t,n)=>{n.d(t,{D:()=>r});const r=(e,t)=>Object.entries(e||{}).map((e=>{let[n,r]=e;return t(n,r)}))},4351:(e,t,n)=>{n.d(t,{P:()=>a});var r=n(2177);const i=()=>{const e=new WeakSet;return(t,n)=>{if("object"==typeof n&&null!==n){if(e.has(n))return;e.add(n)}return n}};function a(e){try{return JSON.stringify(e,i())}catch(e){try{r.ee.emit("internal-error",[e])}catch(e){}}}},3960:(e,t,n)=>{n.d(t,{K:()=>o,b:()=>a});var r=n(3239);function i(){return"undefined"==typeof document||"complete"===document.readyState}function a(e,t){if(i())return e();(0,r.bP)("load",e,t)}function o(e){if(i())return e();(0,r.iz)("DOMContentLoaded",e)}},8632:(e,t,n)=>{n.d(t,{EZ:()=>d,Qy:()=>c,ce:()=>a,fP:()=>o,gG:()=>u,mF:()=>s});var r=n(7894),i=n(385);const a={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function o(){return i._A.NREUM||(i._A.NREUM={}),void 0===i._A.newrelic&&(i._A.newrelic=i._A.NREUM),i._A.NREUM}function s(){let e=o();return e.o||(e.o={ST:i._A.setTimeout,SI:i._A.setImmediate,CT:i._A.clearTimeout,XHR:i._A.XMLHttpRequest,REQ:i._A.Request,EV:i._A.Event,PR:i._A.Promise,MO:i._A.MutationObserver,FETCH:i._A.fetch}),e}function c(e,t,n){let i=o();const a=i.initializedAgents||{},s=a[e]||{};return Object.keys(s).length||(s.initializedAt={ms:(0,r.z)(),date:new Date}),i.initializedAgents={...a,[e]:{...s,[n]:t}},i}function d(e,t){o()[e]=t}function u(){return function(){let e=o();const t=e.info||{};e.info={beacon:a.beacon,errorBeacon:a.errorBeacon,...t}}(),function(){let e=o();const t=e.init||{};e.init={...t}}(),s(),function(){let e=o();const t=e.loader_config||{};e.loader_config={...t}}(),o()}},7956:(e,t,n)=>{n.d(t,{N:()=>i});var r=n(3239);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],n=arguments.length>2?arguments[2]:void 0,i=arguments.length>3?arguments[3]:void 0;return void(0,r.iz)("visibilitychange",(function(){if(t)return void("hidden"==document.visibilityState&&e());e(document.visibilityState)}),n,i)}},3081:(e,t,n)=>{n.d(t,{gF:()=>a,mY:()=>i,t9:()=>r,vz:()=>s,xS:()=>o});const r=n(3325).D.metrics,i="sm",a="cm",o="storeSupportabilityMetrics",s="storeEventMetrics"},7633:(e,t,n)=>{n.d(t,{Dz:()=>i,OJ:()=>o,qw:()=>a,t9:()=>r});const r=n(3325).D.pageViewEvent,i="firstbyte",a="domcontent",o="windowload"},9251:(e,t,n)=>{n.d(t,{t:()=>r});const r=n(3325).D.pageViewTiming},5938:(e,t,n)=>{n.d(t,{W:()=>a});var r=n(5763),i=n(2177);class a{constructor(e,t,n){this.agentIdentifier=e,this.aggregator=t,this.ee=i.ee.get(e,(0,r.OP)(this.agentIdentifier).isolatedBacklog),this.featureName=n,this.blocked=!1}}},9144:(e,t,n)=>{n.d(t,{j:()=>v});var r=n(3325),i=n(5763),a=n(5546),o=n(2177),s=n(7894),c=n(8e3),d=n(3960),u=n(385),l=n(50),f=n(3081),g=n(8632);function p(){const e=(0,g.gG)();["setErrorHandler","finished","addToTrace","inlineHit","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError","setUserId"].forEach((t=>{e[t]=function(){for(var n=arguments.length,r=new Array(n),i=0;i<n;i++)r[i]=arguments[i];return function(t){for(var n=arguments.length,r=new Array(n>1?n-1:0),i=1;i<n;i++)r[i-1]=arguments[i];let a=[];return Object.values(e.initializedAgents).forEach((e=>{e.exposed&&e.api[t]&&a.push(e.api[t](...r))})),a.length>1?a:a[0]}(t,...r)}}))}var h=n(2587);function v(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},v=arguments.length>2?arguments[2]:void 0,m=arguments.length>3?arguments[3]:void 0,{init:b,info:y,loader_config:w,runtime:A={loaderType:v},exposed:x=!0}=t;const D=(0,g.gG)();y||(b=D.init,y=D.info,w=D.loader_config),(0,i.Dg)(e,b||{}),(0,i.GE)(e,w||{}),y.jsAttributes??={},u.v6&&(y.jsAttributes.isWorker=!0),(0,i.CX)(e,y);const j=(0,i.P_)(e);A.denyList=[...j.ajax?.deny_list||[],...j.ajax?.block_internal?[y.beacon,y.errorBeacon]:[]],(0,i.sU)(e,A),p();const _=function(e,t){t||(0,c.R)(e,"api");const g={};var p=o.ee.get(e),h=p.get("tracer"),v="api-",m=v+"ixn-";function b(t,n,r,a){const o=(0,i.C5)(e);return null===n?delete o.jsAttributes[t]:(0,i.CX)(e,{...o,jsAttributes:{...o.jsAttributes,[t]:n}}),A(v,r,!0,a||null===n?"session":void 0)(t,n)}function y(){}["setErrorHandler","finished","addToTrace","inlineHit","addRelease"].forEach((e=>g[e]=A(v,e,!0,"api"))),g.addPageAction=A(v,"addPageAction",!0,r.D.pageAction),g.setCurrentRouteName=A(v,"routeName",!0,r.D.spa),g.setPageViewName=function(t,n){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,i.OP)(e).customTransaction=(n||"http://custom.transaction")+t,A(v,"setPageViewName",!0)()},g.setCustomAttribute=function(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if("string"==typeof e){if(["string","number"].includes(typeof t)||null===t)return b(e,t,"setCustomAttribute",n);(0,l.Z)("Failed to execute setCustomAttribute.\nNon-null value must be a string or number type, but a type of <".concat(typeof t,"> was provided."))}else(0,l.Z)("Failed to execute setCustomAttribute.\nName must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.setUserId=function(e){if("string"==typeof e||null===e)return b("enduser.id",e,"setUserId",!0);(0,l.Z)("Failed to execute setUserId.\nNon-null value must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.interaction=function(){return(new y).get()};var w=y.prototype={createTracer:function(e,t){var n={},i=this,o="function"==typeof t;return(0,a.p)(m+"tracer",[(0,s.z)(),e,n],i,r.D.spa,p),function(){if(h.emit((o?"":"no-")+"fn-start",[(0,s.z)(),i,o],n),o)try{return t.apply(this,arguments)}catch(e){throw h.emit("fn-err",[arguments,this,e],n),e}finally{h.emit("fn-end",[(0,s.z)()],n)}}}};function A(e,t,n,i){return function(){return(0,a.p)(f.xS,["API/"+t+"/called"],void 0,r.D.metrics,p),i&&(0,a.p)(e+t,[(0,s.z)(),...arguments],n?null:this,i,p),n?void 0:this}}function x(){n.e(439).then(n.bind(n,7438)).then((t=>{let{setAPI:n}=t;n(e),(0,c.L)(e,"api")})).catch((()=>(0,l.Z)("Downloading runtime APIs failed...")))}return["actionText","setName","setAttribute","save","ignore","onEnd","getContext","end","get"].forEach((e=>{w[e]=A(m,e,void 0,r.D.spa)})),g.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,a.p)(f.xS,["API/noticeError/called"],void 0,r.D.metrics,p),(0,a.p)("err",[e,(0,s.z)(),!1,t],void 0,r.D.jserrors,p)},u.il?(0,d.b)((()=>x()),!0):x(),g}(e,m);return(0,g.Qy)(e,_,"api"),(0,g.Qy)(e,x,"exposed"),(0,g.EZ)("activatedFeatures",h.T),_}},3325:(e,t,n)=>{n.d(t,{D:()=>r,p:()=>i});const r={ajax:"ajax",jserrors:"jserrors",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",spa:"spa"},i={[r.pageViewEvent]:1,[r.pageViewTiming]:2,[r.metrics]:3,[r.jserrors]:4,[r.ajax]:5,[r.sessionTrace]:6,[r.pageAction]:7,[r.spa]:8,[r.sessionReplay]:9}}},r={};function i(e){var t=r[e];if(void 0!==t)return t.exports;var a=r[e]={exports:{}};return n[e](a,a.exports,i),a.exports}i.m=n,i.d=(e,t)=>{for(var n in t)i.o(t,n)&&!i.o(e,n)&&Object.defineProperty(e,n,{enumerable:!0,get:t[n]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,n)=>(i.f[n](e,t),t)),[])),i.u=e=>(({78:"page_action-aggregate",147:"metrics-aggregate",193:"session_trace-aggregate",242:"session-manager",317:"jserrors-aggregate",348:"page_view_timing-aggregate",412:"lazy-feature-loader",439:"async-api",538:"recorder",590:"session_replay-aggregate",675:"compressor",786:"page_view_event-aggregate",873:"spa-aggregate",898:"ajax-aggregate"}[e]||e)+"."+{78:"467f8594",147:"b86cefcf",193:"ac30a1f3",242:"d080e4cc",317:"319b8300",348:"7b2a53ee",412:"c1052c27",439:"e9f77430",538:"9c5c1546",590:"8b420469",646:"9e7a6b8d",675:"9614fd62",786:"4988d952",860:"95a91211",873:"550eec7b",898:"d95c640e"}[e]+"-1.237.1.min.js"),i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA:",i.l=(n,r,a,o)=>{if(e[n])e[n].push(r);else{var s,c;if(void 0!==a)for(var d=document.getElementsByTagName("script"),u=0;u<d.length;u++){var l=d[u];if(l.getAttribute("src")==n||l.getAttribute("data-webpack")==t+a){s=l;break}}s||(c=!0,(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+a),s.src=n),e[n]=[r];var f=(t,r)=>{s.onerror=s.onload=null,clearTimeout(g);var i=e[n];if(delete e[n],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(r))),t)return t(r)},g=setTimeout(f.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=f.bind(null,s.onerror),s.onload=f.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.j=4,i.p="https://js-agent.newrelic.com/",(()=>{var e={4:0,465:0};i.f.j=(t,n)=>{var r=i.o(e,t)?e[t]:void 0;if(0!==r)if(r)n.push(r[2]);else{var a=new Promise(((n,i)=>r=e[t]=[n,i]));n.push(r[2]=a);var o=i.p+i.u(t),s=new Error;i.l(o,(n=>{if(i.o(e,t)&&(0!==(r=e[t])&&(e[t]=void 0),r)){var a=n&&("load"===n.type?"missing":n.type),o=n&&n.target&&n.target.src;s.message="Loading chunk "+t+" failed.\n("+a+": "+o+")",s.name="ChunkLoadError",s.type=a,s.request=o,r[1](s)}}),"chunk-"+t,t)}};var t=(t,n)=>{var r,a,[o,s,c]=n,d=0;if(o.some((t=>0!==e[t]))){for(r in s)i.o(s,r)&&(i.m[r]=s[r]);if(c)c(i)}for(t&&t(n);d<o.length;d++)a=o[d],i.o(e,a)&&e[a]&&e[a][0](),e[a]=0},n=window.webpackChunkNRBA=window.webpackChunkNRBA||[];n.forEach(t.bind(null,0)),n.push=t.bind(null,n.push.bind(n))})();var a={};(()=>{i.r(a);var e=i(50);class t{addPageAction(t,n){(0,e.Z)("Call to agent api addPageAction failed. The session trace feature is not currently initialized.")}setPageViewName(t,n){(0,e.Z)("Call to agent api setPageViewName failed. The page view feature is not currently initialized.")}setCustomAttribute(t,n,r){(0,e.Z)("Call to agent api setCustomAttribute failed. The js errors feature is not currently initialized.")}noticeError(t,n){(0,e.Z)("Call to agent api noticeError failed. The js errors feature is not currently initialized.")}setUserId(t){(0,e.Z)("Call to agent api setUserId failed. The js errors feature is not currently initialized.")}setErrorHandler(t){(0,e.Z)("Call to agent api setErrorHandler failed. The js errors feature is not currently initialized.")}finished(t){(0,e.Z)("Call to agent api finished failed. The page action feature is not currently initialized.")}addRelease(t,n){(0,e.Z)("Call to agent api addRelease failed. The agent is not currently initialized.")}}var n=i(3325),r=i(5763);const o=Object.values(n.D);function s(e){const t={};return o.forEach((n=>{t[n]=function(e,t){return!1!==(0,r.Mt)(t,"".concat(e,".enabled"))}(n,e)})),t}var c=i(9144);var d=i(5546),u=i(385),l=i(8e3),f=i(5938),g=i(3960);class p extends f.W{constructor(e,t,n){let r=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,n),this.auto=r,this.abortHandler,this.featAggregate,this.onAggregateImported,r&&(0,l.R)(e,n)}importAggregator(){let t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};if(this.featAggregate||!this.auto)return;const n=u.il&&!0===(0,r.Mt)(this.agentIdentifier,"privacy.cookies_enabled");let a;this.onAggregateImported=new Promise((e=>{a=e}));const o=async()=>{let r;try{if(n){const{setupAgentSession:e}=await Promise.all([i.e(860),i.e(242)]).then(i.bind(i,3228));r=e(this.agentIdentifier)}}catch(t){(0,e.Z)("A problem occurred when starting up session manager. This page will not start or extend any session.",t)}try{if(!this.shouldImportAgg(this.featureName,r))return(0,l.L)(this.agentIdentifier,this.featureName),void a(!1);const{lazyFeatureLoader:e}=await i.e(412).then(i.bind(i,8582)),{Aggregate:n}=await e(this.featureName,"aggregate");this.featAggregate=new n(this.agentIdentifier,this.aggregator,t),a(!0)}catch(t){(0,e.Z)("Downloading and initializing ".concat(this.featureName," failed..."),t),this.abortHandler?.(),a(!1)}};u.il?(0,g.b)((()=>o()),!0):o()}shouldImportAgg(e,t){return e!==n.D.sessionReplay||!!r.Yu.MO&&(!1!==(0,r.Mt)(this.agentIdentifier,"session_trace.enabled")&&(!!t?.isNew||!!t?.state.sessionReplay))}}var h=i(7633),v=i(7894);class m extends p{static featureName=h.t9;constructor(e,t){let i=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];if(super(e,t,h.t9,i),("undefined"==typeof PerformanceNavigationTiming||u.Tt)&&"undefined"!=typeof PerformanceTiming){const t=(0,r.OP)(e);t[h.Dz]=Math.max(Date.now()-t.offset,0),(0,g.K)((()=>t[h.qw]=Math.max((0,v.z)()-t[h.Dz],0))),(0,g.b)((()=>{const e=(0,v.z)();t[h.OJ]=Math.max(e-t[h.Dz],0),(0,d.p)("timing",["load",e],void 0,n.D.pageViewTiming,this.ee)}))}this.importAggregator()}}var b=i(1117),y=i(1284);class w extends b.w{constructor(e){super(e),this.aggregatedData={}}store(e,t,n,r,i){var a=this.getBucket(e,t,n,i);return a.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,y.D)(e,(function(e,n){t[e]=A(n,t[e])})),t}(r,a.metrics),a}merge(e,t,n,r,i){var a=this.getBucket(e,t,r,i);if(a.metrics){var o=a.metrics;o.count+=n.count,(0,y.D)(n,(function(e,t){if("count"!==e){var r=o[e],i=n[e];i&&!i.c?o[e]=A(i.t,r):o[e]=function(e,t){if(!t)return e;t.c||(t=x(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,o[e])}}))}else a.metrics=n}storeMetric(e,t,n,r){var i=this.getBucket(e,t,n);return i.stats=A(r,i.stats),i}getBucket(e,t,n,r){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:n||{}},r&&(i.custom=r)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},n="",r=!1,i=0;i<e.length;i++)t[n=e[i]]=D(this.aggregatedData[n]),t[n].length&&(r=!0),delete this.aggregatedData[n];return r?t:null}}function A(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=x(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function x(e){return{t:e,min:e,max:e,sos:e*e,c:1}}function D(e){return"object"!=typeof e?[]:(0,y.D)(e,j)}function j(e,t){return t}var _=i(8632),E=i(4402),T=i(4351);var k=i(7956),N=i(3239),P=i(9251);class C extends p{static featureName=P.t;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,P.t,n),u.il&&((0,r.OP)(e).initHidden=Boolean("hidden"===document.visibilityState),(0,k.N)((()=>(0,d.p)("docHidden",[(0,v.z)()],void 0,P.t,this.ee)),!0),(0,N.bP)("pagehide",(()=>(0,d.p)("winPagehide",[(0,v.z)()],void 0,P.t,this.ee))),this.importAggregator())}}var I=i(3081);class S extends p{static featureName=I.t9;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,I.t9,n),this.importAggregator()}}new class extends t{constructor(t){let n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:(0,E.ky)(16);super(),u._A?(this.agentIdentifier=n,this.sharedAggregator=new w({agentIdentifier:this.agentIdentifier}),this.features={},this.desiredFeatures=new Set(t.features||[]),this.desiredFeatures.add(m),Object.assign(this,(0,c.j)(this.agentIdentifier,t,t.loaderType||"agent")),this.start()):(0,e.Z)("Failed to initial the agent. Could not determine the runtime environment.")}get config(){return{info:(0,r.C5)(this.agentIdentifier),init:(0,r.P_)(this.agentIdentifier),loader_config:(0,r.DL)(this.agentIdentifier),runtime:(0,r.OP)(this.agentIdentifier)}}start(){const t="features";try{const r=s(this.agentIdentifier),i=[...this.desiredFeatures];i.sort(((e,t)=>n.p[e.featureName]-n.p[t.featureName])),i.forEach((t=>{if(r[t.featureName]||t.featureName===n.D.pageViewEvent){const i=function(e){switch(e){case n.D.ajax:return[n.D.jserrors];case n.D.sessionTrace:return[n.D.ajax,n.D.pageViewEvent];case n.D.sessionReplay:return[n.D.sessionTrace];case n.D.pageViewTiming:return[n.D.pageViewEvent];default:return[]}}(t.featureName);i.every((e=>r[e]))||(0,e.Z)("".concat(t.featureName," is enabled but one or more dependent features has been disabled (").concat((0,T.P)(i),"). This may cause unintended consequences or missing data...")),this.features[t.featureName]=new t(this.agentIdentifier,this.sharedAggregator)}})),(0,_.Qy)(this.agentIdentifier,this.features,t)}catch(n){(0,e.Z)("Failed to initialize all enabled instrument classes (agent aborted) -",n);for(const e in this.features)this.features[e].abortHandler?.();const r=(0,_.fP)();return delete r.initializedAgents[this.agentIdentifier]?.api,delete r.initializedAgents[this.agentIdentifier]?.[t],delete this.sharedAggregator,r.ee?.abort(),delete r.ee?.get(this.agentIdentifier),!1}}addToTrace(t){(0,e.Z)("Call to agent api addToTrace failed. The page action feature is not currently initialized.")}setCurrentRouteName(t){(0,e.Z)("Call to agent api setCurrentRouteName failed. The spa feature is not currently initialized.")}interaction(){(0,e.Z)("Call to agent api interaction failed. The spa feature is not currently initialized.")}}({features:[m,C,S],loaderType:"lite"})})(),window.NRBA=a})();</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="title" content="    Register and get your business website ready in less than 5 minutes.
+">
+    <meta name="description" content="    Your business website, store, blog is just a few minutes away. 
+    Through our instant website builder your business will get online, 
+    attract new customers and help you grow.
+">
+    <meta name="keywords" content="    register, signup, subscribe
+">
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="sDvEGN8D040dsSs7eENBfqeoKC3nSuY4cnqMXT9T">
+    <title>    Register and get your business website ready in less than 5 minutes.
+</title>
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="landing/img/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="landing/img/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="landing/img/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="landing/img/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="landing/img/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="landing/img/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="landing/img/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="landing/img/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="landing/img/icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="landing/img/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="landing/img/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="landing/img/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="landing/img/icons/favicon-16x16.png">
+
+    <!-- Styles -->
+    <link href="ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="dashboard/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="dashboard/plugins/font-awesome/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="dashboard/plugins/select2/select2.min.css">
+
+    <link rel="stylesheet" href="dashboard/dist/css/AdminLTE.min.css">
+    <link rel="stylesheet" href="dashboard/dist/css/skins/_all-skins.min.css">
+
+    <script src="dashboard/plugins/jQuery/jquery.min.js"></script>
+    <script src="dashboard/plugins/jQueryUI/jquery-ui.min.js"></script>
+    <script src="dashboard/bootstrap/js/bootstrap.min.js"></script>
+    <script src="dashboard/dist/js/adminlte.min.js"></script>
+    <script src="dashboard/plugins/mailchek/mailcheck.min.js"></script>
+    <script src="dashboard/plugins/select2/select2.full.min.js"></script>
+
+    <!-- Scripts -->
+    <script>
+        window.Laravel = {"csrfToken":"sDvEGN8D040dsSs7eENBfqeoKC3nSuY4cnqMXT9T"};
+    </script>
+
+    <script>
+
+    function getCodeBoxElement(index) {
+    return document.getElementById('codeBox' + index);
+    }
+    function onKeyUpEvent(index, event) {
+    const eventCode = event.which || event.keyCode;
+    if (getCodeBoxElement(index).value.length === 1) {
+        if (index !== 4) {
+            getCodeBoxElement(index+ 1).focus();
+        } else {
+            getCodeBoxElement(index).blur();
+                            mixpanel.track("Email Verification Proceed Web", {"distinct_id": userId });
+                        $.ajax({
+            method:"get",
+            url:"/registeration/verify/emailOTP",
+            data:{
+                email: $('#email').val(),
+                otp: $('#codeBox1').val()+$('#codeBox2').val()+$('#codeBox3').val()+$('#codeBox4').val(),
+            },
+            success:function(response){
+                if(response.success==0){
+                    $('.error_message').addClass('shake')
+                    $('.error_message').html(response.user_message + ' !')
+                   setTimeout(() => {
+                    window.location.reload()
+                   }, 1000);
+                }
+                else{
+                    $('.error_message').html("")
+                    window.location.reload()
+                }
+            },
+            error:function(response){
+                
+            }
+        });     
+        }
+    }
+    if (eventCode === 8 && index !== 1) {
+        getCodeBoxElement(index - 1).focus();
+    }
+    }
+    function onFocusEvent(index) {
+    for (item = 1; item < index; item++) {
+        const currentElement = getCodeBoxElement(item);
+        if (!currentElement.value) {
+            currentElement.focus();
+            break;
+        }
+    }
+    }
+
+    </script>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '208608892996577');
+        fbq('track', 'PageView');
+    </script>
+
+    <noscript><img height="1" width="1" style="display:none" src="tr?id=208608892996577&ev=PageView&noscript=1"></noscript>
+    <!-- End Facebook Pixel Code -->
+
+            <!-- Hotjar Tracking Code for https://websites.co.in/ -->
+        
+        <script>
+            (function(h,o,t,j,a,r){
+                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                h._hjSettings={hjid:1019760,hjsv:6};
+                a=o.getElementsByTagName('head')[0];
+                r=o.createElement('script');r.async=1;
+                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+        </script>
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="gtag/js?id=G-GH0QDVRYC5"></script>
+<script>
+     window.dataLayer = window.dataLayer || [];
+
+     function gtag() {
+     dataLayer.push(arguments);
+     }
+     gtag('js', new Date());
+
+     gtag('config', 'G-GH0QDVRYC5');
+     // gtag('config', 'UA-98172888-1');
+</script>
+<!-- GA4 end -->
+
+    
+    
+
+    
+    
+
+    <link rel="stylesheet" href="leaflet%401.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="">
+    <script src="leaflet%401.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+
+    <script type="text/javascript" src="js/leaflet-unwired.js"></script>
+
+    
+    <!-- location control -->
+    <link rel="stylesheet" href="font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="npm/leaflet.locatecontrol/dist/L.Control.Locate.min.css">
+    <!-- location control -->
+    <script src="npm/leaflet.locatecontrol/dist/L.Control.Locate.min.js" charset="utf-8"></script>
+    <!-- geocoding plugin -->
+    <link rel="stylesheet" href="v2/libs/leaflet-geocoder/1.9.5/leaflet-geocoder-locationiq.min.css">
+    <script src="v2/libs/leaflet-geocoder/1.9.5/leaflet-geocoder-locationiq.min.js"></script>
+    <!-- PermerLink Plugin -->
+    
+
+    
+    <style>
+        
+        .regi-header {
+            margin-top: 32px;
+            padding: 12px 20px 12px 70px;
+        }
+        .regi-header .regi-header-mainheading {
+            font-size: 2.2rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .regi-header .regi-header-subheading {
+            font-size: 1.8rem;
+            font-style: italic;
+        }
+        .regi-header .hr-line {
+            width: 50%;
+            border: 1px solid rgba(203,203,203,0.1);
+        }
+        .regi-header .regi-form-title {
+            font-size: 1.6rem;
+            font-weight: 600;
+            margin-top: 12px;
+        }
+        
+        
+        .regi-image-wrap {
+            text-align: center
+        }
+        .regi-image {
+            display: block;
+            width: 75%;
+        }
+        
+
+        @media (max-width: 992px) {
+            .regi-header {
+                padding: 12px 20px 12px 12px;
+            }
+
+            .regi-image {
+                display: none;
+            }
+        }
+    </style>
+
+    
+    <style>
+        #support-help{
+            background-color: #1eb71e;
+            border-color: #1eb71e !important;
+        }
+        .progressbar li {
+            list-style-type: none;
+            float: left;
+            width: 33.33%;
+            position: relative;
+            text-align: center;
+        }
+
+        .progressbar li:before {
+            /* CSS for creating steper block before the li item*/
+            font-family: 'FontAwesome';
+            content: '\f00c';
+            height: 25px;
+            width: 25px;
+            line-height: 24px;
+            /* border: 2px solid #2296D6; */
+            border: 2px solid #999;
+            display: block;
+            text-align: center;
+            margin: 0 auto 10px auto;
+            border-radius: 50%;
+            /* background-color: #2296D6; */
+            background-color: #999;
+            color: white;
+        }
+
+        .progressbar li:after {
+            /* CSS for creating horizontal line*/
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 3px;
+            /* background-color: #2296D6; */
+            background-color: #999;
+            top: 12px;
+            left: -50%;
+            z-index: -1;
+        }
+
+        .progressbar li:first-child:after {
+            content: none;
+        }
+
+        .progressbar li.active {
+            color: black;
+        }
+
+        .progressbar li.active:before {
+            border-color: #50C878;
+        }
+        .progressbar li.done:before {
+            background-color: #50C878;
+            border-color: #50C878;
+        }
+
+        .progressbar li.done + li:after {
+            background-color: #50C878;
+        }
+
+        #toastotp {
+            visibility: hidden;
+            min-width: 250px;
+            margin-left: -125px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            border-radius: 2px;
+            padding: 16px;
+            position: fixed;
+            z-index: 1;
+            left: 50%;
+            top: 50%;
+            font-size: 17px;
+            font-weight:bold;
+            height:55px;
+            }
+            #toastotp.show {
+            visibility: visible;
+            transition: ease-in;
+            }
+
+           
+// Container-fluid Styling only End =====
+
+
+// =====
+// Passcode-wrapper Styling only Begin ==
+        .passcode-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: auto;
+            margin: 0 auto;
+        }
+        .passcode-wrapper input {
+                width: 50px;
+                height: 50px;
+                padding: 0;
+                margin-right: 5px;
+                text-align: center;
+                border: 1px solid gray;
+                border-radius: 5px;
+        }
+		
+		.passcode-wrapper input::-webkit-inner-spin-button, 
+		.passcode-wrapper input::-webkit-outer-spin-button { 
+			-webkit-appearance: none;
+			appearance: none;
+			margin: 0;
+		}
+		.passcode-wrapper input:focus,
+		.passcode-wrapper input.focus {
+			border-color: #3b5998;
+			outline: none;
+			box-shadow: none;
+		}
+
+        .shake{
+            font-weight: bold;
+            animation: shake 150ms 2 linear;
+            -moz-animation: shake 150ms 2 linear;
+            -webkit-animation: shake 150ms 2 linear;
+            -o-animation: shake 150ms 2 linear;
+            
+        }
+
+        @keyframes  shake {
+		  0% {
+		    transform: translate(3px, 0);
+		  }
+		  50% {
+		    transform: translate(-3px, 0);
+		  }
+		  100% {
+		    transform: translate(0, 0);
+		  }
+		}
+
+		@-moz-keyframes shake {
+		  0%{
+		    -moz-transform: translate(3px, 0);
+		  }
+		  50% {
+		    -moz-transform: translate(-3px, 0);
+		  }
+		  100% {
+		    -moz-transform: translate(0, 0);
+		  }
+		}
+
+		@-webkit-keyframes shake {
+		  0% {
+		    -webkit-transform: translate(3px, 0);
+		  }
+		  50% {
+		    -webkit-transform: translate(-3px, 0);
+		  }
+		  100% {
+		    -webkit-transform: translate(0, 0);
+		  }
+		}
+
+		@-ms-keyframes shake {
+		  0% {
+		    -ms-transform: translate(3px, 0);
+		  }
+		  50% {
+		    -ms-transform: translate(-3px, 0);
+		  }
+		  100% {
+		    -ms-transform: translate(0, 0);
+		  }
+		}
+
+		@-o-keyframes shake {
+		  0% {
+		    -o-transform: translate(3px, 0);
+		  }
+		  50% {
+		    -o-transform: translate(-3px, 0);
+		  }
+		  100% {
+		    -o-transform: translate(0, 0);
+		  }
+		}
+
+        #ajaxLoader {
+                position: fixed;
+                width: 100% !important;
+                height: 100%;
+                background-color: #000000ad !important;
+                background-repeat: no-repeat;
+                z-index: 99999999 !important;
+                background-position: center;
+                display: none;
+                background-image: url(dashboard/img/ajax-loader-2.svg);
+        }
+
+
+    </style>
+
+        <script>(function(f,b){if(!b.__SV){var e,g,i,h;window.mixpanel=b;b._i=[];b.init=function(e,f,c){function g(a,d){var b=d.split(".");2==b.length&&(a=a[b[0]],d=b[1]);a[d]=function(){a.push([d].concat(Array.prototype.slice.call(arguments,0)))}}var a=b;"undefined"!==typeof c?a=b[c]=[]:c="mixpanel";a.people=a.people||[];a.toString=function(a){var d="mixpanel";"mixpanel"!==c&&(d+="."+c);a||(d+=" (stub)");return d};a.people.toString=function(){return a.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
+for(h=0;h<i.length;h++)g(a,i[h]);var j="set set_once union unset remove delete".split(" ");a.get_group=function(){function b(c){d[c]=function(){call2_args=arguments;call2=[c].concat(Array.prototype.slice.call(call2_args,0));a.push([e,call2])}}for(var d={},e=["get_group"].concat(Array.prototype.slice.call(arguments,0)),c=0;c<j.length;c++)b(j[c]);return d};b._i.push([e,f,c])};b.__SV=1.2;e=f.createElement("script");e.type="text/javascript";e.async=!0;e.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?
+MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";g=f.getElementsByTagName("script")[0];g.parentNode.insertBefore(e,g)}})(document,window.mixpanel||[]);
+mixpanel.init("fe026ac814ad7d8b58ba7d36422b81d3", {batch_requests: true})</script>
+</head>
+<body>
+    <div id="app">
+        <div id="ajaxLoader"></div>
+
+        <nav class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+
+                    <!-- Collapsed Hamburger -->
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navbar-collapse">
+                        <span class="sr-only">Toggle Navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <!-- Branding Image -->
+                    <a class="navbar-brand" href="index.htm">
+                        <img src="landing/img/logo.png" class="navbar-logo" itemprop="logo" alt="websites.co.in" style="width: 100px;">
+                    </a>
+                </div>
+
+                <div id="toastotp"></div>
+
+                <div class="collapse navbar-collapse" id="app-navbar-collapse">
+                    <!-- Left Side Of Navbar -->
+                    <ul class="nav navbar-nav">
+                        &nbsp;
+                    </ul>
+
+                    <!-- Right Side Of Navbar -->
+                    <ul class="nav navbar-nav navbar-right">
+                        <!-- Authentication Links -->
+                                                    <li><a href="login.html">Login</a></li>
+                            <li><a href="register.html">Register</a></li>
+                                            </ul>
+                </div>
+            </div>
+        </nav>
+
+            <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <div class="panel panel-default">
+                    
+                    <div class="regi-header">
+                        <h1 class="regi-header-mainheading">Create your smart website instantly!</h1>
+                        <p class="regi-header-subheading text-muted">Get started in 2 simple steps</p>
+                        <div class="hr-line"></div>
+                        <p class="regi-form-title">Step 1: Register Below</p>
+                    </div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <form id="regi-form" class="form-horizontal" role="form" method="POST" action="https://websites.co.in/register">
+                                    <input type="hidden" name="_token" value="sDvEGN8D040dsSs7eENBfqeoKC3nSuY4cnqMXT9T">
+        
+                                    <input type="hidden" value="" name="login">
+                                    <input type="text" name="email_otp" style="display:none" value="1">
+                                    
+                                        
+                                    
+                                     
+                                    
+                                    <div class="form-group ">
+                                        <label for="name" class="col-md-4 control-label compulsory">Name</label>
+        
+                                        <div class="col-md-6">
+                                            <input id="name" type="text" class="form-control" name="name" value="" placeholder="Your Name" required="" autofocus="">
+        
+                                                                                    </div>
+                                    </div>
+        
+                                    <div class="form-group">
+                                        <label for="email" class="col-md-4 control-label compulsory">E-Mail Address</label>
+        
+                                        <div class="col-md-6">
+                                                                                        <input id="email" type="email" class="form-control" name="email" value="" placeholder="Your E-mail Address" required="">
+                                            <p id="suggestion"></p>
+        
+                                                                                    </div>
+                                    </div>
+        
+        
+                                    <div class="form-group">
+                                        <label for="phone" class="col-md-4 control-label compulsory">Phone</label>
+        
+                                        <div class="col-md-2 col-sm-12">
+                                            <select name="phonecode" id="phonecode" class="form-control" required="required" title="phone code">
+                                                <option value="+91">+91 (IN)</option>
+                                            </select>
+                                        </div>
+        
+                                        <div class="col-md-4 col-sm-12">
+                                            <input id="phone" type="tel" title="enter valid phone number" class="form-control" name="phone" value="" placeholder="Phone" required="">
+        
+                                                                                    </div>
+                                    </div>
+        
+                                    <div class="form-group">
+                                        <label for="password" class="col-md-4 control-label compulsory">Password</label>
+        
+                                        <div class="col-md-6">
+                                            <div class="input-group">
+                                                <input id="password" type="password" class="form-control" name="password" required="">
+                                                <div class="input-group-btn">
+                                                    <button type="button" class="btn btn-default" onclick="togglePasswordView('#password','.toggle-password-icon')">
+                                                        <i class="fa fa-eye toggle-password-icon" aria-hidden="true"></i>
+                                                        <i class="fa fa-eye-slash toggle-password-icon" aria-hidden="true" style="display: none;"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+        
+                                                                                    </div>
+                                    </div>
+        
+                                                                                                            <div class="form-group">
+                                        <div class="col-md-6 col-md-offset-4">
+                                            <div class="regi-captcha">
+                                                <div id="regi-captcha-widget"></div>
+                                            </div>
+                                            <div>
+                                                <p class="text-danger" id="captcha-msg">
+                                                                                                    </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                            
+                                    <div class="form-group">
+                                        <div class="col-md-6 col-md-offset-4">
+                                            <button type="submit" class="btn btn-primary __click_signup" id="register" onclick="fbq('trackCustom', 'ClickSignup');">
+                                                Register
+                                            </button>
+        
+                                                                                            <script>
+                                                    document.querySelector('.__click_signup').addEventListener('click', function() {
+                                                        ga('send', 'event', {
+                                                            eventCategory: 'Registration', 
+                                                            eventAction: 'ClickSignup', 
+                                                            eventLabel: 'ClickSignup', 
+                                                            eventValue: 0
+                                                        });
+                                                        gtag('event','ClickSignup', {
+                                                            'event_category': 'Registration', 
+                                                            'event_label': 'ClickSignup'
+                                                        });
+                                                    }, false);
+                                                </script>
+                                                                                    </div>
+                                    </div>
+        
+                                    <div class="form-group">
+                                        <div class="col-md-8 col-md-offset-4">
+        
+                                                                                            <a href="https://websites.co.in/auth/facebook" class="btn btn-facebook social-register __click_signup_facebook" id="facebook-register" onclick="fbq('trackCustom', 'ClickSignupFacebook');">
+                                                    <i class="fa fa-facebook"></i>
+                                                    Facebook
+                                                </a>
+                                                                                                                                <script>
+                                                document.querySelector('.__click_signup_facebook').addEventListener('click', function() {
+                                                    ga('send', 'event', {
+                                                        eventCategory: 'Registration', 
+                                                        eventAction: 'ClickSignupFacebook', 
+                                                        eventLabel: 'ClickSignupFacebook', 
+                                                        eventValue: 0
+                                                    });
+                                                    gtag('event','ClickSignupFacebook', {
+                                                        'event_category': 'Registration', 
+                                                        'event_label': 'ClickSignupFacebook'
+                                                    });
+                                                }, false);
+                                            </script>
+                                                                                                                                    <a href="https://websites.co.in/auth/google" class="btn btn-google social-register __click_signup_google" id="google-register" onclick="fbq('trackCustom', 'ClickSignupGoogle');">
+                                                    <i class="fa fa-google"></i>
+                                                    Google
+                                                </a>
+                                                                                                                                        <script>
+                                                    document.querySelector('.__click_signup_google').addEventListener('click', function() {
+                                                        ga('send', 'event', {
+                                                            eventCategory: 'Registration', 
+                                                            eventAction: 'ClickSignupGoogle', 
+                                                            eventLabel: 'ClickSignupGoogle', 
+                                                            eventValue: 0
+                                                        });
+                                                        gtag('event','ClickSignupGoogle', {
+                                                            'event_category': 'Registration', 
+                                                            'event_label': 'ClickSignupGoogle'
+                                                        });
+                                                    }, false);
+                                                </script>
+                                                                                                                                        <a href="https://websites.co.in/auth/linkedin" class="btn btn-linkedin social-register __click_signup_linkedin" id="linkedin-register" onclick="fbq('trackCustom', 'ClickSignupLinkedin');" style="display:none;">
+                                                    <i class="fa fa-linkedin"></i>
+                                                    Linked In
+                                                </a>
+                                                    
+                                                                                            <script>
+                                                    document.querySelector('.__click_signup_linkedin').addEventListener('click', function() {
+                                                        ga('send', 'event', {
+                                                            eventCategory: 'Registration', 
+                                                            eventAction: 'ClickSignupLinkedin', 
+                                                            eventLabel: 'ClickSignupLinkedin', 
+                                                            eventValue: 0
+                                                        });
+                                                        gtag('event','ClickSignupLinkedin', {
+                                                            'event_category': 'Registration', 
+                                                            'event_label': 'ClickSignupLinkedin'
+                                                        });
+                                                    }, false);
+                                                </script>
+                                                                                    </div>
+                                    </div>
+        
+                                    <hr>
+        
+                                    <div class="form-group">
+                                        <div class="col-md-8 col-md-offset-4">
+                                                                                            <a href="https://websites.co.in/website/social/facebook/page/create" class="btn btn-facebook __click_create_website_fbpage" onclick="fbq('trackCustom', 'ClickCreateWebsiteFBPage');">
+                                                    <i class="fa fa-facebook"></i> 
+                                                    Create Website Using FB Page
+                                                </a>
+                                                    
+                                                                                            <script>
+                                                    document.querySelector('.__click_create_website_fbpage').addEventListener('click', function() {
+                                                        ga('send', 'event', {
+                                                            eventCategory: 'Registration', 
+                                                            eventAction: 'ClickCreateWebsiteFBPage', 
+                                                            eventLabel: 'ClickCreateWebsiteFBPage', 
+                                                            eventValue: 0
+                                                        });
+                                                        gtag('event','ClickCreateWebsiteFBPage', {
+                                                            'event_category': 'Registration', 
+                                                            'event_label': 'ClickCreateWebsiteFBPage'
+                                                        });
+                                                    }, false);
+                                                </script>
+                                                                                    </div>
+                                    </div>
+                                </form>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="regi-image-wrap">
+                                    <img class="img-responsive regi-image" src="landing/img/pixelphone.png" alt="register">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script> (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-98172888-1', 'auto'); ga('send', 'pageview');
+
+    </script>
+    </div>
+
+    
+    <script type="text/javascript">
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.getRegistrations().then(function(registrations) {
+            console.log('removing');
+            for (let registration of registrations) {
+                registration.unregister()
+            }
+        })
+    }
+</script>
+
+    <script>
+
+        // this will run when form submit
+        
+        let formSubmit = $('form')
+        formSubmit.on('submit',function (params) {
+            // console.log('click');
+            $('#ajaxLoader').show();
+        });
+
+        // this will run if any ajex will run
+        $(document).ajaxStart(function () {
+            $("#ajaxLoader").show();
+        });
+        $(document).ajaxStop(function () {
+            $("#ajaxLoader").hide();
+        });
+
+    </script>
+    <!-- Scripts -->
+        <script src="recaptcha/api-1.js?onload=onloadCallback&render=explicit" async="" defer=""></script>
+    <script>
+        var sitekey = '6Lf8FTIUAAAAAEH7vOdPzp19f0klLdJJkx0K4_CU';
+        var widgets = ['regi-captcha-widget'];
+
+        var onloadCallback = function () {
+            $.each(widgets, function (index, value) {
+                if ($('#' + value).length) {
+                    var grecap_id = grecaptcha.render(value, {
+                        'sitekey': sitekey
+                    });
+
+                    $('#' + value).attr('data-grecapid', grecap_id);
+                }
+            });
+        };
+
+        var form = document.getElementById('regi-form');
+        form.addEventListener("submit", function(event){
+            if (grecaptcha.getResponse() === '') {                            
+                event.preventDefault();
+                // alert('Please complete captcha verification.');
+                $('#ajaxLoader').hide();
+                $('#captcha-msg').text('Please complete captcha verification.');
+            } else {
+                $('#captcha-msg').text('');
+            }
+        }
+        , false);
+    </script>
+
+    <script type="text/javascript">
+        
+        $(document).ready(function() {
+            var phoneCodeData = JSON.parse('[{"id":"+93","text":"+93 (AF)"},{"id":"+0","text":"+0 (AX)"},{"id":"+355","text":"+355 (AL)"},{"id":"+213","text":"+213 (DZ)"},{"id":"+1684","text":"+1684 (AS)"},{"id":"+376","text":"+376 (AD)"},{"id":"+244","text":"+244 (AO)"},{"id":"+1264","text":"+1264 (AI)"},{"id":"+672","text":"+672 (AQ)"},{"id":"+1268","text":"+1268 (AG)"},{"id":"+54","text":"+54 (AR)"},{"id":"+374","text":"+374 (AM)"},{"id":"+297","text":"+297 (AW)"},{"id":"+61","text":"+61 (AU)"},{"id":"+43","text":"+43 (AT)"},{"id":"+994","text":"+994 (AZ)"},{"id":"+1242","text":"+1242 (BS)"},{"id":"+973","text":"+973 (BH)"},{"id":"+880","text":"+880 (BD)"},{"id":"+1246","text":"+1246 (BB)"},{"id":"+375","text":"+375 (BY)"},{"id":"+32","text":"+32 (BE)"},{"id":"+501","text":"+501 (BZ)"},{"id":"+229","text":"+229 (BJ)"},{"id":"+1441","text":"+1441 (BM)"},{"id":"+975","text":"+975 (BT)"},{"id":"+591","text":"+591 (BO)"},{"id":"+387","text":"+387 (BA)"},{"id":"+267","text":"+267 (BW)"},{"id":"+47","text":"+47 (BV)"},{"id":"+55","text":"+55 (BR)"},{"id":"+246","text":"+246 (IO)"},{"id":"+673","text":"+673 (BN)"},{"id":"+359","text":"+359 (BG)"},{"id":"+226","text":"+226 (BF)"},{"id":"+257","text":"+257 (BI)"},{"id":"+855","text":"+855 (KH)"},{"id":"+237","text":"+237 (CM)"},{"id":"+1","text":"+1 (CA)"},{"id":"+238","text":"+238 (CV)"},{"id":"+1345","text":"+1345 (KY)"},{"id":"+236","text":"+236 (CF)"},{"id":"+235","text":"+235 (TD)"},{"id":"+56","text":"+56 (CL)"},{"id":"+86","text":"+86 (CN)"},{"id":"+61","text":"+61 (CX)"},{"id":"+672","text":"+672 (CC)"},{"id":"+57","text":"+57 (CO)"},{"id":"+269","text":"+269 (KM)"},{"id":"+0","text":"+0 (CG)"},{"id":"+0","text":"+0 (CD)"},{"id":"+682","text":"+682 (CK)"},{"id":"+506","text":"+506 (CR)"},{"id":"+225","text":"+225 (CI)"},{"id":"+385","text":"+385 (HR)"},{"id":"+53","text":"+53 (CU)"},{"id":"+357","text":"+357 (CY)"},{"id":"+420","text":"+420 (CZ)"},{"id":"+242","text":"+242 (CD)"},{"id":"+243","text":"+243 (CD)"},{"id":"+45","text":"+45 (DK)"},{"id":"+253","text":"+253 (DJ)"},{"id":"+1767","text":"+1767 (DM)"},{"id":"+1809","text":"+1809 (DO)"},{"id":"+1829","text":"+1829 (DO1)"},{"id":"+1849","text":"+1849 (DO2)"},{"id":"+670","text":"+670 (TP)"},{"id":"+593","text":"+593 (EC)"},{"id":"+20","text":"+20 (EG)"},{"id":"+503","text":"+503 (SV)"},{"id":"+240","text":"+240 (GQ)"},{"id":"+291","text":"+291 (ER)"},{"id":"+372","text":"+372 (EE)"},{"id":"+251","text":"+251 (ET)"},{"id":"+61","text":"+61 (XA)"},{"id":"+500","text":"+500 (FK)"},{"id":"+298","text":"+298 (FO)"},{"id":"+679","text":"+679 (FJ)"},{"id":"+358","text":"+358 (FI)"},{"id":"+33","text":"+33 (FR)"},{"id":"+594","text":"+594 (GF)"},{"id":"+689","text":"+689 (PF)"},{"id":"+262","text":"+262 (TF)"},{"id":"+241","text":"+241 (GA)"},{"id":"+220","text":"+220 (GM)"},{"id":"+995","text":"+995 (GE)"},{"id":"+49","text":"+49 (DE)"},{"id":"+233","text":"+233 (GH)"},{"id":"+350","text":"+350 (GI)"},{"id":"+30","text":"+30 (GR)"},{"id":"+299","text":"+299 (GL)"},{"id":"+1473","text":"+1473 (GD)"},{"id":"+590","text":"+590 (GP)"},{"id":"+1671","text":"+1671 (GU)"},{"id":"+502","text":"+502 (GT)"},{"id":"+44","text":"+44 (XU)"},{"id":"+224","text":"+224 (GN)"},{"id":"+245","text":"+245 (GW)"},{"id":"+592","text":"+592 (GY)"},{"id":"+509","text":"+509 (HT)"},{"id":"+0","text":"+0 (HM)"},{"id":"+504","text":"+504 (HN)"},{"id":"+852","text":"+852 (HK)"},{"id":"+36","text":"+36 (HU)"},{"id":"+354","text":"+354 (IS)"},{"id":"+91","text":"+91 (IN)"},{"id":"+62","text":"+62 (ID)"},{"id":"+98","text":"+98 (IR)"},{"id":"+964","text":"+964 (IQ)"},{"id":"+353","text":"+353 (IE)"},{"id":"+972","text":"+972 (IL)"},{"id":"+39","text":"+39 (IT)"},{"id":"+1876","text":"+1876 (JM)"},{"id":"+81","text":"+81 (JP)"},{"id":"+44","text":"+44 (XJ)"},{"id":"+962","text":"+962 (JO)"},{"id":"+7","text":"+7 (KZ)"},{"id":"+254","text":"+254 (KE)"},{"id":"+686","text":"+686 (KI)"},{"id":"+0","text":"+0 (KP)"},{"id":"+850","text":"+850 (KP)"},{"id":"+82","text":"+82 (KR)"},{"id":"+965","text":"+965 (KW)"},{"id":"+996","text":"+996 (KG)"},{"id":"+856","text":"+856 (LA)"},{"id":"+371","text":"+371 (LV)"},{"id":"+961","text":"+961 (LB)"},{"id":"+266","text":"+266 (LS)"},{"id":"+231","text":"+231 (LR)"},{"id":"+218","text":"+218 (LY)"},{"id":"+423","text":"+423 (LI)"},{"id":"+370","text":"+370 (LT)"},{"id":"+352","text":"+352 (LU)"},{"id":"+853","text":"+853 (MO)"},{"id":"+389","text":"+389 (MK)"},{"id":"+261","text":"+261 (MG)"},{"id":"+265","text":"+265 (MW)"},{"id":"+60","text":"+60 (MY)"},{"id":"+960","text":"+960 (MV)"},{"id":"+223","text":"+223 (ML)"},{"id":"+356","text":"+356 (MT)"},{"id":"+44","text":"+44 (XM)"},{"id":"+692","text":"+692 (MH)"},{"id":"+596","text":"+596 (MQ)"},{"id":"+222","text":"+222 (MR)"},{"id":"+230","text":"+230 (MU)"},{"id":"+269","text":"+269 (YT)"},{"id":"+52","text":"+52 (MX)"},{"id":"+691","text":"+691 (FM)"},{"id":"+373","text":"+373 (MD)"},{"id":"+377","text":"+377 (MC)"},{"id":"+976","text":"+976 (MN)"},{"id":"+0","text":"+0 (ME)"},{"id":"+1664","text":"+1664 (MS)"},{"id":"+212","text":"+212 (MA)"},{"id":"+258","text":"+258 (MZ)"},{"id":"+95","text":"+95 (MM)"},{"id":"+264","text":"+264 (NA)"},{"id":"+674","text":"+674 (NR)"},{"id":"+977","text":"+977 (NP)"},{"id":"+599","text":"+599 (AN)"},{"id":"+31","text":"+31 (NL)"},{"id":"+687","text":"+687 (NC)"},{"id":"+64","text":"+64 (NZ)"},{"id":"+505","text":"+505 (NI)"},{"id":"+227","text":"+227 (NE)"},{"id":"+234","text":"+234 (NG)"},{"id":"+683","text":"+683 (NU)"},{"id":"+672","text":"+672 (NF)"},{"id":"+1670","text":"+1670 (MP)"},{"id":"+47","text":"+47 (NO)"},{"id":"+968","text":"+968 (OM)"},{"id":"+92","text":"+92 (PK)"},{"id":"+680","text":"+680 (PW)"},{"id":"+970","text":"+970 (PS)"},{"id":"+507","text":"+507 (PA)"},{"id":"+675","text":"+675 (PG)"},{"id":"+595","text":"+595 (PY)"},{"id":"+51","text":"+51 (PE)"},{"id":"+63","text":"+63 (PH)"},{"id":"+872","text":"+872 (PN)"},{"id":"+48","text":"+48 (PL)"},{"id":"+351","text":"+351 (PT)"},{"id":"+1787","text":"+1787 (PR)"},{"id":"+974","text":"+974 (QA)"},{"id":"+242","text":"+242 (CG)"},{"id":"+262","text":"+262 (RE)"},{"id":"+40","text":"+40 (RO)"},{"id":"+7","text":"+7 (RU)"},{"id":"+250","text":"+250 (RW)"},{"id":"+290","text":"+290 (SH)"},{"id":"+1869","text":"+1869 (KN)"},{"id":"+1758","text":"+1758 (LC)"},{"id":"+508","text":"+508 (PM)"},{"id":"+1784","text":"+1784 (VC)"},{"id":"+0","text":"+0 (BL)"},{"id":"+0","text":"+0 (MF)"},{"id":"+684","text":"+684 (WS)"},{"id":"+378","text":"+378 (SM)"},{"id":"+239","text":"+239 (ST)"},{"id":"+966","text":"+966 (SA)"},{"id":"+221","text":"+221 (SN)"},{"id":"+381","text":"+381 (RS)"},{"id":"+248","text":"+248 (SC)"},{"id":"+232","text":"+232 (SL)"},{"id":"+65","text":"+65 (SG)"},{"id":"+1","text":"+1 (SX)"},{"id":"+421","text":"+421 (SK)"},{"id":"+386","text":"+386 (SI)"},{"id":"+44","text":"+44 (XG)"},{"id":"+677","text":"+677 (SB)"},{"id":"+252","text":"+252 (SO)"},{"id":"+27","text":"+27 (ZA)"},{"id":"+0","text":"+0 (GS)"},{"id":"+211","text":"+211 (SS)"},{"id":"+34","text":"+34 (ES)"},{"id":"+94","text":"+94 (LK)"},{"id":"+249","text":"+249 (SD)"},{"id":"+597","text":"+597 (SR)"},{"id":"+47","text":"+47 (SJ)"},{"id":"+268","text":"+268 (SZ)"},{"id":"+46","text":"+46 (SE)"},{"id":"+41","text":"+41 (CH)"},{"id":"+963","text":"+963 (SY)"},{"id":"+886","text":"+886 (TW)"},{"id":"+992","text":"+992 (TJ)"},{"id":"+255","text":"+255 (TZ)"},{"id":"+66","text":"+66 (TH)"},{"id":"+228","text":"+228 (TG)"},{"id":"+690","text":"+690 (TK)"},{"id":"+676","text":"+676 (TO)"},{"id":"+1868","text":"+1868 (TT)"},{"id":"+216","text":"+216 (TN)"},{"id":"+90","text":"+90 (TR)"},{"id":"+7370","text":"+7370 (TM)"},{"id":"+1649","text":"+1649 (TC)"},{"id":"+688","text":"+688 (TV)"},{"id":"+256","text":"+256 (UG)"},{"id":"+380","text":"+380 (UA)"},{"id":"+971","text":"+971 (AE)"},{"id":"+44","text":"+44 (GB)"},{"id":"+1","text":"+1 (US)"},{"id":"+1","text":"+1 (UM)"},{"id":"+598","text":"+598 (UY)"},{"id":"+998","text":"+998 (UZ)"},{"id":"+678","text":"+678 (VU)"},{"id":"+39","text":"+39 (VA)"},{"id":"+58","text":"+58 (VE)"},{"id":"+84","text":"+84 (VN)"},{"id":"+1284","text":"+1284 (VG)"},{"id":"+1340","text":"+1340 (VI)"},{"id":"+681","text":"+681 (WF)"},{"id":"+212","text":"+212 (EH)"},{"id":"+967","text":"+967 (YE)"},{"id":"+38","text":"+38 (YU)"},{"id":"+260","text":"+260 (ZM)"},{"id":"+263","text":"+263 (ZW)"}]');
+
+            $('#phonecode').select2({
+                minimumInputLength: 2,
+                width: "100%",
+                placeholder: "Phone Code",
+                data: phoneCodeData
+            });
+
+        });
+    </script>
+
+    <script type="text/javascript">
+        function togglePasswordView(fieldId,btnClass){
+            if($(fieldId).attr('type') == 'password'){
+                $(fieldId).attr('type','text')
+            }
+            else{
+                $(fieldId).attr('type','password')
+            }
+            $(btnClass).toggle();
+        }
+    </script>
+    <script>
+        //email suggestion 
+        $('#email').on('blur', function() {
+        $(this).mailcheck({
+        suggested: function(element, suggestion) {
+        $('#suggestion').show()
+        $('#suggestion').html('<i style="font-size:12px"><span style="color:red">Typo Detected:</span> Did you mean '+'<a id="confirm" style="text-decoration: underline;cursor:pointer">'+suggestion.full+'</a>'+' ?</i>')
+        $('#email').on('change',()=>{$('#suggestion').hide()})
+        $('#confirm').on('click',function(){
+        $('#email').val(suggestion.full)
+        $('#suggestion').hide()
+        })
+
+        },
+        empty: function(element) {  
+
+        }
+        });
+
+        });
+        
+    </script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"1e7946724e","applicationID":"31671751","transactionName":"YVNTMEdUW0FYBk1QXFgZcAdBXFpcFhdcXlpFQlQW","queueTime":0,"applicationTime":29,"atts":"TRRQRg9OSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
